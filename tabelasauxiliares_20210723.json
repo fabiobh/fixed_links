@@ -1,7 +1,7 @@
 {
     "TabelasAuxiliaresWSVO": {
-        "ultimaAtualizRacas": "20210824",
-        "ultimaAtualizPelagens": "20210824",
+        "ultimaAtualizRacas": "20210723",
+        "ultimaAtualizPelagens": "20210723",
         "ultimaAtualizSubtipoPelagens": "19000101",
         "ultimaAtualizComposicaoPelagens": "19000101",
         "racas": [
@@ -167,37 +167,37 @@
             },
             {
                 "ident": 33,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "nomeRaca": "Jumento Nordestino"
             },
             {
                 "ident": 34,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "nomeRaca": "Jumento Paulista/Brasileiro"
             },
             {
                 "ident": 35,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "nomeRaca": "Jumento Pêga"
             },
             {
                 "ident": 36,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "nomeRaca": "Mestiço/SRD"
             },
             {
                 "ident": 37,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "nomeRaca": "Raça não Cadastrada"
             },
             {
                 "ident": 38,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "nomeRaca": "Mestiço Cruzado/SRD"
             },
             {
                 "ident": 39,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "nomeRaca": "Muar Pêga"
             }
         ],
@@ -2177,10 +2177,6 @@
             {
                 "ident": 29,
                 "nomeSubtipoPelagem": "Escura"
-            },
-            {
-                "ident": 99,
-                "nomeSubtipoPelagem": "Não se aplica"
             }
         ],
         "composicaoPelagens": [
@@ -2510,651 +2506,639 @@
             },
             {
                 "ident": 55,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 2,
                 "idSubtipoPelagem": 5
             },
             {
                 "ident": 56,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 2,
                 "idSubtipoPelagem": 6
             },
             {
                 "ident": 57,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 2,
                 "idSubtipoPelagem": 12
             },
             {
                 "ident": 58,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 3,
                 "idSubtipoPelagem": 22
             },
             {
                 "ident": 59,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 20
             },
             {
                 "ident": 60,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 27
             },
             {
                 "ident": 61,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 28
             },
             {
                 "ident": 62,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 29
             },
             {
                 "ident": 63,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 5,
                 "idSubtipoPelagem": 28
             },
             {
                 "ident": 64,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 5,
                 "idSubtipoPelagem": 29
             },
             {
                 "ident": 65,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 66,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 67,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 68,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 69,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 70,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 71,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 72,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 73,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 74,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 75,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 76,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 77,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 78,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 79,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 8,
                 "idSubtipoPelagem": 3
             },
             {
                 "ident": 80,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 8,
                 "idSubtipoPelagem": 15
             },
             {
                 "ident": 81,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 82,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 83,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 84,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 85,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 86,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 87,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 88,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 89,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 90,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 91,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 92,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 11,
                 "idSubtipoPelagem": 7
             },
             {
                 "ident": 93,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 11,
                 "idSubtipoPelagem": 18
             },
             {
                 "ident": 94,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 95,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 96,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 97,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 98,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 99,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 100,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 101,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 2
             },
             {
                 "ident": 102,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 9
             },
             {
                 "ident": 103,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 11
             },
             {
                 "ident": 104,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 24
             },
             {
                 "ident": 105,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 26
             },
             {
                 "ident": 106,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 14,
                 "idSubtipoPelagem": 10
             },
             {
                 "ident": 107,
-                "idEspecie": 7,
+                "idEspecie": 6,
                 "idPelagem": 14,
                 "idSubtipoPelagem": 13
             },
             {
-                "ident": 108,
-                "idEspecie": 7,
-                "idPelagem": 15,
-                "idSubtipoPelagem": 99
-            },
-            {
                 "ident": 109,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 2,
                 "idSubtipoPelagem": 5
             },
             {
                 "ident": 110,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 2,
                 "idSubtipoPelagem": 6
             },
             {
                 "ident": 111,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 2,
                 "idSubtipoPelagem": 12
             },
             {
                 "ident": 112,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 3,
                 "idSubtipoPelagem": 22
             },
             {
                 "ident": 113,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 20
             },
             {
                 "ident": 114,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 27
             },
             {
                 "ident": 115,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 28
             },
             {
                 "ident": 116,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 4,
                 "idSubtipoPelagem": 29
             },
             {
                 "ident": 117,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 5,
                 "idSubtipoPelagem": 28
             },
             {
                 "ident": 118,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 5,
                 "idSubtipoPelagem": 29
             },
             {
                 "ident": 119,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 120,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 121,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 122,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 123,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 124,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 125,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 6,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 126,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 127,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 128,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 129,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 130,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 131,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 132,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 7,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 133,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 8,
                 "idSubtipoPelagem": 3
             },
             {
                 "ident": 134,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 8,
                 "idSubtipoPelagem": 15
             },
             {
                 "ident": 135,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 136,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 137,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 138,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 9,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 139,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 140,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 141,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 142,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 143,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 144,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 145,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 10,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 146,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 11,
                 "idSubtipoPelagem": 7
             },
             {
                 "ident": 147,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 11,
                 "idSubtipoPelagem": 18
             },
             {
                 "ident": 148,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 1
             },
             {
                 "ident": 149,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 4
             },
             {
                 "ident": 150,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 8
             },
             {
                 "ident": 151,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 14
             },
             {
                 "ident": 152,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 21
             },
             {
                 "ident": 153,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 23
             },
             {
                 "ident": 154,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 12,
                 "idSubtipoPelagem": 25
             },
             {
                 "ident": 155,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 2
             },
             {
                 "ident": 156,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 9
             },
             {
                 "ident": 157,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 11
             },
             {
                 "ident": 158,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 24
             },
             {
                 "ident": 159,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 13,
                 "idSubtipoPelagem": 26
             },
             {
                 "ident": 160,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 14,
                 "idSubtipoPelagem": 10
             },
             {
                 "ident": 161,
-                "idEspecie": 6,
+                "idEspecie": 7,
                 "idPelagem": 14,
                 "idSubtipoPelagem": 13
-            },
-            {
-                "ident": 162,
-                "idEspecie": 6,
-                "idPelagem": 15,
-                "idSubtipoPelagem": 99
             }
         ]
     }
