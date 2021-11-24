@@ -1,0 +1,3145 @@
+{
+  "TabelasAuxiliaresWSVO": {
+    "ultimaAtualizRacas": "20201112",
+    "ultimaAtualizPelagens": "20201112",
+    "ultimaAtualizSubtipoPelagens": "19000101",
+    "ultimaAtualizComposicaoPelagens": "19000101",
+    "racas": [
+      {
+        "ident": 1,
+        "idEspecie": 5,
+        "nomeRaca": "American Miniature Horse"
+      },
+      {
+        "ident": 2,
+        "idEspecie": 5,
+        "nomeRaca": "American Trotter"
+      },
+      {
+        "ident": 3,
+        "idEspecie": 5,
+        "nomeRaca": "Andaluz"
+      },
+      {
+        "ident": 4,
+        "idEspecie": 5,
+        "nomeRaca": "Anglo-Árabe"
+      },
+      {
+        "ident": 5,
+        "idEspecie": 5,
+        "nomeRaca": "Appaloosa"
+      },
+      {
+        "ident": 6,
+        "idEspecie": 5,
+        "nomeRaca": "Belga"
+      },
+      {
+        "ident": 7,
+        "idEspecie": 5,
+        "nomeRaca": "Bérbere (Barbo)"
+      },
+      {
+        "ident": 8,
+        "idEspecie": 5,
+        "nomeRaca": "Brasileiro de Hipismo"
+      },
+      {
+        "ident": 9,
+        "idEspecie": 5,
+        "nomeRaca": "Bretão"
+      },
+      {
+        "ident": 10,
+        "idEspecie": 5,
+        "nomeRaca": "Campolina"
+      },
+      {
+        "ident": 11,
+        "idEspecie": 5,
+        "nomeRaca": "Clydesdale"
+      },
+      {
+        "ident": 12,
+        "idEspecie": 5,
+        "nomeRaca": "Crioulo"
+      },
+      {
+        "ident": 13,
+        "idEspecie": 5,
+        "nomeRaca": "Fjord"
+      },
+      {
+        "ident": 14,
+        "idEspecie": 5,
+        "nomeRaca": "Friesian (Frísio)"
+      },
+      {
+        "ident": 15,
+        "idEspecie": 5,
+        "nomeRaca": "Hanoveriano"
+      },
+      {
+        "ident": 16,
+        "idEspecie": 5,
+        "nomeRaca": "Lavradeiro"
+      },
+      {
+        "ident": 17,
+        "idEspecie": 5,
+        "nomeRaca": "Mangalarga "
+      },
+      {
+        "ident": 18,
+        "idEspecie": 5,
+        "nomeRaca": "Mangalarga Marchador"
+      },
+      {
+        "ident": 19,
+        "idEspecie": 5,
+        "nomeRaca": "Marajoara"
+      },
+      {
+        "ident": 20,
+        "idEspecie": 5,
+        "nomeRaca": "Mestiço/SRD"
+      },
+      {
+        "ident": 21,
+        "idEspecie": 5,
+        "nomeRaca": "Nordestina"
+      },
+      {
+        "ident": 22,
+        "idEspecie": 5,
+        "nomeRaca": "Paint-Horse"
+      },
+      {
+        "ident": 23,
+        "idEspecie": 5,
+        "nomeRaca": "Pantaneiro"
+      },
+      {
+        "ident": 24,
+        "idEspecie": 5,
+        "nomeRaca": "Percheron"
+      },
+      {
+        "ident": 25,
+        "idEspecie": 5,
+        "nomeRaca": "Persa"
+      },
+      {
+        "ident": 26,
+        "idEspecie": 5,
+        "nomeRaca": "Pônei"
+      },
+      {
+        "ident": 27,
+        "idEspecie": 5,
+        "nomeRaca": "Puro Sangue Árabe (PSA)"
+      },
+      {
+        "ident": 28,
+        "idEspecie": 5,
+        "nomeRaca": "Puro Sangue Inglês (PSI)"
+      },
+      {
+        "ident": 29,
+        "idEspecie": 5,
+        "nomeRaca": "Puro Sangue Lusitano (PSL)"
+      },
+      {
+        "ident": 30,
+        "idEspecie": 5,
+        "nomeRaca": "Quarto de Milha"
+      },
+      {
+        "ident": 31,
+        "idEspecie": 5,
+        "nomeRaca": "Shire"
+      },
+      {
+        "ident": 32,
+        "idEspecie": 5,
+        "nomeRaca": "Suffolk Punch"
+      },
+      {
+        "ident": 33,
+        "idEspecie": 6,
+        "nomeRaca": "Jumento Nordestino"
+      },
+      {
+        "ident": 34,
+        "idEspecie": 6,
+        "nomeRaca": "Jumento Paulista/Brasileiro"
+      },
+      {
+        "ident": 35,
+        "idEspecie": 6,
+        "nomeRaca": "Jumento Pêga"
+      },
+      {
+        "ident": 36,
+        "idEspecie": 6,
+        "nomeRaca": "Mestiço/SRD"
+      },
+      {
+        "ident": 37,
+        "idEspecie": 6,
+        "nomeRaca": "Raça não Cadastrada"
+      },
+      {
+        "ident": 38,
+        "idEspecie": 7,
+        "nomeRaca": "Mestiço Cruzado/SRD"
+      },
+      {
+        "ident": 39,
+        "idEspecie": 7,
+        "nomeRaca": "Muar Pêga"
+      }
+    ],
+    "pelagens": [
+      {
+        "ident": 1,
+        "nomePelagem": "Appaloosa"
+      },
+      {
+        "ident": 2,
+        "nomePelagem": "Baia"
+      },
+      {
+        "ident": 3,
+        "nomePelagem": "Branca"
+      },
+      {
+        "ident": 4,
+        "nomePelagem": "Castanha"
+      },
+      {
+        "ident": 5,
+        "nomePelagem": "Lobuna"
+      },
+      {
+        "ident": 6,
+        "nomePelagem": "Overo"
+      },
+      {
+        "ident": 7,
+        "nomePelagem": "Pampa"
+      },
+      {
+        "ident": 8,
+        "nomePelagem": "Preta"
+      },
+      {
+        "ident": 9,
+        "nomePelagem": "Rosilha"
+      },
+      {
+        "ident": 10,
+        "nomePelagem": "Tobiana"
+      },
+      {
+        "ident": 11,
+        "nomePelagem": "Tordilha"
+      },
+      {
+        "ident": 12,
+        "nomePelagem": "Tovero"
+      },
+      {
+        "ident": 13,
+        "nomePelagem": "Alazã"
+      },
+      {
+        "ident": 14,
+        "nomePelagem": "Pelo de Rato"
+      },
+      {
+        "ident": 15,
+        "nomePelagem": "Ruão"
+      }
+    ],
+    "racaPelagens": [
+      {
+        "idRaca": 5,
+        "idPelagem": 1
+      },
+      {
+        "idRaca": 25,
+        "idPelagem": 1
+      },
+      {
+        "idRaca": 26,
+        "idPelagem": 1
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 2
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 3
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 4
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 5
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 6
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 7
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 8
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 9
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 10
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 11
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 12
+      },
+      {
+        "idRaca": 1,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 2,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 3,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 4,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 6,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 7,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 8,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 9,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 10,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 11,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 12,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 13,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 14,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 15,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 16,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 17,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 18,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 19,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 20,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 21,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 22,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 23,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 24,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 27,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 28,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 29,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 30,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 31,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 32,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 13
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 14
+      },
+      {
+        "idRaca": 33,
+        "idPelagem": 15
+      },
+      {
+        "idRaca": 34,
+        "idPelagem": 15
+      },
+      {
+        "idRaca": 35,
+        "idPelagem": 15
+      },
+      {
+        "idRaca": 36,
+        "idPelagem": 15
+      },
+      {
+        "idRaca": 37,
+        "idPelagem": 15
+      },
+      {
+        "idRaca": 38,
+        "idPelagem": 15
+      },
+      {
+        "idRaca": 39,
+        "idPelagem": 15
+      }
+    ],
+    "subtipoPelagens": [
+      {
+        "ident": 1,
+        "nomeSubtipoPelagem": "Alazã"
+      },
+      {
+        "ident": 2,
+        "nomeSubtipoPelagem": "Amarilha/Palomina"
+      },
+      {
+        "ident": 3,
+        "nomeSubtipoPelagem": "Azeviche"
+      },
+      {
+        "ident": 4,
+        "nomeSubtipoPelagem": "Baia"
+      },
+      {
+        "ident": 5,
+        "nomeSubtipoPelagem": "Baia Palha"
+      },
+      {
+        "ident": 6,
+        "nomeSubtipoPelagem": "Cabus Negro"
+      },
+      {
+        "ident": 7,
+        "nomeSubtipoPelagem": "Cardã"
+      },
+      {
+        "ident": 8,
+        "nomeSubtipoPelagem": "Castanha"
+      },
+      {
+        "ident": 9,
+        "nomeSubtipoPelagem": "Cereja"
+      },
+      {
+        "ident": 10,
+        "nomeSubtipoPelagem": "Claro"
+      },
+      {
+        "ident": 11,
+        "nomeSubtipoPelagem": "Cremelo/Isabel"
+      },
+      {
+        "ident": 12,
+        "nomeSubtipoPelagem": "Encerada"
+      },
+      {
+        "ident": 13,
+        "nomeSubtipoPelagem": "Escuro"
+      },
+      {
+        "ident": 14,
+        "nomeSubtipoPelagem": "Lobuna"
+      },
+      {
+        "ident": 15,
+        "nomeSubtipoPelagem": "Maltinta"
+      },
+      {
+        "ident": 16,
+        "nomeSubtipoPelagem": "Mantada"
+      },
+      {
+        "ident": 17,
+        "nomeSubtipoPelagem": "Nevado"
+      },
+      {
+        "ident": 18,
+        "nomeSubtipoPelagem": "Pedrês ou Mosqueado"
+      },
+      {
+        "ident": 19,
+        "nomeSubtipoPelagem": "Persa/Leopardo"
+      },
+      {
+        "ident": 20,
+        "nomeSubtipoPelagem": "Pinhão"
+      },
+      {
+        "ident": 21,
+        "nomeSubtipoPelagem": "Preta"
+      },
+      {
+        "ident": 22,
+        "nomeSubtipoPelagem": "Pseudo-albino"
+      },
+      {
+        "ident": 23,
+        "nomeSubtipoPelagem": "Rosilha"
+      },
+      {
+        "ident": 24,
+        "nomeSubtipoPelagem": "Sobre Baia"
+      },
+      {
+        "ident": 25,
+        "nomeSubtipoPelagem": "Tordilha"
+      },
+      {
+        "ident": 26,
+        "nomeSubtipoPelagem": "Tostada"
+      },
+      {
+        "ident": 27,
+        "nomeSubtipoPelagem": "Zaino"
+      },
+      {
+        "ident": 28,
+        "nomeSubtipoPelagem": "Clara"
+      },
+      {
+        "ident": 29,
+        "nomeSubtipoPelagem": "Escura"
+      }
+    ],
+    "composicaoPelagens": [
+      {
+        "ident": 1,
+        "idEspecie": 5,
+        "idPelagem": 1,
+        "idSubtipoPelagem": 16
+      },
+      {
+        "ident": 2,
+        "idEspecie": 5,
+        "idPelagem": 1,
+        "idSubtipoPelagem": 17
+      },
+      {
+        "ident": 3,
+        "idEspecie": 5,
+        "idPelagem": 1,
+        "idSubtipoPelagem": 19
+      },
+      {
+        "ident": 4,
+        "idEspecie": 5,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 5
+      },
+      {
+        "ident": 5,
+        "idEspecie": 5,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 6
+      },
+      {
+        "ident": 6,
+        "idEspecie": 5,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 12
+      },
+      {
+        "ident": 7,
+        "idEspecie": 5,
+        "idPelagem": 3,
+        "idSubtipoPelagem": 22
+      },
+      {
+        "ident": 8,
+        "idEspecie": 5,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 20
+      },
+      {
+        "ident": 9,
+        "idEspecie": 5,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 27
+      },
+      {
+        "ident": 10,
+        "idEspecie": 5,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 28
+      },
+      {
+        "ident": 11,
+        "idEspecie": 5,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 29
+      },
+      {
+        "ident": 12,
+        "idEspecie": 5,
+        "idPelagem": 5,
+        "idSubtipoPelagem": 28
+      },
+      {
+        "ident": 13,
+        "idEspecie": 5,
+        "idPelagem": 5,
+        "idSubtipoPelagem": 29
+      },
+      {
+        "ident": 14,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 15,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 16,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 17,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 18,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 19,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 20,
+        "idEspecie": 5,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 21,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 22,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 23,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 24,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 25,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 26,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 27,
+        "idEspecie": 5,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 28,
+        "idEspecie": 5,
+        "idPelagem": 8,
+        "idSubtipoPelagem": 3
+      },
+      {
+        "ident": 29,
+        "idEspecie": 5,
+        "idPelagem": 8,
+        "idSubtipoPelagem": 15
+      },
+      {
+        "ident": 30,
+        "idEspecie": 5,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 31,
+        "idEspecie": 5,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 32,
+        "idEspecie": 5,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 33,
+        "idEspecie": 5,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 34,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 35,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 36,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 37,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 38,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 39,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 40,
+        "idEspecie": 5,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 41,
+        "idEspecie": 5,
+        "idPelagem": 11,
+        "idSubtipoPelagem": 7
+      },
+      {
+        "ident": 42,
+        "idEspecie": 5,
+        "idPelagem": 11,
+        "idSubtipoPelagem": 18
+      },
+      {
+        "ident": 43,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 44,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 45,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 46,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 47,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 48,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 49,
+        "idEspecie": 5,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 50,
+        "idEspecie": 5,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 2
+      },
+      {
+        "ident": 51,
+        "idEspecie": 5,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 9
+      },
+      {
+        "ident": 52,
+        "idEspecie": 5,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 11
+      },
+      {
+        "ident": 53,
+        "idEspecie": 5,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 24
+      },
+      {
+        "ident": 54,
+        "idEspecie": 5,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 26
+      },
+      {
+        "ident": 55,
+        "idEspecie": 6,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 5
+      },
+      {
+        "ident": 56,
+        "idEspecie": 6,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 6
+      },
+      {
+        "ident": 57,
+        "idEspecie": 6,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 12
+      },
+      {
+        "ident": 58,
+        "idEspecie": 6,
+        "idPelagem": 3,
+        "idSubtipoPelagem": 22
+      },
+      {
+        "ident": 59,
+        "idEspecie": 6,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 20
+      },
+      {
+        "ident": 60,
+        "idEspecie": 6,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 27
+      },
+      {
+        "ident": 61,
+        "idEspecie": 6,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 28
+      },
+      {
+        "ident": 62,
+        "idEspecie": 6,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 29
+      },
+      {
+        "ident": 63,
+        "idEspecie": 6,
+        "idPelagem": 5,
+        "idSubtipoPelagem": 28
+      },
+      {
+        "ident": 64,
+        "idEspecie": 6,
+        "idPelagem": 5,
+        "idSubtipoPelagem": 29
+      },
+      {
+        "ident": 65,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 66,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 67,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 68,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 69,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 70,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 71,
+        "idEspecie": 6,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 72,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 73,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 74,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 75,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 76,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 77,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 78,
+        "idEspecie": 6,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 79,
+        "idEspecie": 6,
+        "idPelagem": 8,
+        "idSubtipoPelagem": 3
+      },
+      {
+        "ident": 80,
+        "idEspecie": 6,
+        "idPelagem": 8,
+        "idSubtipoPelagem": 15
+      },
+      {
+        "ident": 81,
+        "idEspecie": 6,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 82,
+        "idEspecie": 6,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 83,
+        "idEspecie": 6,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 84,
+        "idEspecie": 6,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 85,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 86,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 87,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 88,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 89,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 90,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 91,
+        "idEspecie": 6,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 92,
+        "idEspecie": 6,
+        "idPelagem": 11,
+        "idSubtipoPelagem": 7
+      },
+      {
+        "ident": 93,
+        "idEspecie": 6,
+        "idPelagem": 11,
+        "idSubtipoPelagem": 18
+      },
+      {
+        "ident": 94,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 95,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 96,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 97,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 98,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 99,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 100,
+        "idEspecie": 6,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 101,
+        "idEspecie": 6,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 2
+      },
+      {
+        "ident": 102,
+        "idEspecie": 6,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 9
+      },
+      {
+        "ident": 103,
+        "idEspecie": 6,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 11
+      },
+      {
+        "ident": 104,
+        "idEspecie": 6,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 24
+      },
+      {
+        "ident": 105,
+        "idEspecie": 6,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 26
+      },
+      {
+        "ident": 106,
+        "idEspecie": 6,
+        "idPelagem": 14,
+        "idSubtipoPelagem": 10
+      },
+      {
+        "ident": 107,
+        "idEspecie": 6,
+        "idPelagem": 14,
+        "idSubtipoPelagem": 13
+      },
+      {
+        "ident": 109,
+        "idEspecie": 7,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 5
+      },
+      {
+        "ident": 110,
+        "idEspecie": 7,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 6
+      },
+      {
+        "ident": 111,
+        "idEspecie": 7,
+        "idPelagem": 2,
+        "idSubtipoPelagem": 12
+      },
+      {
+        "ident": 112,
+        "idEspecie": 7,
+        "idPelagem": 3,
+        "idSubtipoPelagem": 22
+      },
+      {
+        "ident": 113,
+        "idEspecie": 7,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 20
+      },
+      {
+        "ident": 114,
+        "idEspecie": 7,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 27
+      },
+      {
+        "ident": 115,
+        "idEspecie": 7,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 28
+      },
+      {
+        "ident": 116,
+        "idEspecie": 7,
+        "idPelagem": 4,
+        "idSubtipoPelagem": 29
+      },
+      {
+        "ident": 117,
+        "idEspecie": 7,
+        "idPelagem": 5,
+        "idSubtipoPelagem": 28
+      },
+      {
+        "ident": 118,
+        "idEspecie": 7,
+        "idPelagem": 5,
+        "idSubtipoPelagem": 29
+      },
+      {
+        "ident": 119,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 120,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 121,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 122,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 123,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 124,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 125,
+        "idEspecie": 7,
+        "idPelagem": 6,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 126,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 127,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 128,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 129,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 130,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 131,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 132,
+        "idEspecie": 7,
+        "idPelagem": 7,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 133,
+        "idEspecie": 7,
+        "idPelagem": 8,
+        "idSubtipoPelagem": 3
+      },
+      {
+        "ident": 134,
+        "idEspecie": 7,
+        "idPelagem": 8,
+        "idSubtipoPelagem": 15
+      },
+      {
+        "ident": 135,
+        "idEspecie": 7,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 136,
+        "idEspecie": 7,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 137,
+        "idEspecie": 7,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 138,
+        "idEspecie": 7,
+        "idPelagem": 9,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 139,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 140,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 141,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 142,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 143,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 144,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 145,
+        "idEspecie": 7,
+        "idPelagem": 10,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 146,
+        "idEspecie": 7,
+        "idPelagem": 11,
+        "idSubtipoPelagem": 7
+      },
+      {
+        "ident": 147,
+        "idEspecie": 7,
+        "idPelagem": 11,
+        "idSubtipoPelagem": 18
+      },
+      {
+        "ident": 148,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 1
+      },
+      {
+        "ident": 149,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 4
+      },
+      {
+        "ident": 150,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 8
+      },
+      {
+        "ident": 151,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 14
+      },
+      {
+        "ident": 152,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 21
+      },
+      {
+        "ident": 153,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 23
+      },
+      {
+        "ident": 154,
+        "idEspecie": 7,
+        "idPelagem": 12,
+        "idSubtipoPelagem": 25
+      },
+      {
+        "ident": 155,
+        "idEspecie": 7,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 2
+      },
+      {
+        "ident": 156,
+        "idEspecie": 7,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 9
+      },
+      {
+        "ident": 157,
+        "idEspecie": 7,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 11
+      },
+      {
+        "ident": 158,
+        "idEspecie": 7,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 24
+      },
+      {
+        "ident": 159,
+        "idEspecie": 7,
+        "idPelagem": 13,
+        "idSubtipoPelagem": 26
+      },
+      {
+        "ident": 160,
+        "idEspecie": 7,
+        "idPelagem": 14,
+        "idSubtipoPelagem": 10
+      },
+      {
+        "ident": 161,
+        "idEspecie": 7,
+        "idPelagem": 14,
+        "idSubtipoPelagem": 13
+      }
+    ]
+  }
+}
