@@ -1,7 +1,8 @@
   [
     {
       "eixo": "Eixo 2 - Microfundamento: Bases Legais e Constitucionais dos Negócios",
-      "percepcao_alunos": "repensar",
+      "percepcao_alunos": "Repensar",
+      "cor_status": "vermelho",
       "media_tempo_total": 5,
       "ultimo_comentario": "Nam eu ipsum velit. Integer tempor lectus sit amet pharetra fermentum. Suspendisse eu tempus risus, ac maximus eros.",
       "id_eixo":23
@@ -9,6 +10,7 @@
     {
       "eixo": "Eixo 3 - Microfundamento: Gestão dos canais de distribuição de vendas",
       "percepcao_alunos": "estamos indo bem",
+      "cor_status": "verde",
       "media_tempo_total": 4,
       "ultimo_comentario": "Nam eu ipsum velit. Integer tempor lectus sit amet pharetra fermentum. Suspendisse eu tempus risus, ac maximus eros.",
       "id_eixo":25
@@ -16,6 +18,7 @@
     {
       "eixo": "Eixo 1 - Microfundamento: Gestão e modernidade",
       "percepcao_alunos": "podemos Melhorar",
+      "cor_status": "amarelo",
       "media_tempo_total": 5,
       "ultimo_comentario": "Nam eu ipsum velit. Integer tempor lectus sit amet pharetra fermentum. Suspendisse eu tempus risus, ac maximus eros.",
       "id_eixo":73
@@ -23,6 +26,7 @@
     {
       "eixo": "Eixo 3 - Microfundamento: Remuneração e qualidade de vida no trabalho",
       "percepcao_alunos": "repensar",
+      "cor_status": "vermelho",
       "media_tempo_total": 8,
       "ultimo_comentario": "Nam eu ipsum velit. Integer tempor lectus sit amet pharetra fermentum. Suspendisse eu tempus risus, ac maximus eros.",
       "id_eixo":65
