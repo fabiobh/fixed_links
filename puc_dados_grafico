@@ -4,18 +4,17 @@
 		"valor": 24.2
 	},
 	{
-		"nome": "Nunca acessou",
-		"valor": 24.2
+		"nome": "Até 4h",
+		"valor": 4.2
+	},
+	{
+		"nome": "Até 8h",
+		"valor": 2.8
 	},
 	{
 		"nome": "Nunca acessou",
-		"valor": 24.2
+		"valor": 15
 	},
-	{
-		"nome": "Nunca acessou",
-		"valor": 24.2
-	},
-    
 	{
 		"nome": "Até 16h",
 		"valor": 11
