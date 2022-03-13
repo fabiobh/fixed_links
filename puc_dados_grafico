@@ -1,0 +1,27 @@
+[
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+    
+	{
+		"nome": "Até 16h",
+		"valor": 11
+	},
+	{
+		"nome": "Mais de 16h",
+		"valor": 4.8
+	}
+]
