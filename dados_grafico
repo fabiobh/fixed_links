@@ -1,8 +1,27 @@
 [
-    ['Nunca acessou', 24.2],
-    ['Até 4h', 10.8], 
-    ['Até 8h', 22.5], 
-    ['Até 12h', 11],
-    ['Até 16h', 9.3],
-    ['Mais de 16h', 4.8]
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+	{
+		"nome": "Nunca acessou",
+		"valor": 24.2
+	},
+    
+	{
+		"nome": "Até 16h",
+		"valor": 11
+	},
+	{
+		"nome": "Mais de 16h",
+		"valor": 4.8
+	},
 ]
