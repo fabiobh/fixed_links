@@ -1,26 +1,17 @@
 [
-	{
-		"nome": "Nunca acessou",
-		"valor": 24.2
-	},
-	{
-		"nome": "Até 4h",
-		"valor": 4.2
-	},
-	{
-		"nome": "Até 8h",
-		"valor": 2.8
-	},
-	{
-		"nome": "Até 12h",
-		"valor": 15
-	},
-	{
-		"nome": "Até 16h",
-		"valor": 11
-	},
-	{
-		"nome": "Mais de 16h",
-		"valor": 4.8
-	}
+  {
+    "name": "Point 6",
+    "color": "#FF0000",
+    "y": 7
+  }, 
+  {
+    "name": "Point 5",
+    "color": "#FF00FF",
+    "y": 5
+  }, 
+  {
+    "name": "Point 4",
+    "color": "#0000FF",
+    "y": 9
+  }
 ]
