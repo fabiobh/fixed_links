@@ -1,0 +1,48 @@
+[
+  {
+    "comentario": "O professor tem uma didatica ótima 1",
+    "percepcao_alunos": "estamos indo bem",
+    "cor_status": "verde",
+  },
+  {
+    "comentario": "Eu acho que a bibliografia extra poderia ser mais extensa",
+    "percepcao_alunos": "podemos melhorar"
+    "cor_status": "amarelo",
+  },
+  {
+    "comentario": "Eu acho que os vídeos estão bons, porém conteúdo cansativo",
+    "percepcao_alunos": "repensar"
+    "cor_status": "vermelho",
+  },
+  {
+    "comentario": "O professor tem uma didatica ótima",
+    "percepcao_alunos": "estamos indo bem",
+    "cor_status": "verde",
+  },
+  {
+    "comentario": "Eu acho que a bibliografia extra poderia ser mais extensa",
+    "percepcao_alunos": "podemos melhorar"
+    "cor_status": "amarelo",
+  },
+  {
+    "comentario": "Eu acho que os vídeos estão bons, porém conteúdo cansativo",
+    "percepcao_alunos": "repensar"
+    "cor_status": "vermelho",
+  },
+
+  {
+    "comentario": "O professor tem uma didatica ótima",
+    "percepcao_alunos": "estamos indo bem",
+    "cor_status": "verde",
+  },
+  {
+    "comentario": "Eu acho que a bibliografia extra poderia ser mais extensa",
+    "percepcao_alunos": "podemos melhorar"
+    "cor_status": "amarelo",
+  },
+  {
+    "comentario": "Eu acho que os vídeos estão bons, porém conteúdo cansativo",
+    "percepcao_alunos": "repensar"
+    "cor_status": "vermelho",
+  }
+]
