@@ -1,0 +1,116 @@
+https://youtu.be/YFAxzqcCymU - it's about this interview video
+
+Questions about Flutter
+
+1 - How to use DIO
+
+dependencies:  dio: ^5.0.0  # Check for the latest version on pub.dev
+import 'package:dio/dio.dart';
+Dio dio = Dio();
+
+---------------------------------------------
+2 - How the DIO interceptors works
+You can use interceptors to add headers before the request was sent, adding auth token for example.
+It can be used for Logging, add Authentication tokens to the request and handling errors.
+
+---------------------------------------------
+3 - How Future works on Flutter
+
+In Flutter, a Future represents a potential value or error that will be available at some time in the future. It is used for asynchronous programming, allowing you to perform tasks that may take time (like network requests or file I/O) without blocking the main thread.
+
+A Future allows you to perform asynchronous operations in Flutter without blocking the main thread.
+
+---------------------------------------------
+4 - How get screenshot from screen and transform image into data
+ask IA
+RepaintBoundary: Use this widget to isolate the part of the widget tree you want to capture.
+GlobalKey: Helps in accessing the widget's render object.
+Image Capture: Use toImage() to capture the widget and convert it to byte data.
+File Saving: Use the path_provider package to save the image to the device.
+
+---------------------------------------------
+5 - how to maipulate images pixel by pixel on Flutter
+ask IA
+
+---------------------------------------------
+6 - Would you know how to explain what are the keys used inside a Flutter app for instance?
+
+| GlobalKey| Unique across the app; accesses widget state globally | Accessing state from outside the widget tree |
+| ValueKey | Based on a specific value; differentiates widgets | Identifying widgets in lists by unique values |
+| ObjectKey| Based on a specific object; differentiates widgets | Identifying widgets by object identity |
+| UniqueKey| Guaranteed to be unique; creates new widget instances | Forcing a widget to be treated as new |
+
+-----------
+7 - What type of animations can be used in Flutter, Lottie is one option.
+
+Implicit Animations: Simple and easy to use for basic property changes.
+Explicit Animations: More control over the animation process using AnimationController and Tween.
+Hero Animations: Smooth transitions between screens for specific widgets.
+Page Transitions: Built-in animations for navigating between pages.
+Custom Animations: Tailored animations using Flutter's animation framework.
+Lottie Animations: High-quality animations created in Adobe After Effects.
+
+-----------
+8 - What is the life cycle of a stateful widget?
+In Flutter, the life cycle of a stateful widget involves several key stages. Here’s a brief overview of the life cycle:
+1. Creation:
+The createState() method is called when the stateful widget is created. This method returns an instance of the associated State class.
+2. Initialization:
+The initState() method of the State class is called. This is where you can initialize data that depends on the specific context of the widget.
+3. Build:
+The build(BuildContext context) method is called to describe the part of the user interface represented by this widget. This method can be called multiple times during the widget's life cycle.
+4. Did Change Dependencies:
+The didChangeDependencies() method is called immediately after initState() and whenever the dependencies of the State object change. This is useful for tasks that depend on the context.
+5. Rebuild:
+Whenever the widget needs to be rebuilt (e.g., due to a change in state), the build() method is called again.
+6. State Changes:
+When the state of the widget changes, you can call setState(() {}) to notify the framework that the internal state has changed, which triggers a rebuild.
+7. Deactivation:
+If the widget is removed from the widget tree, the deactivate() method is called. This is where you can perform cleanup tasks.
+8. Disposal:
+Finally, when the widget is permanently removed from the widget tree, the dispose() method is called. This is where you should release any resources (like controllers or listeners) that were created in initState().
+
+createState()
+initState()
+didChangeDependencies()
+build()
+deactivate()
+dispose()
+
+-------
+9a - What are the controllers of GetX?
+
+Summary
+GetxController: For managing state and business logic.
+GetxService: For long-lived services.
+GetBuilder: For rebuilding specific UI parts.
+GetX: For reactive UI updates.
+Bindings: For managing dependencies.
+These controllers and widgets help you build scalable and maintainable applications using GetX in Flutter.
+
+1. GetxController
+  - Reactive Variables
+  - Lifecycle Methods (onInit, onReady, onClose)
+2. GetxService
+  - Definition
+3. Dependency Management
+  - Lazy Loading
+    Get.lazyPut MyController (() =/ MyController());
+  - Binding
+4. State Management
+  - Reactivity
+      Obx(() =/ Text('${controller.count}'));
+5. Navigation and State Management
+
+---------
+10 - What is the difference from a Statefull Widget and a Stateless widget
+
+A StatelessWidget is a widget that does not maintain any state. Use StatelessWidgets for UI elements that do not change over time or do not depend on any dynamic data.
+Generally more performant due to no state management
+
+A StatefulWidget is a widget that maintains its own state. It can change its appearance in response to events triggered by user interactions or other factors.
+Rebuilt when setState() is called
+
+In summary, choose StatelessWidget for static content and StatefulWidget for dynamic content that requires state management.
+---------------------------------------------
+11 - Explain the process to deploy app to AppStores
