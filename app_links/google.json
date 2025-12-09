@@ -1,0 +1,68 @@
+{
+  "developer": {
+    "name": "Todos Conectados",
+    "playStoreUrl": "https://play.google.com/store/apps/developer?id=Todos+Conectados"
+  },
+  "apps": [
+    {
+      "id": "com.uaialternativa.car_prevenctive_maintenance_flutter",
+      "name": "Drivio Prevenctive Car Repair",
+      "description": "Preventive vehicle maintenance app",
+      "category": "Automotive",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uaialternativa.car_prevenctive_maintenance_flutter",
+      "iconUrl": "https://play-lh.googleusercontent.com/xbklRvwZFf6aZ43BnRHtf6gzUN7a7Qt90rptxmOyJVRy8By8JSQUP6MIMD9QeBEdCdww_b1o2_hR_V7hVvf8EHU=s64"
+    },
+    {
+      "id": "com.uaialternativa.luckydraw",
+      "name": "Lucky Number Drawer",
+      "description": "Lucky number drawer and randomizer",
+      "category": "Tools",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uaialternativa.luckydraw",
+      "iconUrl": "https://play-lh.googleusercontent.com/fNVqrjhtnGgQLE5Oz44iETI9_dGgeMqRwVb0Yafb1iSqqEtteOx4BZwN0SPdRdunK7th=s64"
+    },
+    {
+      "id": "com.uaialternativa.inventorycontrol",
+      "name": "Stokio - Inventory Control",
+      "description": "Inventory and stock control management",
+      "category": "Productivity",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uaialternativa.inventorycontrol",
+      "iconUrl": "https://play-lh.googleusercontent.com/zX4beR1rY8tpRZQtm711-yqIEQb6urhIiM95xD55vjspxh5HwxmLiAlaZyc_INo6ft0tooFx7_41lIF7OZfZBg=s64"
+    },
+    {
+      "id": "com.allconnected.expense_tracker_flutter",
+      "name": "Budgetify - Money Tracker",
+      "description": "Expense tracker and financial control",
+      "category": "Finance",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.allconnected.expense_tracker_flutter",
+      "iconUrl": "https://play-lh.googleusercontent.com/rmEi_EPuYJqOOqwRFHq6yTmkvinRMzscnpIqXLgx77rC19ON13Yv5ZMtxHzHgN2F1fxP6F-mOWLis2DXNJmtZQ=s64"
+    },
+    {
+      "id": "com.uaialternativa.bluetoothmicrophone",
+      "name": "MicCast to Bluetoooth Speaker",
+      "description": "Cast your microphone to Bluetooth speakers",
+      "category": "Tools",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uaialternativa.bluetoothmicrophone",
+      "iconUrl": "https://play-lh.googleusercontent.com/2CkKxlTLDaZCQLpHyPHY9s-EqW1A8dfkUY427r6-_xZfmw-4vFwUpiniq2T_qKtlBF1aaWqLrPz98MNPe2vc=s64"
+    },
+    {
+      "id": "com.uaialternativa.trackme",
+      "name": "Track Me - Save your places",
+      "description": "Save and track your favorite places",
+      "category": "Maps & Navigation",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uaialternativa.trackme",
+      "iconUrl": "https://play-lh.googleusercontent.com/yoOAfvYNaGxB6f1m4TaKwvDe16UN4VWGR0vKD4rWraiQXdPVOjpE-ObzAYX0OVlCcGw=s64"
+    },
+    {
+      "id": "com.uaialternativa.imageeditor",
+      "name": "FixPic - Image Editor",
+      "description": "Image editor with multiple features",
+      "category": "Photography",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.uaialternativa.imageeditor",
+      "iconUrl": "https://play-lh.googleusercontent.com/TTE8p3iC-o58A-S6UKCE6b7U5SgOncAyDc-8B0Z1a7L_FnW1mAWB0VtFdm5It6bbyUJZY1SJT-mv1I8HVVlR1AY=s64"
+    }
+  ],
+  "metadata": {
+    "totalApps": 7,
+    "lastUpdated": "2025-12-08"
+  }
+}
