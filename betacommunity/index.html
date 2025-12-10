@@ -51,82 +51,7 @@
             }
         }
 
-        .language-selector {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
 
-        .language-btn {
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: white;
-            padding: 10px 16px;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .language-btn:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
-        }
-
-        .language-dropdown {
-            display: none;
-            position: absolute;
-            top: 50px;
-            right: 0;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            min-width: 150px;
-        }
-
-        .language-dropdown.show {
-            display: block;
-            animation: slideDown 0.3s ease-out;
-        }
-
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .language-option {
-            padding: 12px 20px;
-            cursor: pointer;
-            transition: background 0.2s;
-            color: #1f2937;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .language-option:hover {
-            background: #f3f4f6;
-        }
-
-        .language-option.active {
-            background: #eef2ff;
-            color: #6366f1;
-            font-weight: 600;
-        }
 
         .container {
             max-width: 650px;
@@ -381,19 +306,6 @@
                 flex-direction: column;
                 gap: 15px;
             }
-
-            .language-selector {
-                top: 10px;
-                right: 10px;
-            }
-        }
-
-        .content {
-            display: none;
-        }
-
-        .content.active {
-            display: block;
         }
     </style>
 </head>
@@ -401,31 +313,12 @@
 <body>
     <div class="background-pattern"></div>
 
-    <div class="language-selector">
-        <button class="language-btn" onclick="toggleLanguageDropdown()">
-            <span id="currentFlag">🇺🇸</span>
-            <span id="currentLang">English</span>
-            <span>▼</span>
-        </button>
-        <div class="language-dropdown" id="languageDropdown">
-            <div class="language-option active" onclick="changeLanguage('en', '🇺🇸', 'English')">
-                <span>🇺🇸</span> English
-            </div>
-            <div class="language-option" onclick="changeLanguage('pt', '🇧🇷', 'Português')">
-                <span>🇧🇷</span> Português
-            </div>
-            <div class="language-option" onclick="changeLanguage('es', '🇪🇸', 'Español')">
-                <span>🇪🇸</span> Español
-            </div>
-            <div class="language-option" onclick="changeLanguage('fr', '🇫🇷', 'Français')">
-                <span>🇫🇷</span> Français
-            </div>
-        </div>
-    </div>
+
 
     <div class="container">
         <!-- English Content -->
-        <div class="content active" id="content-en">
+        <!-- English Content -->
+        <div id="content-en">
             <div class="logo-container">
                 <div class="logo">🚀</div>
             </div>
@@ -457,9 +350,11 @@
             <div class="form-container">
                 <form
                     action="https://docs.google.com/forms/d/e/1FAIpQLSeAVJ5b5yZrFaRnC-6tfl48CI0qaWg6gdbCsbfIX60Nc7jRXQ/formResponse"
-                    method="POST" target="_self">
+                    method="POST" target="_self" onsubmit="return validateForm(this)">
                     <div class="email-input-wrapper">
-                        <input type="email" name="entry.643252233" placeholder="Enter your email address" required>
+                        <input type="email" name="entry.643252233" placeholder="Enter your email address" required
+                            oninvalid="this.setCustomValidity('Please enter a valid email address.')"
+                            oninput="this.setCustomValidity('')">
                     </div>
                     <button type="submit" class="submit-btn">
                         Join the Beta Revolution →
@@ -474,240 +369,36 @@
 
         </div>
 
-        <!-- Portuguese Content -->
-        <div class="content" id="content-pt">
-            <div class="logo-container">
-                <div class="logo">🚀</div>
-            </div>
-            <h1>Molde o Futuro dos Apps</h1>
-            <p class="subtitle">
-                Junte-se à <span class="highlight">comunidade definitiva</span> onde beta testers descobrem apps
-                inovadores e desenvolvedores encontram testadores apaixonados. Seja o primeiro a experimentar a
-                inovação.
-            </p>
 
-            <div class="benefits">
-                <div class="benefit">
-                    <div class="benefit-icon">🎯</div>
-                    <div class="benefit-text">Acesso antecipado a apps exclusivos</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">💡</div>
-                    <div class="benefit-text">Influencie o desenvolvimento</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">🤝</div>
-                    <div class="benefit-text">Conecte-se com desenvolvedores</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">⚡</div>
-                    <div class="benefit-text">100% gratuito para sempre</div>
-                </div>
-            </div>
-
-            <div class="form-container">
-                <form
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSeAVJ5b5yZrFaRnC-6tfl48CI0qaWg6gdbCsbfIX60Nc7jRXQ/formResponse"
-                    method="POST" target="_self">
-                    <div class="email-input-wrapper">
-                        <input type="email" name="entry.643252233" placeholder="Digite seu endereço de email" required>
-                    </div>
-                    <button type="submit" class="submit-btn">
-                        Participar da Revolução Beta →
-                    </button>
-                </form>
-            </div>
-
-            <div class="platforms">
-                <div class="platform">📱 Apps iOS</div>
-                <div class="platform">🤖 Apps Android</div>
-            </div>
-
-            <div class="trust-badges">
-                <div class="badge">
-                    <span class="badge-icon">🔒</span>
-                    <span>Sem spam, nunca</span>
-                </div>
-                <div class="badge">
-                    <span class="badge-icon">✨</span>
-                    <span>Acesso instantâneo</span>
-                </div>
-                <div class="badge">
-                    <span class="badge-icon">🎁</span>
-                    <span>Sempre gratuito</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Spanish Content -->
-        <div class="content" id="content-es">
-            <div class="logo-container">
-                <div class="logo">🚀</div>
-            </div>
-            <h1>Da Forma al Futuro de las Apps</h1>
-            <p class="subtitle">
-                Únete a la <span class="highlight">comunidad definitiva</span> donde los beta testers descubren apps
-                innovadoras y los desarrolladores encuentran testers apasionados. Sé el primero en experimentar la
-                innovación.
-            </p>
-
-            <div class="benefits">
-                <div class="benefit">
-                    <div class="benefit-icon">🎯</div>
-                    <div class="benefit-text">Acceso anticipado a apps exclusivas</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">💡</div>
-                    <div class="benefit-text">Influye en el desarrollo</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">🤝</div>
-                    <div class="benefit-text">Conéctate con desarrolladores</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">⚡</div>
-                    <div class="benefit-text">100% gratis para siempre</div>
-                </div>
-            </div>
-
-            <div class="form-container">
-                <form
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSeAVJ5b5yZrFaRnC-6tfl48CI0qaWg6gdbCsbfIX60Nc7jRXQ/formResponse"
-                    method="POST" target="_self">
-                    <div class="email-input-wrapper">
-                        <input type="email" name="entry.643252233" placeholder="Ingresa tu dirección de email" required>
-                    </div>
-                    <button type="submit" class="submit-btn">
-                        Únete a la Revolución Beta →
-                    </button>
-                </form>
-            </div>
-
-            <div class="platforms">
-                <div class="platform">📱 Apps iOS</div>
-                <div class="platform">🤖 Apps Android</div>
-            </div>
-
-            <div class="trust-badges">
-                <div class="badge">
-                    <span class="badge-icon">🔒</span>
-                    <span>Sin spam, nunca</span>
-                </div>
-                <div class="badge">
-                    <span class="badge-icon">✨</span>
-                    <span>Acceso instantáneo</span>
-                </div>
-                <div class="badge">
-                    <span class="badge-icon">🎁</span>
-                    <span>Siempre gratis</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- French Content -->
-        <div class="content" id="content-fr">
-            <div class="logo-container">
-                <div class="logo">🚀</div>
-            </div>
-            <h1>Façonnez l'Avenir des Apps</h1>
-            <p class="subtitle">
-                Rejoignez la <span class="highlight">communauté ultime</span> où les bêta-testeurs découvrent des apps
-                innovantes et les développeurs trouvent des testeurs passionnés. Soyez le premier à vivre l'innovation.
-            </p>
-
-            <div class="benefits">
-                <div class="benefit">
-                    <div class="benefit-icon">🎯</div>
-                    <div class="benefit-text">Accès anticipé aux apps exclusives</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">💡</div>
-                    <div class="benefit-text">Influencez le développement</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">🤝</div>
-                    <div class="benefit-text">Connectez-vous aux développeurs</div>
-                </div>
-                <div class="benefit">
-                    <div class="benefit-icon">⚡</div>
-                    <div class="benefit-text">100% gratuit pour toujours</div>
-                </div>
-            </div>
-
-            <div class="form-container">
-                <form
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSeAVJ5b5yZrFaRnC-6tfl48CI0qaWg6gdbCsbfIX60Nc7jRXQ/formResponse"
-                    method="POST" target="_self">
-                    <div class="email-input-wrapper">
-                        <input type="email" name="entry.643252233" placeholder="Entrez votre adresse email" required>
-                    </div>
-                    <button type="submit" class="submit-btn">
-                        Rejoignez la Révolution Bêta →
-                    </button>
-                </form>
-            </div>
-
-            <div class="platforms">
-                <div class="platform">📱 Apps iOS</div>
-                <div class="platform">🤖 Apps Android</div>
-            </div>
-
-            <div class="trust-badges">
-                <div class="badge">
-                    <span class="badge-icon">🔒</span>
-                    <span>Pas de spam, jamais</span>
-                </div>
-                <div class="badge">
-                    <span class="badge-icon">✨</span>
-                    <span>Accès instantané</span>
-                </div>
-                <div class="badge">
-                    <span class="badge-icon">🎁</span>
-                    <span>Toujours gratuit</span>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script>
-        function toggleLanguageDropdown() {
-            const dropdown = document.getElementById('languageDropdown');
-            dropdown.classList.toggle('show');
-        }
 
-        function changeLanguage(lang, flag, name) {
-            // Hide all content
-            document.querySelectorAll('.content').forEach(content => {
-                content.classList.remove('active');
-            });
 
-            // Show selected language content
-            document.getElementById(`content-${lang}`).classList.add('active');
+        function validateForm(form) {
+            const emailInput = form.querySelector('input[type="email"]');
+            let email = emailInput.value;
 
-            // Update button
-            document.getElementById('currentFlag').textContent = flag;
-            document.getElementById('currentLang').textContent = name;
+            // Sanitization: remove potentially dangerous characters for XSS (e.g., <, >, script tags)
+            // While input type="email" handles format, we want to ensure no malicious scripts are injected
+            // removing basic HTML tag delimiters
+            const sanitizedEmail = email.replace(/[<>]/g, "").trim();
 
-            // Update active state in dropdown
-            document.querySelectorAll('.language-option').forEach(option => {
-                option.classList.remove('active');
-            });
-            event.target.closest('.language-option').classList.add('active');
-
-            // Update HTML lang attribute
-            document.documentElement.lang = lang;
-
-            // Close dropdown
-            document.getElementById('languageDropdown').classList.remove('show');
-        }
-
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function (event) {
-            const languageSelector = document.querySelector('.language-selector');
-            if (!languageSelector.contains(event.target)) {
-                document.getElementById('languageDropdown').classList.remove('show');
+            if (email !== sanitizedEmail) {
+                emailInput.value = sanitizedEmail;
+                email = sanitizedEmail;
             }
-        });
+
+            // Strict Email Validation
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return false;
+            }
+
+            return true;
+        }
     </script>
 </body>
 
