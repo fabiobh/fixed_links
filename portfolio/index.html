@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabio Cunha Developer Portfolio</title>
+    <title>Fabio Cunha Developer Portfolio & Support</title>
     <style>
         * {
             margin: 0;
@@ -12,261 +12,354 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
+        }
+
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: white;
+            border-radius: 25px;
+            padding: 8px 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .language-selector button {
+            background: none;
+            border: none;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: color 0.3s;
+            color: #666;
+        }
+
+        .language-selector button.active {
+            color: #667eea;
         }
 
         .container {
             max-width: 1200px;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 30px;
-            padding: 60px 40px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            position: relative;
-            overflow: hidden;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
 
-        .container::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
-        }
-
-        .lang-switch {
-            position: absolute;
-            top: 30px;
-            right: 40px;
-            display: flex;
-            gap: 10px;
-        }
-
-        .lang-btn {
-            background: transparent;
-            border: 2px solid #667eea;
-            color: #667eea;
-            padding: 8px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
-
-        .lang-btn:hover {
-            background: #667eea;
+        header {
+            text-align: center;
             color: white;
-            transform: translateY(-2px);
-        }
-
-        .lang-btn.active {
-            background: #667eea;
-            color: white;
+            margin-bottom: 50px;
+            padding-top: 20px;
         }
 
         h1 {
-            font-size: 3em;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 20px;
-            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         }
 
         .subtitle {
-            text-align: center;
-            color: #666;
             font-size: 1.2em;
-            margin-bottom: 50px;
+            opacity: 0.9;
         }
 
-        .portfolio-grid {
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .platform-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+            gap: 20px;
+            margin-top: 20px;
         }
 
-        .portfolio-card {
-            background: white;
-            border-radius: 20px;
-            padding: 40px 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
+        .platform-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 10px;
             text-align: center;
-            border: 2px solid transparent;
+            transition: all 0.3s;
         }
 
-        .portfolio-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-            border-color: #667eea;
+        .platform-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
         }
 
-        .icon {
+        .platform-card .icon {
             font-size: 3em;
-            margin-bottom: 20px;
-        }
-
-        .portfolio-card h2 {
-            color: #333;
-            font-size: 1.5em;
             margin-bottom: 15px;
         }
 
-        .portfolio-card p {
+        .platform-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .platform-card p {
             color: #666;
-            line-height: 1.6;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
         }
 
         .btn {
             display: inline-block;
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #667eea;
             color: white;
-            text-decoration: none;
+            padding: 12px 30px;
             border-radius: 25px;
+            text-decoration: none;
             font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: all 0.3s;
         }
 
         .btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
 
-        .footer {
-            text-align: center;
-            margin-top: 50px;
+        .support-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .support-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .faq-item h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .faq-item p {
             color: #666;
-            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
         }
 
         @media (max-width: 768px) {
-            .container {
-                padding: 40px 20px;
-            }
-
             h1 {
                 font-size: 2em;
             }
 
-            .lang-switch {
-                top: 20px;
-                right: 20px;
-            }
-
-            .portfolio-grid {
+            .platform-grid {
                 grid-template-columns: 1fr;
             }
-        }
-
-        .hidden {
-            display: none;
         }
     </style>
 </head>
 <body>
+    <div class="language-selector">
+        <button onclick="switchLanguage('en')" id="btn-en" class="active">EN</button>
+        <button onclick="switchLanguage('pt')" id="btn-pt">PT</button>
+    </div>
+
     <div class="container">
-        <div class="lang-switch">
-            <button class="lang-btn active" onclick="setLanguage('en')">EN</button>
-            <button class="lang-btn" onclick="setLanguage('pt')">PT</button>
+        <!-- English Version -->
+        <div id="content-en" class="content active">
+            <header>
+                <h1>Fabio Cunha Developer Portfolio</h1>
+                <p class="subtitle">Explore my work across multiple platforms</p>
+            </header>
+
+            <!-- Portfolio Section -->
+            <div class="card">
+                <h2>My Portfolio</h2>
+                <div class="platform-grid">
+                    <div class="platform-card">
+                        <div class="icon">🍎</div>
+                        <h3>iOS Apps</h3>
+                        <p>Discover my mobile games and applications available on the Apple App Store.</p>
+                        <a href="https://apps.apple.com/us/developer/sabrina-aridi/id1256785942" class="btn">View iOS Portfolio</a>
+                    </div>
+
+                    <div class="platform-card">
+                        <div class="icon">🤖</div>
+                        <h3>Android Apps</h3>
+                        <p>Check out my games and apps designed for Android devices on Google Play.</p>
+                        <a href="https://play.google.com/store/apps/developer?id=Todos+Conectados" class="btn">View Android Portfolio</a>
+                    </div>
+
+                    <div class="platform-card">
+                        <div class="icon">🎮</div>
+                        <h3>Steam Games</h3>
+                        <p>Explore my PC gaming collection featuring diverse gaming experiences.</p>
+                        <a href="https://store.steampowered.com/curator/33069892-Fabio-Cunha-Games/" class="btn">View Steam Portfolio</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support Section (New - Required by Apple) -->
+            <section class="support-section">
+                <h2>📧 Support & Contact</h2>
+                <p>Need help with any of my apps? I'm here to assist you!</p>
+                
+                <div class="contact-info">
+                    <p><strong>📧 Email Support:</strong> <a href="mailto:connectfabiocunha@gmail.com">connectfabiocunha@gmail.com</a></p>
+                    <p><strong>⏰ Response Time:</strong> Within 24-48 hours</p>
+                    <p><strong>🌐 Languages:</strong> English, Portuguese</p>
+                </div>
+
+                <h3 style="margin-top: 30px; color: #333;">❓ Frequently Asked Questions</h3>
+                
+                <div class="faq-item">
+                    <h3>How do I report a bug?</h3>
+                    <p>Please email us at connectfabiocunha@gmail.com with a description of the issue, your device model, and iOS version. Screenshots are very helpful!</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I suggest a new feature?</h3>
+                    <p>We love hearing from users! Send your suggestions to connectfabiocunha@gmail.com and we'll consider them for future updates.</p>
+                </div>
+            </section>
         </div>
 
-        <div id="content-en">
-            <h1>Fabio Cunha Developer Portfolio</h1>
-            <p class="subtitle">Explore my work across multiple platforms</p>
+        <!-- Portuguese Version -->
+        <div id="content-pt" class="content">
+            <header>
+                <h1>Portfólio de Desenvolvedor de Fabio Cunha</h1>
+                <p class="subtitle">Explore meu trabalho em múltiplas plataformas</p>
+            </header>
 
-            <div class="portfolio-grid">
-                <div class="portfolio-card">
-                    <div class="icon">🍎</div>
-                    <h2>iOS Apps</h2>
-                    <p>Discover my mobile games and applications available on the Apple App Store.</p>
-                    <a href="https://apps.apple.com/us/developer/sabrina-aridi/id1256785942" target="_blank" class="btn">View iOS Portfolio</a>
-                </div>
+            <!-- Portfolio Section -->
+            <div class="card">
+                <h2>Meu Portfólio</h2>
+                <div class="platform-grid">
+                    <div class="platform-card">
+                        <div class="icon">🍎</div>
+                        <h3>Apps iOS</h3>
+                        <p>Descubra meus jogos e aplicativos mobile disponíveis na Apple App Store.</p>
+                        <a href="https://apps.apple.com/us/developer/sabrina-aridi/id1256785942" class="btn">Ver Portfólio iOS</a>
+                    </div>
 
-                <div class="portfolio-card">
-                    <div class="icon">🤖</div>
-                    <h2>Android Apps</h2>
-                    <p>Check out my games and apps designed for Android devices on Google Play.</p>
-                    <a href="https://play.google.com/store/apps/developer?id=Todos+Conectados" target="_blank" class="btn">View Android Portfolio</a>
-                </div>
+                    <div class="platform-card">
+                        <div class="icon">🤖</div>
+                        <h3>Apps Android</h3>
+                        <p>Confira meus jogos e apps desenvolvidos para dispositivos Android no Google Play.</p>
+                        <a href="https://play.google.com/store/apps/developer?id=Todos+Conectados" class="btn">Ver Portfólio Android</a>
+                    </div>
 
-                <div class="portfolio-card">
-                    <div class="icon">🎮</div>
-                    <h2>Steam Games</h2>
-                    <p>Explore my PC gaming collection featuring diverse gaming experiences.</p>
-                    <a href="https://store.steampowered.com/curator/33069892-Fabio-Cunha-Games/" target="_blank" class="btn">View Steam Portfolio</a>
+                    <div class="platform-card">
+                        <div class="icon">🎮</div>
+                        <h3>Jogos Steam</h3>
+                        <p>Explore minha coleção de jogos para PC com experiências diversificadas.</p>
+                        <a href="https://store.steampowered.com/curator/33069892-Fabio-Cunha-Games/" class="btn">Ver Portfólio Steam</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="footer">
-                <p>© 2025 Developer Portfolio. All rights reserved.</p>
-            </div>
+            <!-- Support Section (New - Required by Apple) -->
+            <section class="support-section">
+                <h2>📧 Suporte & Contato</h2>
+                <p>Precisa de ajuda com algum dos meus aplicativos? Estou aqui para ajudar!</p>
+                
+                <div class="contact-info">
+                    <p><strong>📧 Email de Suporte:</strong> <a href="mailto:connectfabiocunha@gmail.com">connectfabiocunha@gmail.com</a></p>
+                    <p><strong>⏰ Tempo de Resposta:</strong> Dentro de 24-48 horas</p>
+                    <p><strong>🌐 Idiomas:</strong> Inglês, Português</p>
+                </div>
+
+                <h3 style="margin-top: 30px; color: #333;">❓ Perguntas Frequentes</h3>
+                
+                <div class="faq-item">
+                    <h3>Como reporto um bug?</h3>
+                    <p>Por favor, envie um email para connectfabiocunha@gmail.com com uma descrição do problema, modelo do seu dispositivo e versão do iOS. Capturas de tela são muito úteis!</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Como sugiro uma nova funcionalidade?</h3>
+                    <p>Adoramos ouvir nossos usuários! Envie suas sugestões para connectfabiocunha@gmail.com e as consideraremos para atualizações futuras.</p>
+                </div>
+            </section>
         </div>
 
-        <div id="content-pt" class="hidden">
-            <h1>Portfólio de Desenvolvedor de Fabio Cunha</h1>
-            <p class="subtitle">Explore meu trabalho em múltiplas plataformas</p>
-
-            <div class="portfolio-grid">
-                <div class="portfolio-card">
-                    <div class="icon">🍎</div>
-                    <h2>Apps iOS</h2>
-                    <p>Descubra meus jogos e aplicativos mobile disponíveis na Apple App Store.</p>
-                    <a href="https://apps.apple.com/us/developer/sabrina-aridi/id1256785942" target="_blank" class="btn">Ver Portfólio iOS</a>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="icon">🤖</div>
-                    <h2>Apps Android</h2>
-                    <p>Confira meus jogos e apps desenvolvidos para dispositivos Android no Google Play.</p>
-                    <a href="https://play.google.com/store/apps/developer?id=Todos+Conectados" target="_blank" class="btn">Ver Portfólio Android</a>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="icon">🎮</div>
-                    <h2>Jogos Steam</h2>
-                    <p>Explore minha coleção de jogos para PC com experiências diversificadas.</p>
-                    <a href="https://store.steampowered.com/curator/33069892-Fabio-Cunha-Games/" target="_blank" class="btn">Ver Portfólio Steam</a>
-                </div>
-            </div>
-
-            <div class="footer">
-                <p>© 2024 Portfólio de Desenvolvedor de Jogos. Todos os direitos reservados.</p>
-            </div>
-        </div>
+        <footer>
+            <p>© 2025 Developer Portfolio. All rights reserved.</p>
+        </footer>
     </div>
 
     <script>
-        function setLanguage(lang) {
-            const enContent = document.getElementById('content-en');
-            const ptContent = document.getElementById('content-pt');
-            const buttons = document.querySelectorAll('.lang-btn');
-
-            if (lang === 'en') {
-                enContent.classList.remove('hidden');
-                ptContent.classList.add('hidden');
-                buttons[0].classList.add('active');
-                buttons[1].classList.remove('active');
-            } else {
-                enContent.classList.add('hidden');
-                ptContent.classList.remove('hidden');
-                buttons[0].classList.remove('active');
-                buttons[1].classList.add('active');
-            }
+        function switchLanguage(lang) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.language-selector button').forEach(btn => btn.classList.remove('active'));
+            
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
         }
     </script>
 </body>
