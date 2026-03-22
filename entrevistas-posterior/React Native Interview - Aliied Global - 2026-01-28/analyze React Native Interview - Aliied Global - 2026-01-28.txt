@@ -1,0 +1,92 @@
+Based on the transcript of your interview with Allied Global on January 28, 2026, here is an analysis of your performance and specific areas for growth:
+Strengths (What You Did Well)
+
+    Deep Native & Cross-Platform Experience: You effectively communicated your transition from a Full Stack developer (starting in 2010) to a specialist in Native iOS/Android and eventually React Native.
+
+    Problem-Solving with Bridges: You provided a strong technical example of creating a Native Bridge to implement OpenCV and TensorFlow Light when existing React Native plugins were insufficient for image manipulation.
+
+    Knowledge of Modern Tooling: You correctly identified and discussed modern state management libraries like Zustand and testing tools like Maestro, showing you stay current with the ecosystem.
+
+    Component Architecture: You explained the evolution of your folder structure from "type-based" (reducers, slicers) to "feature-based," demonstrating an understanding of scalability and project maintenance.
+
+    JavaScript Fundamentals: You gave solid answers regarding Hoisting behavior and correctly identified High-Order Functions like Map, Filter, and Reduce.
+
+Areas for Improvement
+Technical Precision
+
+    Hook Differences: You struggled slightly to differentiate between useMemo and useCallback.
+
+        Tip: Remember that useMemo is for memoizing a value (the result of a calculation), while useCallback is for memoizing the function definition itself to prevent unnecessary re-renders in child components.
+
+    React Memo Logic: In the code challenge, you missed that the second argument of React.memo is a comparison function.
+
+        Tip: Review how memo handles prop changes, especially when specific props like loading change but others remain static.
+
+Asynchronous Patterns & Performance
+
+    Promise Management: You found it difficult to implement the Promise.all logic during the live coding session to fetch multiple IDs simultaneously.
+
+        Tip: Practice "Parallel vs. Sequential" execution. In an interview, if you see a list of IDs being fetched one by one, immediately suggest Promise.all() to avoid a "waterfall" effect where each request waits for the previous one to finish.
+
+Communication Under Pressure
+
+    Live Coding Stalling: You mentioned "I give up" during the promise challenge.
+
+        Tip: Instead of giving up, try to "talk through the pseudo-code." Even if you can't remember the exact syntax, explaining the logic (e.g., "I know I need to map these IDs to an array of fetch promises and then await them all at once") often earns partial credit and shows the interviewer you have the right mental model.
+
+---
+
+This implementation focuses on the two main performance requirements Arthur highlighted: parallel execution to avoid a "waterfall" effect and optimizing the render method by keeping heavy logic external.
+The Performant Implementation
+
+The best approach is to separate the data-fetching logic from the React component. This keeps the component lean and prevents the logic from being re-created on every render.
+JavaScript
+
+// 1. Logic declared outside the component to optimize the render cycle
+const fetchCompleteData = async () => {
+  // First, get the list of IDs (Resolves after ~100ms)
+  const ids = await fetchList(); 
+
+  // 2. Map IDs to an array of Promises immediately
+  // This starts all "fetchById" requests in parallel
+  const dataPromises = ids.map(async (id) => {
+    const item = await fetchById(id);
+    return { id, name: item.name };
+  });
+
+  // 3. Wait for ALL promises to resolve at once
+  // This is the "Promise.all" Arthur was looking for
+  return await Promise.all(dataPromises);
+};
+
+// Inside your React Component:
+const App = () => {
+  const [data, setData] = React.useState([]);
+  const [loading, setLoading] = React.useState(false);
+
+  const handleLoadData = async () => {
+    setLoading(true);
+    try {
+      const results = await fetchCompleteData();
+      setData(results);
+    } catch (error) {
+      console.error("Failed to load data", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  // ... rest of the component
+};
+
+Why this is better than the attempts in the interview
+
+    Parallelism vs. Sequentiality: In the transcript, Arthur noted that using a standard for loop would cause the timeouts to "queue up," meaning 10 items at 100ms each would take 1 full second. By using ids.map() followed by Promise.all(), all requests fire at the same time, and the total wait time is only slightly more than the single slowest request (~100ms total).
+
+    Correct State Handling: During the live coding, you tried to pass fetchList directly into useState, which caused an error because the state was initialized with a Promise object instead of the resolved data. The code above correctly waits for the data (await) before calling setData.
+
+    Memory & Render Efficiency: Arthur specifically mentioned not putting too much logic into the render function. By moving fetchCompleteData outside the component, React doesn't have to re-evaluate that function's definition every time the loading state changes.
+
+Key Takeaway for Next Time
+
+Whenever an interviewer mentions "multiple API calls" and "performance," your mind should immediately jump to Promise.all(). It is the standard way to show you understand how to handle asynchronous operations without blocking the main thread longer than necessary.
