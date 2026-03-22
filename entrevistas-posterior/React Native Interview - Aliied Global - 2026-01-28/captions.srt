@@ -1,0 +1,3568 @@
+1
+00:01:59,680 --> 00:02:04,040
+Hi. Can you hear me?
+
+2
+00:02:06,240 --> 00:02:11,680
+Yes, F. I can hear you. How are you?
+
+3
+00:02:09,039 --> 00:02:15,280
+I'm fine. And you? How you doing?
+
+4
+00:02:11,680 --> 00:02:18,160
+Uh, I'm fine, too. Um, I'm working here
+
+5
+00:02:15,280 --> 00:02:20,800
+in Mexico and try to looking for another
+
+6
+00:02:18,160 --> 00:02:21,360
+profile to Java Goland.
+
+7
+00:02:20,800 --> 00:02:24,000
+Okay,
+
+8
+00:02:21,360 --> 00:02:25,520
+this there is a good profile to be here.
+
+9
+00:02:24,000 --> 00:02:27,760
+Okay, thank you so much for your time,
+
+10
+00:02:25,520 --> 00:02:30,160
+Fabio, and for join with us today. you
+
+11
+00:02:27,760 --> 00:02:33,760
+have a technical interview and we have
+
+12
+00:02:30,160 --> 00:02:36,400
+with us Arthur Baj. He's our technical
+
+13
+00:02:33,760 --> 00:02:38,080
+interview viewer for this um process.
+
+14
+00:02:36,400 --> 00:02:38,400
+All right.
+
+15
+00:02:38,080 --> 00:02:40,160
+Okay.
+
+16
+00:02:38,400 --> 00:02:42,000
+Arthur, are you hear me?
+
+17
+00:02:40,160 --> 00:02:45,200
+Yes. Yes. Hello. Hello everybody.
+
+18
+00:02:42,000 --> 00:02:46,959
+Hello. How are you Arthur?
+
+19
+00:02:45,200 --> 00:02:50,080
+Fine, thanks. How about you?
+
+20
+00:02:46,959 --> 00:02:51,360
+Okay, I'm fine too. Okay, guys. Thank
+
+21
+00:02:50,080 --> 00:02:53,280
+you so much for your time and for
+
+22
+00:02:51,360 --> 00:02:55,440
+joining us to this uh technique
+
+23
+00:02:53,280 --> 00:02:56,959
+interview. So Fabio I left you with
+
+24
+00:02:55,440 --> 00:03:00,160
+Archur
+
+25
+00:02:56,959 --> 00:03:02,080
+Arur he is Fabio or candidate. So guys
+
+26
+00:03:00,160 --> 00:03:04,000
+thank you for your time from my side.
+
+27
+00:03:02,080 --> 00:03:05,280
+It's okay. I leave the session and if
+
+28
+00:03:04,000 --> 00:03:07,519
+you need something please let me know.
+
+29
+00:03:05,280 --> 00:03:08,640
+I'm going you on the chat. All right.
+
+30
+00:03:07,519 --> 00:03:11,680
+Okay. Perfect. Thank you.
+
+31
+00:03:08,640 --> 00:03:13,519
+Thank you. Have a nice day. Bye bye.
+
+32
+00:03:11,680 --> 00:03:15,760
+Okay. So hi Fabio. Nice to meet you.
+
+33
+00:03:13,519 --> 00:03:17,280
+Thank you for your time. And let me just
+
+34
+00:03:15,760 --> 00:03:19,440
+give a heads up on how this interview is
+
+35
+00:03:17,280 --> 00:03:21,440
+going to go. Right. uh first 5 to 10
+
+36
+00:03:19,440 --> 00:03:23,760
+minutes is for you to talk me a little
+
+37
+00:03:21,440 --> 00:03:25,519
+bit about your technical background and
+
+38
+00:03:23,760 --> 00:03:27,680
+specifically React Native experience
+
+39
+00:03:25,519 --> 00:03:29,120
+that you have. Uh after that I'm going
+
+40
+00:03:27,680 --> 00:03:31,120
+to ask you a couple of questions about
+
+41
+00:03:29,120 --> 00:03:32,400
+JavaScript and React Native and then we
+
+42
+00:03:31,120 --> 00:03:33,920
+are going to have a little code
+
+43
+00:03:32,400 --> 00:03:35,360
+challenge. Uh do you have any questions
+
+44
+00:03:33,920 --> 00:03:38,319
+for me?
+
+45
+00:03:35,360 --> 00:03:40,080
+No, no questions. First of all, hi
+
+46
+00:03:38,319 --> 00:03:42,159
+Arthur. It's nice to meet you to talk
+
+47
+00:03:40,080 --> 00:03:44,159
+with you too. Just a moment but I just
+
+48
+00:03:42,159 --> 00:03:46,400
+closed the window here.
+
+49
+00:03:44,159 --> 00:03:49,519
+Sure. No worries.
+
+50
+00:03:46,400 --> 00:03:52,319
+It's a lot of noise out there.
+
+51
+00:03:49,519 --> 00:03:54,080
+Okay, proceed.
+
+52
+00:03:52,319 --> 00:03:55,680
+Okay, so yeah, please you can get
+
+53
+00:03:54,080 --> 00:03:56,720
+started and tell me a little bit about
+
+54
+00:03:55,680 --> 00:03:59,599
+yourself.
+
+55
+00:03:56,720 --> 00:04:01,920
+Okay, I start my name is Fabio. I start
+
+56
+00:03:59,599 --> 00:04:04,400
+working with software development since
+
+57
+00:04:01,920 --> 00:04:08,000
+2010. I start work as a full stack
+
+58
+00:04:04,400 --> 00:04:09,840
+developer. In 2010, I start with PHP and
+
+59
+00:04:08,000 --> 00:04:11,680
+Java.
+
+60
+00:04:09,840 --> 00:04:14,959
+uh two years later I moved to another
+
+61
+00:04:11,680 --> 00:04:18,079
+company to start working only with PHP,
+
+62
+00:04:14,959 --> 00:04:22,400
+Java and my and my SQL database and
+
+63
+00:04:18,079 --> 00:04:24,479
+Postgres too. I used to work with an LMS
+
+64
+00:04:22,400 --> 00:04:27,520
+called Moodle. I do some type of
+
+65
+00:04:24,479 --> 00:04:30,400
+integrations. I use Laravel 2 in this
+
+66
+00:04:27,520 --> 00:04:33,199
+case to create some integrations and in
+
+67
+00:04:30,400 --> 00:04:34,720
+2018 I starting working with React and
+
+68
+00:04:33,199 --> 00:04:36,560
+React.
+
+69
+00:04:34,720 --> 00:04:40,880
+I started on this company for more two
+
+70
+00:04:36,560 --> 00:04:43,680
+years in end 2020 I moved to another
+
+71
+00:04:40,880 --> 00:04:45,919
+company again the company that I I was
+
+72
+00:04:43,680 --> 00:04:49,280
+currently working now it's called
+
+73
+00:04:45,919 --> 00:04:52,479
+Stephanini I start working as a native
+
+74
+00:04:49,280 --> 00:04:54,560
+iOS developer and but since I start
+
+75
+00:04:52,479 --> 00:04:57,040
+working in this company I work with
+
+76
+00:04:54,560 --> 00:04:59,759
+Android development too I start working
+
+77
+00:04:57,040 --> 00:05:01,520
+with Android and iOS native platforms
+
+78
+00:04:59,759 --> 00:05:03,919
+after two years working with these
+
+79
+00:05:01,520 --> 00:05:06,720
+platforms I started working with react
+
+80
+00:05:03,919 --> 00:05:09,039
+native again because the company starts
+
+81
+00:05:06,720 --> 00:05:11,919
+to migrating the native apps to
+
+82
+00:05:09,039 --> 00:05:14,160
+crossplatform apps. Some apps that
+
+83
+00:05:11,919 --> 00:05:16,560
+already exist are migrated and some
+
+84
+00:05:14,160 --> 00:05:18,880
+other apps are created in reaction
+
+85
+00:05:16,560 --> 00:05:22,199
+native and I still working in this
+
+86
+00:05:18,880 --> 00:05:22,199
+company now.
+
+87
+00:05:22,240 --> 00:05:27,280
+Okay, cool. Uh so can you dive in a
+
+88
+00:05:25,280 --> 00:05:29,520
+little bit about uh more technical
+
+89
+00:05:27,280 --> 00:05:32,160
+aspects of I mean the way you usually
+
+90
+00:05:29,520 --> 00:05:34,800
+architect the applications uh what do
+
+91
+00:05:32,160 --> 00:05:38,160
+you use for testing for instance uh
+
+92
+00:05:34,800 --> 00:05:41,360
+state management stuff like that? Okay,
+
+93
+00:05:38,160 --> 00:05:45,840
+in about state management man management
+
+94
+00:05:41,360 --> 00:05:49,680
+I use uh previously I use redux a lot
+
+95
+00:05:45,840 --> 00:05:52,160
+but today I was using more stand and
+
+96
+00:05:49,680 --> 00:05:55,840
+contest API I have more preference it's
+
+97
+00:05:52,160 --> 00:06:00,560
+just question of preferences and about
+
+98
+00:05:55,840 --> 00:06:04,759
+tests I use to create unit tests and
+
+99
+00:06:00,560 --> 00:06:04,759
+react library integration
+
+100
+00:06:04,960 --> 00:06:10,080
+tests and end to end tests Recently I
+
+101
+00:06:07,680 --> 00:06:13,280
+starting using my Astro and I think it's
+
+102
+00:06:10,080 --> 00:06:16,400
+a good tool to create integration tests
+
+103
+00:06:13,280 --> 00:06:19,520
+and end to end tests. Well, let me see
+
+104
+00:06:16,400 --> 00:06:21,440
+one more. I use SQLite and watermelon
+
+105
+00:06:19,520 --> 00:06:24,639
+DB. In some app, the majority of the
+
+106
+00:06:21,440 --> 00:06:27,360
+apps I use SQLite and some apps I was
+
+107
+00:06:24,639 --> 00:06:29,919
+using watermelon DB.
+
+108
+00:06:27,360 --> 00:06:33,919
+What more I can talk about about the
+
+109
+00:06:29,919 --> 00:06:38,160
+architecture? I when native apps I use a
+
+110
+00:06:33,919 --> 00:06:40,639
+lot MVVM in Android apps I use a lot of
+
+111
+00:06:38,160 --> 00:06:44,960
+native native Android apps I use a lot
+
+112
+00:06:40,639 --> 00:06:46,639
+MVVM in native iOS apps I use MVVM and
+
+113
+00:06:44,960 --> 00:06:51,039
+MVPC
+
+114
+00:06:46,639 --> 00:06:53,680
+in react native since it's a little bit
+
+115
+00:06:51,039 --> 00:06:56,720
+different from native apps I try to use
+
+116
+00:06:53,680 --> 00:07:00,720
+the the clear texture combine it with
+
+117
+00:06:56,720 --> 00:07:00,720
+redux or zand
+
+118
+00:07:01,360 --> 00:07:05,599
+Nice. And in terms of component
+
+119
+00:07:03,520 --> 00:07:07,280
+organization, uh can you tell me a
+
+120
+00:07:05,599 --> 00:07:09,360
+little bit about how do you architecture
+
+121
+00:07:07,280 --> 00:07:10,400
+the the components uh inside the
+
+122
+00:07:09,360 --> 00:07:12,800
+applications?
+
+123
+00:07:10,400 --> 00:07:15,759
+Yes, I can tell about that. At the first
+
+124
+00:07:12,800 --> 00:07:18,080
+moment when I work for the react native
+
+125
+00:07:15,759 --> 00:07:19,120
+for the first time, I was
+
+126
+00:07:18,080 --> 00:07:20,720
+Can you hear me?
+
+127
+00:07:19,120 --> 00:07:23,280
+Yes, I can hear you. Can you hear me?
+
+128
+00:07:20,720 --> 00:07:24,639
+Uh I I can't hear you for some reason. I
+
+129
+00:07:23,280 --> 00:07:26,400
+think you went mute there.
+
+130
+00:07:24,639 --> 00:07:30,240
+Can you hear me now?
+
+131
+00:07:26,400 --> 00:07:32,639
+Yes. Yes, I can. Okay, I I will speak
+
+132
+00:07:30,240 --> 00:07:35,440
+again. When I start working with
+
+133
+00:07:32,639 --> 00:07:37,680
+Reaction H, I separate my components by
+
+134
+00:07:35,440 --> 00:07:40,720
+types. For example, slicers, I have a
+
+135
+00:07:37,680 --> 00:07:43,680
+folder only for slicers, another folder
+
+136
+00:07:40,720 --> 00:07:45,840
+only for reducers and something like
+
+137
+00:07:43,680 --> 00:07:48,639
+that. But it quickly became a mess
+
+138
+00:07:45,840 --> 00:07:50,800
+because when I have for example five
+
+139
+00:07:48,639 --> 00:07:54,160
+files for reducers, it's good. But when
+
+140
+00:07:50,800 --> 00:07:59,680
+I need to have 20 or 30 files, it
+
+141
+00:07:54,160 --> 00:08:03,560
+becomes a mess. Can you hear me? Arthur,
+
+142
+00:07:59,680 --> 00:08:03,560
+Arthur, can you hear me?
+
+143
+00:08:04,960 --> 00:08:10,479
+Hey, sorry, my my VPN was acting up
+
+144
+00:08:07,759 --> 00:08:13,680
+here, so I had to disconnect it.
+
+145
+00:08:10,479 --> 00:08:16,960
+Okay, no problem. I I will speak again.
+
+146
+00:08:13,680 --> 00:08:19,680
+At first moment when I using I I
+
+147
+00:08:16,960 --> 00:08:21,680
+organize my folders with slicers,
+
+148
+00:08:19,680 --> 00:08:24,240
+another folder for reducers, but when I
+
+149
+00:08:21,680 --> 00:08:26,479
+have for example five files for
+
+150
+00:08:24,240 --> 00:08:29,520
+reducers, it's okay. But when I have 20
+
+151
+00:08:26,479 --> 00:08:31,440
+or 30, it start to become a mess.
+
+152
+00:08:29,520 --> 00:08:33,680
+Because of this, I stop using that
+
+153
+00:08:31,440 --> 00:08:36,560
+methodology and start creating my
+
+154
+00:08:33,680 --> 00:08:39,440
+components by features or screens some
+
+155
+00:08:36,560 --> 00:08:42,560
+people say because I have one screen of
+
+156
+00:08:39,440 --> 00:08:45,040
+the app and every my redues, my slicers,
+
+157
+00:08:42,560 --> 00:08:48,959
+everything goes inside this feature or
+
+158
+00:08:45,040 --> 00:08:52,320
+screen comp uh folder in everything goes
+
+159
+00:08:48,959 --> 00:08:56,640
+inside this part. I start component
+
+160
+00:08:52,320 --> 00:09:00,160
+start create components this way. now.
+
+161
+00:08:56,640 --> 00:09:02,000
+Okay. Nice. And uh last question. You
+
+162
+00:09:00,160 --> 00:09:04,000
+mentioned that you have uh it seems an
+
+163
+00:09:02,000 --> 00:09:06,000
+extensive experience on native
+
+164
+00:09:04,000 --> 00:09:07,920
+development, right? Do you have also the
+
+165
+00:09:06,000 --> 00:09:10,640
+experience on creating the bridge
+
+166
+00:09:07,920 --> 00:09:11,600
+between the native and react native?
+
+167
+00:09:10,640 --> 00:09:12,880
+Yes. Yes, I have
+
+168
+00:09:11,600 --> 00:09:14,880
+both. Go ahead.
+
+169
+00:09:12,880 --> 00:09:17,040
+Yes, I have the experience. One app that
+
+170
+00:09:14,880 --> 00:09:19,920
+I was developing, it's an app to
+
+171
+00:09:17,040 --> 00:09:22,720
+manipulate images. At the first moment I
+
+172
+00:09:19,920 --> 00:09:24,959
+was trying to find a plug-in that was
+
+173
+00:09:22,720 --> 00:09:27,440
+able to create some these effects on
+
+174
+00:09:24,959 --> 00:09:29,760
+image on react native but I was not able
+
+175
+00:09:27,440 --> 00:09:32,720
+to find a good plug-in or library for
+
+176
+00:09:29,760 --> 00:09:35,040
+that. In this case, I create a bridge to
+
+177
+00:09:32,720 --> 00:09:38,480
+in the case of the Android platform, I
+
+178
+00:09:35,040 --> 00:09:43,839
+create a B a bridge to use OpenCV to
+
+179
+00:09:38,480 --> 00:09:46,320
+manipulate images and but the results
+
+180
+00:09:43,839 --> 00:09:48,880
+are better than the plugin from React
+
+181
+00:09:46,320 --> 00:09:52,800
+Nature. But I am not satisfied yet with
+
+182
+00:09:48,880 --> 00:09:56,320
+results because of that. I use another
+
+183
+00:09:52,800 --> 00:10:00,880
+component to create this test this
+
+184
+00:09:56,320 --> 00:10:04,000
+images. But I is a pre-trained model
+
+185
+00:10:00,880 --> 00:10:06,240
+that I used with TensorFlow light to
+
+186
+00:10:04,000 --> 00:10:08,399
+create those image and the result was
+
+187
+00:10:06,240 --> 00:10:11,279
+much better. Because of this I implement
+
+188
+00:10:08,399 --> 00:10:14,480
+the same bridge in the iOS platform to
+
+189
+00:10:11,279 --> 00:10:16,560
+to continue to use TensorFlow flow light
+
+190
+00:10:14,480 --> 00:10:18,720
+and the pre-trained model and I still
+
+191
+00:10:16,560 --> 00:10:22,079
+looking for another pre-trained models
+
+192
+00:10:18,720 --> 00:10:24,079
+to implement more features on my image
+
+193
+00:10:22,079 --> 00:10:26,880
+app.
+
+194
+00:10:24,079 --> 00:10:29,120
+Oh, awesome. Okay. Okay. So, thank you.
+
+195
+00:10:26,880 --> 00:10:31,600
+That was all my questions. Uh so moving
+
+196
+00:10:29,120 --> 00:10:33,839
+on to to the questions uh about JS and
+
+197
+00:10:31,600 --> 00:10:35,920
+React Nate, right? I always start
+
+198
+00:10:33,839 --> 00:10:39,040
+simple. Uh so what can you tell me about
+
+199
+00:10:35,920 --> 00:10:41,120
+the difference between let and con in
+
+200
+00:10:39,040 --> 00:10:44,240
+JS?
+
+201
+00:10:41,120 --> 00:10:47,680
+Let con it's something that will never
+
+202
+00:10:44,240 --> 00:10:50,880
+change when it's when a value is
+
+203
+00:10:47,680 --> 00:10:53,839
+assigned to con it will never change.
+
+204
+00:10:50,880 --> 00:10:56,160
+Let I so just a moment I was mixing
+
+205
+00:10:53,839 --> 00:11:00,240
+something in my head about swift let and
+
+206
+00:10:56,160 --> 00:11:03,839
+the javascript let
+
+207
+00:11:00,240 --> 00:11:07,760
+just a moment in react native let is
+
+208
+00:11:03,839 --> 00:11:09,440
+something that is related to scope is a
+
+209
+00:11:07,760 --> 00:11:12,480
+variable related to scope different from
+
+210
+00:11:09,440 --> 00:11:16,959
+var that is have a that has a global
+
+211
+00:11:12,480 --> 00:11:19,760
+scope let only has a
+
+212
+00:11:16,959 --> 00:11:22,320
+function scope that you can assign a
+
+213
+00:11:19,760 --> 00:11:24,800
+parameter to
+
+214
+00:11:22,320 --> 00:11:26,880
+Okay, awesome. And what can you tell me
+
+215
+00:11:24,800 --> 00:11:28,480
+about the hoisting behavior in
+
+216
+00:11:26,880 --> 00:11:30,480
+JavaScript?
+
+217
+00:11:28,480 --> 00:11:33,200
+The hoisting behavior if I remember
+
+218
+00:11:30,480 --> 00:11:36,880
+correctly is when you declare some
+
+219
+00:11:33,200 --> 00:11:40,079
+parameters for example you declare
+
+220
+00:11:36,880 --> 00:11:42,720
+the function you can declare in this
+
+221
+00:11:40,079 --> 00:11:46,640
+function in any part of the code because
+
+222
+00:11:42,720 --> 00:11:48,160
+even if you call this function
+
+223
+00:11:46,640 --> 00:11:50,320
+create you create a function to call
+
+224
+00:11:48,160 --> 00:11:53,760
+this another function the function is
+
+225
+00:11:50,320 --> 00:11:56,560
+right in the bottom part of the code it
+
+226
+00:11:53,760 --> 00:11:58,240
+will still be read there's no problem
+
+227
+00:11:56,560 --> 00:12:00,800
+different from another language this
+
+228
+00:11:58,240 --> 00:12:03,120
+view can be read by the JavaScript file.
+
+229
+00:12:00,800 --> 00:12:05,279
+the the roasting in this case is that
+
+230
+00:12:03,120 --> 00:12:09,680
+becomes everything is read first in this
+
+231
+00:12:05,279 --> 00:12:13,680
+case of functions and has some special
+
+232
+00:12:09,680 --> 00:12:15,920
+considerations for parameters like var I
+
+233
+00:12:13,680 --> 00:12:19,440
+think the var if I remember correctly if
+
+234
+00:12:15,920 --> 00:12:21,680
+you declare it in the bottom part of the
+
+235
+00:12:19,440 --> 00:12:24,480
+file it will it will be read as
+
+236
+00:12:21,680 --> 00:12:28,160
+undefined if you try to call it before
+
+237
+00:12:24,480 --> 00:12:32,160
+it's assign it I think it's that as the
+
+238
+00:12:28,160 --> 00:12:35,120
+definition of hosting Awesome.
+
+239
+00:12:32,160 --> 00:12:36,959
+So, uh can you tell me what is a high
+
+240
+00:12:35,120 --> 00:12:39,760
+order function and one of its
+
+241
+00:12:36,959 --> 00:12:43,200
+applications in react native? I can
+
+242
+00:12:39,760 --> 00:12:46,240
+remember one high order function. It's
+
+243
+00:12:43,200 --> 00:12:48,639
+the reduce function. I I remember
+
+244
+00:12:46,240 --> 00:12:51,680
+another map function
+
+245
+00:12:48,639 --> 00:12:53,600
+filter function if I remember correctly.
+
+246
+00:12:51,680 --> 00:12:57,519
+Those are the three high order
+
+247
+00:12:53,600 --> 00:12:59,680
+functions. The reduce for example I can
+
+248
+00:12:57,519 --> 00:13:03,519
+use for example I can try to calculate
+
+249
+00:12:59,680 --> 00:13:05,760
+some values. I can res only instead of
+
+250
+00:13:03,519 --> 00:13:10,079
+create a loop for this I can just use
+
+251
+00:13:05,760 --> 00:13:12,800
+the reduce and make all the
+
+252
+00:13:10,079 --> 00:13:16,480
+multiplications or calculations inside
+
+253
+00:13:12,800 --> 00:13:20,160
+this reduce. The filter goes the same
+
+254
+00:13:16,480 --> 00:13:25,959
+way just like map I they you run inside
+
+255
+00:13:20,160 --> 00:13:25,959
+this brackets just like the reduce.
+
+256
+00:13:26,800 --> 00:13:32,480
+Okay, thank you. Uh on now on react what
+
+257
+00:13:31,040 --> 00:13:36,079
+can you tell me what's the difference
+
+258
+00:13:32,480 --> 00:13:39,360
+between use memo and use call back?
+
+259
+00:13:36,079 --> 00:13:42,800
+Use memo and use call back. Use call
+
+260
+00:13:39,360 --> 00:13:46,399
+back if I remember correctly is used to
+
+261
+00:13:42,800 --> 00:13:49,040
+not recall functions. For example, if I
+
+262
+00:13:46,399 --> 00:13:51,519
+use the use call back and try to render
+
+263
+00:13:49,040 --> 00:13:54,399
+the screen is rendered again, the use
+
+264
+00:13:51,519 --> 00:13:56,000
+call back will not trigger the function
+
+265
+00:13:54,399 --> 00:13:58,800
+again.
+
+266
+00:13:56,000 --> 00:14:00,240
+What is the other sorry I forget?
+
+267
+00:13:58,800 --> 00:14:04,240
+Use MIMO.
+
+268
+00:14:00,240 --> 00:14:08,800
+Use MIMO. I think it's for
+
+269
+00:14:04,240 --> 00:14:11,680
+functions and use MIMO. Just remember
+
+270
+00:14:08,800 --> 00:14:14,639
+just forget if I is for values but I
+
+271
+00:14:11,680 --> 00:14:17,440
+don't remember. It's for to say values.
+
+272
+00:14:14,639 --> 00:14:19,839
+I don't remember. I must make a
+
+273
+00:14:17,440 --> 00:14:23,360
+confusing about
+
+274
+00:14:19,839 --> 00:14:28,279
+me and use me. React.mimo
+
+275
+00:14:23,360 --> 00:14:28,279
+and use mimo. Just a moment please.
+
+276
+00:14:28,480 --> 00:14:36,480
+I think use use memo if to save
+
+277
+00:14:32,880 --> 00:14:38,480
+parameters from complex complex tasks
+
+278
+00:14:36,480 --> 00:14:40,560
+for example you need to calculate a lot
+
+279
+00:14:38,480 --> 00:14:43,040
+of different functions this you when I
+
+280
+00:14:40,560 --> 00:14:46,199
+use use MIMO this value is saved inside
+
+281
+00:14:43,040 --> 00:14:46,199
+the context
+
+282
+00:14:46,800 --> 00:14:51,279
+uh yeah that's pretty much that only
+
+283
+00:14:49,440 --> 00:14:53,440
+thing uh that was wrong was the use
+
+284
+00:14:51,279 --> 00:14:55,760
+callback right because both use memo and
+
+285
+00:14:53,440 --> 00:14:57,519
+use callbacks are used to memorize uh
+
+286
+00:14:55,760 --> 00:15:00,800
+something right the use memo used to
+
+287
+00:14:57,519 --> 00:15:02,800
+memorize the values that often need the
+
+288
+00:15:00,800 --> 00:15:05,440
+the the complex calculations, right? So
+
+289
+00:15:02,800 --> 00:15:07,199
+it doesn't get redeclared on every
+
+290
+00:15:05,440 --> 00:15:08,800
+hander. And they use callback. It's
+
+291
+00:15:07,199 --> 00:15:11,760
+pretty much the same thing, but we
+
+292
+00:15:08,800 --> 00:15:12,240
+declare functions using it, right?
+
+293
+00:15:11,760 --> 00:15:16,320
+Okay.
+
+294
+00:15:12,240 --> 00:15:17,920
+Uh so okay, moving on. Uh let me just
+
+295
+00:15:16,320 --> 00:15:20,560
+Oh, yeah. No, I have a couple of more
+
+296
+00:15:17,920 --> 00:15:22,880
+questions on React Native. Uh so can you
+
+297
+00:15:20,560 --> 00:15:25,440
+tell me some of the good practices uh
+
+298
+00:15:22,880 --> 00:15:27,920
+that we usually take into consideration
+
+299
+00:15:25,440 --> 00:15:29,760
+while developing React Native uh to not
+
+300
+00:15:27,920 --> 00:15:32,320
+affect the performance of the
+
+301
+00:15:29,760 --> 00:15:34,480
+application
+
+302
+00:15:32,320 --> 00:15:37,680
+to consider this life cycle of the
+
+303
+00:15:34,480 --> 00:15:41,600
+application. A lot of people just you
+
+304
+00:15:37,680 --> 00:15:44,399
+make a heavy use of the use effect. It's
+
+305
+00:15:41,600 --> 00:15:47,839
+not a good practice because it can
+
+306
+00:15:44,399 --> 00:15:50,000
+create side effects. The use effect is
+
+307
+00:15:47,839 --> 00:15:53,279
+use it just like the name says to create
+
+308
+00:15:50,000 --> 00:15:56,240
+side effects not to use for everything.
+
+309
+00:15:53,279 --> 00:15:58,480
+Let me see another good practice. I
+
+310
+00:15:56,240 --> 00:16:01,600
+think it's creating unit test to verify
+
+311
+00:15:58,480 --> 00:16:04,079
+the code. If we for example integration
+
+312
+00:16:01,600 --> 00:16:07,839
+tests and unit test to validate this
+
+313
+00:16:04,079 --> 00:16:10,720
+code I when I was writing a new feature
+
+314
+00:16:07,839 --> 00:16:13,040
+I could break a feature that is already
+
+315
+00:16:10,720 --> 00:16:14,880
+implemented in the code. This can help
+
+316
+00:16:13,040 --> 00:16:18,480
+guarantee that the code will not break.
+
+317
+00:16:14,880 --> 00:16:21,279
+When I was implementing new features
+
+318
+00:16:18,480 --> 00:16:21,759
+using state management, it's a good
+
+319
+00:16:21,279 --> 00:16:24,160
+practice.
+
+320
+00:16:21,759 --> 00:16:26,720
+Yeah, just just sorry, let me just uh
+
+321
+00:16:24,160 --> 00:16:29,360
+interrupt better because I I I mean just
+
+322
+00:16:26,720 --> 00:16:32,160
+good practice in terms of performance,
+
+323
+00:16:29,360 --> 00:16:36,000
+you know, just things that you do to
+
+324
+00:16:32,160 --> 00:16:38,639
+avoid any impact on performance.
+
+325
+00:16:36,000 --> 00:16:41,040
+Reaction native flat list is a good
+
+326
+00:16:38,639 --> 00:16:43,440
+example for from performance because
+
+327
+00:16:41,040 --> 00:16:48,079
+otherwise if I try to put in a scroll
+
+328
+00:16:43,440 --> 00:16:50,079
+view a scroll list is be
+
+329
+00:16:48,079 --> 00:16:54,320
+try to load the entire list for example
+
+330
+00:16:50,079 --> 00:16:57,519
+if I have 1,000 items it will render
+
+331
+00:16:54,320 --> 00:17:00,800
+everything at the moment that we it we
+
+332
+00:16:57,519 --> 00:17:04,160
+start if I have a flat list I won't it
+
+333
+00:17:00,800 --> 00:17:06,880
+won't it will only load the elements
+
+334
+00:17:04,160 --> 00:17:11,120
+that are visible in this screen. This
+
+335
+00:17:06,880 --> 00:17:13,280
+will affect performance greatly.
+
+336
+00:17:11,120 --> 00:17:15,839
+I think that's only the only one I can
+
+337
+00:17:13,280 --> 00:17:18,160
+remember now.
+
+338
+00:17:15,839 --> 00:17:21,199
+Uh well, you kind of already mentioned
+
+339
+00:17:18,160 --> 00:17:24,079
+to the the to the amount of paras right
+
+340
+00:17:21,199 --> 00:17:26,959
+by the users uh usage of the use effect
+
+341
+00:17:24,079 --> 00:17:28,960
+hook. Uh that would apply for any hook
+
+342
+00:17:26,959 --> 00:17:32,480
+literally that could trigger a hander.
+
+343
+00:17:28,960 --> 00:17:34,880
+But uh yeah uh so moving on uh to the
+
+344
+00:17:32,480 --> 00:17:39,440
+technical challenge here. Let me share
+
+345
+00:17:34,880 --> 00:17:43,960
+my screen real quick. Uh
+
+346
+00:17:39,440 --> 00:17:43,960
+just find again this tab.
+
+347
+00:17:48,720 --> 00:17:53,400
+Okay. Can you see this code here?
+
+348
+00:17:53,520 --> 00:17:57,840
+Yes.
+
+349
+00:17:55,440 --> 00:18:00,640
+Can you see it? Do I need to zoom in
+
+350
+00:17:57,840 --> 00:18:04,640
+here? Uh you can guide me here. Uh so
+
+351
+00:18:00,640 --> 00:18:07,600
+you can see better. Uh, is this size
+
+352
+00:18:04,640 --> 00:18:11,280
+enough? Do you want me to zoom in?
+
+353
+00:18:07,600 --> 00:18:16,320
+Sorry, just a moment, please.
+
+354
+00:18:11,280 --> 00:18:19,120
+I try to I just a moment. I try to
+
+355
+00:18:16,320 --> 00:18:22,000
+increase the size here. Okay.
+
+356
+00:18:19,120 --> 00:18:24,799
+What I Sorry, can you repeat what you I
+
+357
+00:18:22,000 --> 00:18:25,600
+need to what I need to do here? I don't
+
+358
+00:18:24,799 --> 00:18:28,240
+understand yet.
+
+359
+00:18:25,600 --> 00:18:29,919
+Uh, no, sure. At first, I just need to
+
+360
+00:18:28,240 --> 00:18:32,640
+know if you can read it well here. Yes,
+
+361
+00:18:29,919 --> 00:18:34,960
+I can. Do I need to to increase here the
+
+362
+00:18:32,640 --> 00:18:37,520
+the the zoom or to
+
+363
+00:18:34,960 --> 00:18:38,720
+No, I can read it now. I can read.
+
+364
+00:18:37,520 --> 00:18:40,640
+Hello.
+
+365
+00:18:38,720 --> 00:18:43,440
+Can you hear me?
+
+366
+00:18:40,640 --> 00:18:48,240
+Uh no, now I can hear you. Uh so I guess
+
+367
+00:18:43,440 --> 00:18:48,720
+we have some connection issues for now.
+
+368
+00:18:48,240 --> 00:18:50,880
+Sorry.
+
+369
+00:18:48,720 --> 00:18:53,280
+Okay, no problems. That happens.
+
+370
+00:18:50,880 --> 00:18:55,919
+Uh so first thing I need to know here is
+
+371
+00:18:53,280 --> 00:18:58,400
+uh can you see clearly this code here or
+
+372
+00:18:55,919 --> 00:19:00,880
+do I need to to to increase the zoom
+
+373
+00:18:58,400 --> 00:19:03,039
+here or can I just leave I can see here
+
+374
+00:19:00,880 --> 00:19:06,799
+I can see the code here.
+
+375
+00:19:03,039 --> 00:19:11,200
+Okay, perfect. So yeah, here I have uh a
+
+376
+00:19:06,799 --> 00:19:13,200
+quick app uh on react uh itself and
+
+377
+00:19:11,200 --> 00:19:15,760
+here's the entry point right the app
+
+378
+00:19:13,200 --> 00:19:18,400
+function and I have a component here
+
+379
+00:19:15,760 --> 00:19:21,679
+table that is right declared right here
+
+380
+00:19:18,400 --> 00:19:24,559
+on the top uh which is a memorized
+
+381
+00:19:21,679 --> 00:19:28,320
+component as you can see and here's I
+
+382
+00:19:24,559 --> 00:19:30,799
+have here I have another use memo and it
+
+383
+00:19:28,320 --> 00:19:33,600
+returns the table items that I have for
+
+384
+00:19:30,799 --> 00:19:37,280
+the table and this is another component
+
+385
+00:19:33,600 --> 00:19:41,039
+that is here on the top of the the file
+
+386
+00:19:37,280 --> 00:19:43,440
+here. So, uh getting back to the app
+
+387
+00:19:41,039 --> 00:19:46,880
+here, as you can see, I have a lots of
+
+388
+00:19:43,440 --> 00:19:49,039
+console logs here like uh on render, on
+
+389
+00:19:46,880 --> 00:19:51,440
+use effect, on the hooks that I'm using
+
+390
+00:19:49,039 --> 00:19:54,080
+here. There's on use call back and use
+
+391
+00:19:51,440 --> 00:19:57,360
+minimum here. And they all have on the
+
+392
+00:19:54,080 --> 00:19:59,760
+hander and the use effect here.
+
+393
+00:19:57,360 --> 00:20:02,480
+First thing I want you to do is to tell
+
+394
+00:19:59,760 --> 00:20:04,400
+me what are the of uh the the first
+
+395
+00:20:02,480 --> 00:20:08,799
+hander of the application is going to
+
+396
+00:20:04,400 --> 00:20:10,559
+log this uh console logs here. Uh so
+
+397
+00:20:08,799 --> 00:20:14,480
+take your time and if you need to take
+
+398
+00:20:10,559 --> 00:20:16,480
+notes uh feel free and guide me here if
+
+399
+00:20:14,480 --> 00:20:17,919
+you need me to go up and down the code
+
+400
+00:20:16,480 --> 00:20:20,799
+here.
+
+401
+00:20:17,919 --> 00:20:24,559
+I would think the first one will be the
+
+402
+00:20:20,799 --> 00:20:28,320
+console log a a append because it's just
+
+403
+00:20:24,559 --> 00:20:31,320
+the start of the app. Can you just a
+
+404
+00:20:28,320 --> 00:20:31,320
+moment?
+
+405
+00:20:33,600 --> 00:20:40,919
+AB can we scroll up please?
+
+406
+00:20:37,919 --> 00:20:40,919
+Mhm.
+
+407
+00:20:46,640 --> 00:20:49,640
+He's
+
+408
+00:20:51,440 --> 00:20:55,159
+using me more
+
+409
+00:20:55,919 --> 00:20:58,919
+up
+
+410
+00:21:04,080 --> 00:21:07,080
+table.
+
+411
+00:21:07,840 --> 00:21:15,720
+I can take this table item where it's
+
+412
+00:21:11,120 --> 00:21:15,720
+located. Can we scroll down, please?
+
+413
+00:21:16,480 --> 00:21:22,840
+table. I think
+
+414
+00:21:19,600 --> 00:21:22,840
+it's here.
+
+415
+00:21:30,720 --> 00:21:36,240
+Oh, it's really hard to guess this
+
+416
+00:21:34,080 --> 00:21:39,720
+because it's a lot of components inside
+
+417
+00:21:36,240 --> 00:21:39,720
+another one.
+
+418
+00:21:40,640 --> 00:21:46,559
+Let me see that. Can you scroll down
+
+419
+00:21:45,039 --> 00:21:48,640
+please?
+
+420
+00:21:46,559 --> 00:21:50,880
+Sure.
+
+421
+00:21:48,640 --> 00:21:53,440
+I view.
+
+422
+00:21:50,880 --> 00:21:56,720
+As you can see the first hander here
+
+423
+00:21:53,440 --> 00:21:59,520
+just have one array with the data with
+
+424
+00:21:56,720 --> 00:22:02,320
+only one item. So it's going to be just
+
+425
+00:21:59,520 --> 00:22:05,280
+uh app then table then table item at
+
+426
+00:22:02,320 --> 00:22:07,679
+first.
+
+427
+00:22:05,280 --> 00:22:09,919
+Okay. Even the
+
+428
+00:22:07,679 --> 00:22:12,799
+the use effect will be ignored at the
+
+429
+00:22:09,919 --> 00:22:12,799
+first time.
+
+430
+00:22:14,320 --> 00:22:16,480
+Well, that's part of the challenge
+
+431
+00:22:15,919 --> 00:22:17,760
+there.
+
+432
+00:22:16,480 --> 00:22:22,559
+Okay.
+
+433
+00:22:17,760 --> 00:22:26,640
+Okay. I think that's the case. The
+
+434
+00:22:22,559 --> 00:22:29,280
+the use effect will be called just
+
+435
+00:22:26,640 --> 00:22:33,360
+just a moment. The use effect will be
+
+436
+00:22:29,280 --> 00:22:36,000
+called first because the console log B
+
+437
+00:22:33,360 --> 00:22:39,919
+app mounted will be called first. Turn
+
+438
+00:22:36,000 --> 00:22:43,520
+the A the console log A
+
+439
+00:22:39,919 --> 00:22:46,799
+in in the handle click will not be
+
+440
+00:22:43,520 --> 00:22:49,360
+called hand click the console log C will
+
+441
+00:22:46,799 --> 00:22:53,600
+not be called it's now it's won't be
+
+442
+00:22:49,360 --> 00:22:59,440
+called if I click on the button so the
+
+443
+00:22:53,600 --> 00:23:02,720
+the first moment it will be the B A
+
+444
+00:22:59,440 --> 00:23:06,320
+can you scroll down please
+
+445
+00:23:02,720 --> 00:23:09,120
+down scroll down down here.
+
+446
+00:23:06,320 --> 00:23:12,400
+Yes, it's the table. Yes, you scroll up
+
+447
+00:23:09,120 --> 00:23:15,760
+now. B A Okay,
+
+448
+00:23:12,400 --> 00:23:20,120
+the table. I Yes, I to see the table
+
+449
+00:23:15,760 --> 00:23:20,120
+element GF.
+
+450
+00:23:20,240 --> 00:23:28,720
+It would be B. I think it's B A. If I
+
+451
+00:23:25,600 --> 00:23:32,799
+follow the same example from the below
+
+452
+00:23:28,720 --> 00:23:39,280
+GF because the use effect starts first
+
+453
+00:23:32,799 --> 00:23:43,880
+then the the element above above it
+
+454
+00:23:39,280 --> 00:23:43,880
+B A G F
+
+455
+00:23:44,559 --> 00:23:54,159
+table writing the H
+
+456
+00:23:48,080 --> 00:23:57,159
+B A G F H Can you scroll up please?
+
+457
+00:23:54,159 --> 00:23:57,159
+Mhm.
+
+458
+00:23:59,600 --> 00:24:06,640
+A G B A I I need to write that here. I
+
+459
+00:24:04,960 --> 00:24:09,200
+use the shed here.
+
+460
+00:24:06,640 --> 00:24:11,840
+I'm I'm putting the the I'm not sure if
+
+461
+00:24:09,200 --> 00:24:13,840
+you can see here. Let me zoom in or
+
+462
+00:24:11,840 --> 00:24:18,200
+increase the size.
+
+463
+00:24:13,840 --> 00:24:18,200
+Can you scroll down, please?
+
+464
+00:24:20,559 --> 00:24:24,440
+Uh, yes.
+
+465
+00:24:27,039 --> 00:24:31,799
+B A G F H
+
+466
+00:24:31,840 --> 00:24:35,559
+B A G F H.
+
+467
+00:24:35,840 --> 00:24:41,240
+I did. I can't just
+
+468
+00:24:44,640 --> 00:24:52,840
+I didn't get the last part. Come on. B A
+
+469
+00:24:48,559 --> 00:24:52,840
+D F H
+
+470
+00:24:54,400 --> 00:25:00,400
+B A F H
+
+471
+00:24:56,960 --> 00:25:02,880
+B I write
+
+472
+00:25:00,400 --> 00:25:04,559
+I write in the chat here.
+
+473
+00:25:02,880 --> 00:25:07,520
+Mhm.
+
+474
+00:25:04,559 --> 00:25:10,520
+Can you screw up please?
+
+475
+00:25:07,520 --> 00:25:10,520
+Sure.
+
+476
+00:25:10,559 --> 00:25:22,240
+E D. Okay. Just a moment. B A G F H
+
+477
+00:25:18,720 --> 00:25:24,320
+E and D E
+
+478
+00:25:22,240 --> 00:25:26,880
+I write in chat now. I think this will
+
+479
+00:25:24,320 --> 00:25:29,840
+be the the C will not be called unless
+
+480
+00:25:26,880 --> 00:25:31,279
+it's unless the it's clicked in the
+
+481
+00:25:29,840 --> 00:25:34,320
+button.
+
+482
+00:25:31,279 --> 00:25:36,240
+Mhm. That is correct. But let's check
+
+483
+00:25:34,320 --> 00:25:40,880
+here.
+
+484
+00:25:36,240 --> 00:25:44,159
+Uh so as you can see the use effect and
+
+485
+00:25:40,880 --> 00:25:47,679
+the the order of the render and use
+
+486
+00:25:44,159 --> 00:25:50,480
+effect was not correct. This is the log
+
+487
+00:25:47,679 --> 00:25:54,200
+here. Do I need to let me also
+
+488
+00:25:50,480 --> 00:25:54,200
+okay thanks for
+
+489
+00:25:55,039 --> 00:26:00,640
+it's I think the use effect will be will
+
+490
+00:25:58,400 --> 00:26:02,480
+be called first but it's not called
+
+491
+00:26:00,640 --> 00:26:05,440
+first.
+
+492
+00:26:02,480 --> 00:26:08,080
+It's it's just posit.
+
+493
+00:26:05,440 --> 00:26:10,640
+Yeah, it's actually yeah, it's first the
+
+494
+00:26:08,080 --> 00:26:13,679
+render here, right? And then this render
+
+495
+00:26:10,640 --> 00:26:16,640
+here and this H because this me is
+
+496
+00:26:13,679 --> 00:26:19,360
+declared and returned right away and
+
+497
+00:26:16,640 --> 00:26:21,600
+then this hander here and then it goes
+
+498
+00:26:19,360 --> 00:26:23,919
+running the use effects uh use effects
+
+499
+00:26:21,600 --> 00:26:27,120
+backwards, right? So this is effect runs
+
+500
+00:26:23,919 --> 00:26:30,400
+first and then this one after that one
+
+501
+00:26:27,120 --> 00:26:33,600
+and lastly uh the V here as you can see
+
+502
+00:26:30,400 --> 00:26:35,760
+it was just job positive that was that I
+
+503
+00:26:33,600 --> 00:26:41,840
+was thinking
+
+504
+00:26:35,760 --> 00:26:45,120
+yeah uh yeah so moving on um I want now
+
+505
+00:26:41,840 --> 00:26:46,720
+to for you to tell me there's a fact
+
+506
+00:26:45,120 --> 00:26:49,360
+sorry the console logs that are going to
+
+507
+00:26:46,720 --> 00:26:52,080
+appear if I click the button right now
+
+508
+00:26:49,360 --> 00:26:54,400
+uh as you can see I click the logs here
+
+509
+00:26:52,080 --> 00:26:54,960
+and I'm going to click this button right
+
+510
+00:26:54,400 --> 00:26:57,279
+okay
+
+511
+00:26:54,960 --> 00:27:00,320
+so what's what are going to be printed
+
+512
+00:26:57,279 --> 00:27:03,440
+out once I click there
+
+513
+00:27:00,320 --> 00:27:08,400
+and you click
+
+514
+00:27:03,440 --> 00:27:10,480
+it will you console log C will be will
+
+515
+00:27:08,400 --> 00:27:12,159
+be printed
+
+516
+00:27:10,480 --> 00:27:14,400
+Mhm.
+
+517
+00:27:12,159 --> 00:27:18,159
+I was thinking if something more the
+
+518
+00:27:14,400 --> 00:27:20,559
+it's it's use the MIMO
+
+519
+00:27:18,159 --> 00:27:22,080
+but I don't know it's using only MIMO
+
+520
+00:27:20,559 --> 00:27:26,240
+not
+
+521
+00:27:22,080 --> 00:27:29,640
+not use MIMO only react MIMO
+
+522
+00:27:26,240 --> 00:27:29,640
+just a moment
+
+523
+00:27:33,039 --> 00:27:38,840
+can you scroll up is
+
+524
+00:27:35,840 --> 00:27:38,840
+Mhm.
+
+525
+00:27:41,520 --> 00:27:48,799
+Memo will be called again or not.
+
+526
+00:27:46,400 --> 00:27:51,440
+I suppose
+
+527
+00:27:48,799 --> 00:27:54,320
+it was the first
+
+528
+00:27:51,440 --> 00:28:00,480
+the C letter will be will be printed and
+
+529
+00:27:54,320 --> 00:28:03,480
+the H letter the C and H letter.
+
+530
+00:28:00,480 --> 00:28:03,480
+H,
+
+531
+00:28:03,600 --> 00:28:11,120
+C, and H.
+
+532
+00:28:06,720 --> 00:28:15,120
+Mhm. Uh, okay. Only those two.
+
+533
+00:28:11,120 --> 00:28:19,039
+Yes. I I don't know if the use effect
+
+534
+00:28:15,120 --> 00:28:21,039
+will be target again. I
+
+535
+00:28:19,039 --> 00:28:23,120
+I don't know. Just a moment. If the use
+
+536
+00:28:21,039 --> 00:28:28,039
+effect
+
+537
+00:28:23,120 --> 00:28:28,039
+it will not rerender the entire screen.
+
+538
+00:28:28,559 --> 00:28:35,679
+Yes, just just those two.
+
+539
+00:28:32,399 --> 00:28:39,120
+Okay, so let's check that out.
+
+540
+00:28:35,679 --> 00:28:42,640
+Uh, and as you can see, there were two
+
+541
+00:28:39,120 --> 00:28:47,679
+handers on when I click that, right?
+
+542
+00:28:42,640 --> 00:28:49,919
+So, since I changed the state here, this
+
+543
+00:28:47,679 --> 00:28:51,679
+uh the render console logs since the
+
+544
+00:28:49,919 --> 00:28:53,120
+render runs again, you can see again the
+
+545
+00:28:51,679 --> 00:28:56,399
+the console logs, but you're right about
+
+546
+00:28:53,120 --> 00:29:00,000
+the use effect, right? No,
+
+547
+00:28:56,399 --> 00:29:03,440
+effects. Can you show me again please
+
+548
+00:29:00,000 --> 00:29:08,159
+the what is render?
+
+549
+00:29:03,440 --> 00:29:11,760
+C A F H. Okay. The C is correct.
+
+550
+00:29:08,159 --> 00:29:13,520
+The H is the last one and the use effect
+
+551
+00:29:11,760 --> 00:29:16,240
+is not colored again. But the console
+
+552
+00:29:13,520 --> 00:29:18,240
+log from the start is colored again.
+
+553
+00:29:16,240 --> 00:29:24,159
+Okay.
+
+554
+00:29:18,240 --> 00:29:27,919
+Yeah. The the the hander one. Okay. So
+
+555
+00:29:24,159 --> 00:29:30,640
+let's uh moving to the next one. As you
+
+556
+00:29:27,919 --> 00:29:33,440
+can see right now here I can click on
+
+557
+00:29:30,640 --> 00:29:37,200
+this button and the table is responsive
+
+558
+00:29:33,440 --> 00:29:40,159
+to that uh action. Right? However, if I
+
+559
+00:29:37,200 --> 00:29:42,720
+come here on the code
+
+560
+00:29:40,159 --> 00:29:46,880
+and I simply put another user state
+
+561
+00:29:42,720 --> 00:29:49,840
+here, const data set data
+
+562
+00:29:46,880 --> 00:29:53,159
+equals use state and I'm going to change
+
+563
+00:29:49,840 --> 00:29:53,159
+this here
+
+564
+00:29:53,360 --> 00:30:00,320
+to data here.
+
+565
+00:29:56,720 --> 00:30:02,159
+Uh so now if I refresh and click you can
+
+566
+00:30:00,320 --> 00:30:05,440
+see that the button is responsive but
+
+567
+00:30:02,159 --> 00:30:08,240
+the is no longer responsive here. So can
+
+568
+00:30:05,440 --> 00:30:10,960
+you tell me here what's going on? Why
+
+569
+00:30:08,240 --> 00:30:14,000
+that change uh affected the behavior in
+
+570
+00:30:10,960 --> 00:30:16,080
+that way?
+
+571
+00:30:14,000 --> 00:30:17,600
+Just a moment please let me think about
+
+572
+00:30:16,080 --> 00:30:20,600
+it.
+
+573
+00:30:17,600 --> 00:30:20,600
+Mhm.
+
+574
+00:30:22,960 --> 00:30:28,039
+I think because it's using con no
+
+575
+00:30:35,360 --> 00:30:38,360
+loading.
+
+576
+00:30:44,799 --> 00:30:50,159
+I really don't know why this is
+
+577
+00:30:47,200 --> 00:30:53,679
+affecting the app this way. At the first
+
+578
+00:30:50,159 --> 00:30:56,000
+moment I try to I maybe just guess
+
+579
+00:30:53,679 --> 00:30:58,240
+that's because it's a con value but it's
+
+580
+00:30:56,000 --> 00:31:00,720
+not correct because it's a using use
+
+581
+00:30:58,240 --> 00:31:03,720
+state but I really don't know how to
+
+582
+00:31:00,720 --> 00:31:03,720
+explain
+
+583
+00:31:24,480 --> 00:31:27,480
+date.
+
+584
+00:31:32,880 --> 00:31:39,519
+I can see there's there's something
+
+585
+00:31:36,320 --> 00:31:43,960
+wrong with data set data. It's because
+
+586
+00:31:39,519 --> 00:31:43,960
+Can you scroll up, please?
+
+587
+00:31:44,960 --> 00:31:50,640
+Uh there's another table data. It's some
+
+588
+00:31:48,640 --> 00:31:55,519
+type of shadowing. I don't don't know if
+
+589
+00:31:50,640 --> 00:31:58,640
+the con table already has a data value.
+
+590
+00:31:55,519 --> 00:32:01,519
+Maybe it's confusing because I don't
+
+591
+00:31:58,640 --> 00:32:05,279
+know if the names are being reused in
+
+592
+00:32:01,519 --> 00:32:08,760
+this case. Maybe I think maybe it's it's
+
+593
+00:32:05,279 --> 00:32:08,760
+because of this
+
+594
+00:32:28,240 --> 00:32:31,240
+Okay.
+
+595
+00:32:32,799 --> 00:32:42,440
+Okay. I got it. The loading is not being
+
+596
+00:32:37,679 --> 00:32:42,440
+the loading prop is not being passed.
+
+597
+00:32:52,880 --> 00:32:56,840
+Boolean loading. Okay.
+
+598
+00:32:58,000 --> 00:33:02,320
+Sorry, I can't hear you, Arthur.
+
+599
+00:33:01,360 --> 00:33:05,039
+It's on mute.
+
+600
+00:33:02,320 --> 00:33:08,960
+Oh, yeah. I was talking for so long here
+
+601
+00:33:05,039 --> 00:33:12,960
+on mute. Okay. Okay. So what was going
+
+602
+00:33:08,960 --> 00:33:15,600
+on here is that uh we were not comparing
+
+603
+00:33:12,960 --> 00:33:17,200
+right the memo function here from react
+
+604
+00:33:15,600 --> 00:33:19,440
+it receives two parameters. The first
+
+605
+00:33:17,200 --> 00:33:21,200
+one is the component and the second one
+
+606
+00:33:19,440 --> 00:33:23,120
+is the callback that is going to compare
+
+607
+00:33:21,200 --> 00:33:26,399
+the props. Since we're not comparing the
+
+608
+00:33:23,120 --> 00:33:28,320
+loading prop uh and the loading prop is
+
+609
+00:33:26,399 --> 00:33:31,440
+the only one that's changing here. The
+
+610
+00:33:28,320 --> 00:33:33,600
+data is no longer changing. Uh so that's
+
+611
+00:33:31,440 --> 00:33:35,519
+not going to trigger the hander of the
+
+612
+00:33:33,600 --> 00:33:38,559
+table that we need to see the update
+
+613
+00:33:35,519 --> 00:33:41,279
+right. uh why it was happening before
+
+614
+00:33:38,559 --> 00:33:43,840
+because every time it triggered a hander
+
+615
+00:33:41,279 --> 00:33:45,600
+and we had this declaration here right
+
+616
+00:33:43,840 --> 00:33:48,559
+on the hander right it was not assigned
+
+617
+00:33:45,600 --> 00:33:50,399
+it to any value or it was put on the now
+
+618
+00:33:48,559 --> 00:33:52,720
+that it's on the state it's memorized
+
+619
+00:33:50,399 --> 00:33:55,360
+right uh but since it was not memorized
+
+620
+00:33:52,720 --> 00:33:57,440
+before every time we had a hander here
+
+621
+00:33:55,360 --> 00:33:59,760
+it would get redeclared at this point
+
+622
+00:33:57,440 --> 00:34:01,919
+here and then the memorization would
+
+623
+00:33:59,760 --> 00:34:04,159
+consider that a change and would trigger
+
+624
+00:34:01,919 --> 00:34:06,080
+the the
+
+625
+00:34:04,159 --> 00:34:09,280
+uh child components there Okay.
+
+626
+00:34:06,080 --> 00:34:12,159
+Uh so, okay, moving on to the final part
+
+627
+00:34:09,280 --> 00:34:13,760
+of this challenge. I have here a file
+
+628
+00:34:12,159 --> 00:34:17,520
+called
+
+629
+00:34:13,760 --> 00:34:19,839
+uh API and I just mark here two API
+
+630
+00:34:17,520 --> 00:34:23,200
+methods. Uh I have a set timeout, right?
+
+631
+00:34:19,839 --> 00:34:25,839
+They all return two promises. The first
+
+632
+00:34:23,200 --> 00:34:29,040
+one fetch list returns an array of
+
+633
+00:34:25,839 --> 00:34:31,760
+numbers which is an array of ids, right?
+
+634
+00:34:29,040 --> 00:34:34,639
+And the second one is a fetch by ID. I
+
+635
+00:34:31,760 --> 00:34:38,079
+receive the ID as a parameter and I
+
+636
+00:34:34,639 --> 00:34:40,240
+resolve after uh this time out to this
+
+637
+00:34:38,079 --> 00:34:42,079
+database market database here right
+
+638
+00:34:40,240 --> 00:34:43,760
+according to the ID I'm going to return
+
+639
+00:34:42,079 --> 00:34:47,440
+this object
+
+640
+00:34:43,760 --> 00:34:49,760
+uh I want you to uh populate this table
+
+641
+00:34:47,440 --> 00:34:52,879
+with this data right here uh when the
+
+642
+00:34:49,760 --> 00:34:55,760
+user clicks the button here when the
+
+643
+00:34:52,879 --> 00:34:58,079
+clicks load data so when the user clicks
+
+644
+00:34:55,760 --> 00:35:00,320
+the load data I want to set the loading
+
+645
+00:34:58,079 --> 00:35:02,960
+to true and then run the asynchronous
+
+646
+00:35:00,320 --> 00:35:05,839
+calls and again uh set the loading to
+
+647
+00:35:02,960 --> 00:35:08,640
+file again so I can see the data there.
+
+648
+00:35:05,839 --> 00:35:10,240
+Uh what I want you to do to to focus on
+
+649
+00:35:08,640 --> 00:35:12,320
+this challenge, I want to focus on
+
+650
+00:35:10,240 --> 00:35:16,320
+performance here. So I need you to to
+
+651
+00:35:12,320 --> 00:35:19,119
+keep in mind uh anything uh try your
+
+652
+00:35:16,320 --> 00:35:22,160
+best to make the best usage of memory
+
+653
+00:35:19,119 --> 00:35:24,160
+and not triggering any handers and take
+
+654
+00:35:22,160 --> 00:35:26,800
+into consideration the timing of the
+
+655
+00:35:24,160 --> 00:35:30,000
+calls everything like that. I don't have
+
+656
+00:35:26,800 --> 00:35:31,839
+to worry uh naming stuff clean code uh
+
+657
+00:35:30,000 --> 00:35:32,800
+don't worry about that only zone
+
+658
+00:35:31,839 --> 00:35:33,200
+performance here.
+
+659
+00:35:32,800 --> 00:35:36,400
+Okay.
+
+660
+00:35:33,200 --> 00:35:38,320
+Uh so please uh don't speak too fast
+
+661
+00:35:36,400 --> 00:35:40,800
+because you're going to guide me in the
+
+662
+00:35:38,320 --> 00:35:42,640
+implementation here. So uh it's going to
+
+663
+00:35:40,800 --> 00:35:44,320
+you are going to tell me what I'm going
+
+664
+00:35:42,640 --> 00:35:48,960
+to write here so you can test it later.
+
+665
+00:35:44,320 --> 00:35:51,920
+Okay. Okay. Can you scroll up please?
+
+666
+00:35:48,960 --> 00:35:56,800
+The right the right the right part. Not
+
+667
+00:35:51,920 --> 00:35:59,359
+this. Yes. Okay. I need to show the
+
+668
+00:35:56,800 --> 00:36:01,520
+entire list for the first moment when
+
+669
+00:35:59,359 --> 00:36:03,680
+the is loading.
+
+670
+00:36:01,520 --> 00:36:07,040
+Yes, you need to load the all the data
+
+671
+00:36:03,680 --> 00:36:07,839
+there. Uh the 10 entries of the are the
+
+672
+00:36:07,040 --> 00:36:10,160
+today's
+
+673
+00:36:07,839 --> 00:36:13,760
+Okay, I will in this case I will try to
+
+674
+00:36:10,160 --> 00:36:16,760
+it's a promise I would call await fat
+
+675
+00:36:13,760 --> 00:36:16,760
+list.
+
+676
+00:36:26,800 --> 00:36:33,520
+It's showing I need to put a sync in
+
+677
+00:36:29,599 --> 00:36:36,520
+this function. I to be used await.
+
+678
+00:36:33,520 --> 00:36:36,520
+Mhm.
+
+679
+00:36:41,760 --> 00:36:46,960
+Okay.
+
+680
+00:36:44,079 --> 00:36:49,280
+Just a moment. Let me think.
+
+681
+00:36:46,960 --> 00:36:51,599
+Can you try to run the code to see it's
+
+682
+00:36:49,280 --> 00:36:53,920
+working at least the fat list? And no,
+
+683
+00:36:51,599 --> 00:36:58,400
+no, no, no. Try
+
+684
+00:36:53,920 --> 00:37:00,720
+Forget forget one thing. The load data
+
+685
+00:36:58,400 --> 00:37:04,320
+needs to be changed.
+
+686
+00:37:00,720 --> 00:37:06,560
+What can we scroll down please?
+
+687
+00:37:04,320 --> 00:37:08,960
+Uh here or here?
+
+688
+00:37:06,560 --> 00:37:12,000
+Yeah. And and it's okay. It's in the
+
+689
+00:37:08,960 --> 00:37:14,560
+left side. The data I need to change the
+
+690
+00:37:12,000 --> 00:37:17,040
+data here.
+
+691
+00:37:14,560 --> 00:37:20,200
+Fat list.
+
+692
+00:37:17,040 --> 00:37:20,200
+Can you
+
+693
+00:37:28,480 --> 00:37:34,320
+The set data value is fix it use state I
+
+694
+00:37:32,079 --> 00:37:37,520
+need to change it
+
+695
+00:37:34,320 --> 00:37:39,680
+but I don't know if yes I need to I
+
+696
+00:37:37,520 --> 00:37:44,160
+don't know if use fetch list here
+
+697
+00:37:39,680 --> 00:37:47,280
+directly if it will work or not
+
+698
+00:37:44,160 --> 00:37:50,560
+can you write just to see the fatly
+
+699
+00:37:47,280 --> 00:37:53,920
+instead of please comment this Find the
+
+700
+00:37:50,560 --> 00:37:57,440
+await fetch list and put the fat list
+
+701
+00:37:53,920 --> 00:38:01,359
+inside the use state.
+
+702
+00:37:57,440 --> 00:38:04,680
+The fat list call inside the US state.
+
+703
+00:38:01,359 --> 00:38:04,680
+What do you mean?
+
+704
+00:38:04,720 --> 00:38:08,400
+Yes.
+
+705
+00:38:07,040 --> 00:38:12,359
+Like this?
+
+706
+00:38:08,400 --> 00:38:12,359
+Yes, like this.
+
+707
+00:38:13,599 --> 00:38:21,480
+I think there's something
+
+708
+00:38:17,040 --> 00:38:21,480
+there's something wrong. But
+
+709
+00:38:22,160 --> 00:38:26,800
+do you want to run?
+
+710
+00:38:23,520 --> 00:38:27,359
+Yes. Try to run.
+
+711
+00:38:26,800 --> 00:38:28,960
+Okay.
+
+712
+00:38:27,359 --> 00:38:32,440
+But the map is not a function. Okay.
+
+713
+00:38:28,960 --> 00:38:32,440
+There's a river.
+
+714
+00:38:41,440 --> 00:38:48,079
+Can you just try to undo
+
+715
+00:38:45,680 --> 00:38:49,359
+Ctrl Z please?
+
+716
+00:38:48,079 --> 00:38:52,240
+Mhm.
+
+717
+00:38:49,359 --> 00:38:57,119
+Yes, it's okay. It's okay. I need to
+
+718
+00:38:52,240 --> 00:38:59,760
+have the ID and the name but the
+
+719
+00:38:57,119 --> 00:39:03,359
+fat list don't have
+
+720
+00:38:59,760 --> 00:39:07,599
+this. It's console log resolve
+
+721
+00:39:03,359 --> 00:39:11,760
+the resolve IG list. Where is the IG
+
+722
+00:39:07,599 --> 00:39:14,760
+list? H. Oh, it's a method that is
+
+723
+00:39:11,760 --> 00:39:14,760
+printed
+
+724
+00:39:15,599 --> 00:39:20,880
+this list. Okay,
+
+725
+00:39:18,880 --> 00:39:23,200
+it's going to be just this list here.
+
+726
+00:39:20,880 --> 00:39:24,960
+One through 10. It's going to be a
+
+727
+00:39:23,200 --> 00:39:26,880
+number of array, right? But one through
+
+728
+00:39:24,960 --> 00:39:30,160
+10.
+
+729
+00:39:26,880 --> 00:39:33,119
+If I write in this code, I try to to get
+
+730
+00:39:30,160 --> 00:39:36,480
+a console log in this IG list to see if
+
+731
+00:39:33,119 --> 00:39:40,079
+it work properly. Just like the ID and
+
+732
+00:39:36,480 --> 00:39:42,400
+name it's showing
+
+733
+00:39:40,079 --> 00:39:43,760
+uh okay where do you want the log to to
+
+734
+00:39:42,400 --> 00:39:48,320
+be added
+
+735
+00:39:43,760 --> 00:39:49,280
+the in below fetching list of ideas
+
+736
+00:39:48,320 --> 00:39:50,000
+the right side
+
+737
+00:39:49,280 --> 00:39:52,240
+here
+
+738
+00:39:50,000 --> 00:39:55,599
+okay it's it could be here
+
+739
+00:39:52,240 --> 00:39:58,079
+that is already and like here so
+
+740
+00:39:55,599 --> 00:39:58,640
+okay yes I didn't see it this I didn't
+
+741
+00:39:58,079 --> 00:40:01,200
+see this
+
+742
+00:39:58,640 --> 00:40:04,160
+yeah so yeah it's right here
+
+743
+00:40:01,200 --> 00:40:09,440
+okay can you
+
+744
+00:40:04,160 --> 00:40:11,599
+unfold. Please click the yes. Okay.
+
+745
+00:40:09,440 --> 00:40:14,000
+Now the the parameters are different
+
+746
+00:40:11,599 --> 00:40:18,359
+because of that it's giving an error in
+
+747
+00:40:14,000 --> 00:40:18,359
+the map of the data.
+
+748
+00:40:18,880 --> 00:40:25,000
+Can you return to the code please?
+
+749
+00:40:22,000 --> 00:40:25,000
+Mhm.
+
+750
+00:40:26,320 --> 00:40:32,920
+You need to pass two parameters in this
+
+751
+00:40:29,040 --> 00:40:32,920
+case to use state.
+
+752
+00:40:35,040 --> 00:40:39,160
+Just a moment. ID
+
+753
+00:40:47,440 --> 00:40:54,400
+promise fat list.
+
+754
+00:40:50,720 --> 00:40:58,920
+Just try to to run the code again to see
+
+755
+00:40:54,400 --> 00:40:58,920
+the fat fat list. Please
+
+756
+00:40:58,960 --> 00:41:02,440
+working properly.
+
+757
+00:41:04,880 --> 00:41:14,200
+matching list of ids a hand. Okay,
+
+758
+00:41:09,280 --> 00:41:14,200
+please go back to the code
+
+759
+00:41:24,720 --> 00:41:32,560
+the resolve.
+
+760
+00:41:27,280 --> 00:41:32,560
+This resolve keyboard is the ID list.
+
+761
+00:41:36,319 --> 00:41:41,920
+I I give up. I really don't know more
+
+762
+00:41:39,119 --> 00:41:44,000
+than that. I was not understand why the
+
+763
+00:41:41,920 --> 00:41:46,640
+resolve keyword is being used for in
+
+764
+00:41:44,000 --> 00:41:50,000
+this case.
+
+765
+00:41:46,640 --> 00:41:52,000
+Uh sure. So fetch list here is a a
+
+766
+00:41:50,000 --> 00:41:54,880
+promise, right? Is is this the the idea
+
+767
+00:41:52,000 --> 00:41:58,079
+here is to emulate a method a call to
+
+768
+00:41:54,880 --> 00:42:00,000
+the to a real API, you know?
+
+769
+00:41:58,079 --> 00:42:03,839
+So each of these methods are
+
+770
+00:42:00,000 --> 00:42:06,480
+asynchronous and they resolve uh with
+
+771
+00:42:03,839 --> 00:42:08,880
+this value here right uh after this time
+
+772
+00:42:06,480 --> 00:42:11,359
+out runs uh initially. So I set the time
+
+773
+00:42:08,880 --> 00:42:15,839
+out here to send milliseconds to sorry
+
+774
+00:42:11,359 --> 00:42:17,920
+to to 100 milliseconds here. Uh so this
+
+775
+00:42:15,839 --> 00:42:20,560
+is exactly what's going on here. And
+
+776
+00:42:17,920 --> 00:42:24,000
+this second method here receives an ID
+
+777
+00:42:20,560 --> 00:42:27,599
+as a parameter and resolves
+
+778
+00:42:24,000 --> 00:42:30,240
+uh to the entry of this object here
+
+779
+00:42:27,599 --> 00:42:33,359
+according to the ID. So if I run the ID
+
+780
+00:42:30,240 --> 00:42:36,800
+one here uh it's going to return the
+
+781
+00:42:33,359 --> 00:42:38,560
+shoe back name here only. So that's uh
+
+782
+00:42:36,800 --> 00:42:42,240
+what's going on. What we need to do here
+
+783
+00:42:38,560 --> 00:42:45,280
+on this handle is to do all the calls
+
+784
+00:42:42,240 --> 00:42:48,079
+required uh in a good way in a
+
+785
+00:42:45,280 --> 00:42:51,079
+performant way to populate the table
+
+786
+00:42:48,079 --> 00:42:51,079
+here.
+
+787
+00:42:51,680 --> 00:42:56,720
+Is that
+
+788
+00:42:53,520 --> 00:42:59,040
+yeah to to to set the data with uh all
+
+789
+00:42:56,720 --> 00:43:01,920
+the data that we need to to populate the
+
+790
+00:42:59,040 --> 00:43:04,640
+data here. Uh the table receives the
+
+791
+00:43:01,920 --> 00:43:09,680
+data which is an is an array of objects
+
+792
+00:43:04,640 --> 00:43:12,680
+containing ID and name. Right.
+
+793
+00:43:09,680 --> 00:43:12,680
+Okay.
+
+794
+00:43:16,960 --> 00:43:23,920
+This is this example is just the
+
+795
+00:43:21,599 --> 00:43:28,000
+I think you try to pass the data here.
+
+796
+00:43:23,920 --> 00:43:31,520
+It will be or it will be made some
+
+797
+00:43:28,000 --> 00:43:33,839
+shadowing in this case the data that is
+
+798
+00:43:31,520 --> 00:43:36,800
+in the use state. Please try to change
+
+799
+00:43:33,839 --> 00:43:38,319
+it to just data.
+
+800
+00:43:36,800 --> 00:43:41,720
+Yes, it's here.
+
+801
+00:43:38,319 --> 00:43:41,720
+Here. Yes.
+
+802
+00:43:41,760 --> 00:43:45,560
+No, it's not that.
+
+803
+00:43:45,920 --> 00:43:52,880
+I need to pass a meray here
+
+804
+00:43:49,200 --> 00:43:55,880
+that will contain all the
+
+805
+00:43:52,880 --> 00:43:55,880
+promises.
+
+806
+00:44:08,880 --> 00:44:15,560
+Try to pass the data inside brackets in
+
+807
+00:44:11,359 --> 00:44:15,560
+the US state to see.
+
+808
+00:44:19,359 --> 00:44:24,359
+No, it's not that. It's incorrect.
+
+809
+00:44:29,280 --> 00:44:33,240
+Let me see just a moment
+
+810
+00:44:33,920 --> 00:44:37,480
+set by IG.
+
+811
+00:44:39,119 --> 00:44:48,319
+I I really don't know. I give up.
+
+812
+00:44:43,599 --> 00:44:53,839
+Sure. No wor. Uh just to the idea here
+
+813
+00:44:48,319 --> 00:44:55,920
+was to create a function, right? the
+
+814
+00:44:53,839 --> 00:44:59,920
+that could return all the data that we
+
+815
+00:44:55,920 --> 00:45:01,760
+need. So since those are not methods
+
+816
+00:44:59,920 --> 00:45:05,599
+that we need inside the component,
+
+817
+00:45:01,760 --> 00:45:07,520
+right? I should not need to to declare
+
+818
+00:45:05,599 --> 00:45:09,680
+them inside the ender component. So that
+
+819
+00:45:07,520 --> 00:45:13,200
+would be the first thing that I uh would
+
+820
+00:45:09,680 --> 00:45:15,760
+not do here. Uh so we can optimize the
+
+821
+00:45:13,200 --> 00:45:18,400
+render method by not putting so much so
+
+822
+00:45:15,760 --> 00:45:21,040
+much logic into the render function. Uh
+
+823
+00:45:18,400 --> 00:45:23,440
+so right here we would have to uh I
+
+824
+00:45:21,040 --> 00:45:28,240
+don't know first we need to fetch the
+
+825
+00:45:23,440 --> 00:45:30,560
+ids right so uh we need to fetch uh
+
+826
+00:45:28,240 --> 00:45:35,040
+patch list
+
+827
+00:45:30,560 --> 00:45:37,520
+and then we need to fetch every name by
+
+828
+00:45:35,040 --> 00:45:41,839
+the the the ID right
+
+829
+00:45:37,520 --> 00:45:44,400
+we need yeah but we need to use promise
+
+830
+00:45:41,839 --> 00:45:46,480
+all so we can run them all at the same
+
+831
+00:45:44,400 --> 00:45:49,200
+time because if you just uh go like use
+
+832
+00:45:46,480 --> 00:45:51,680
+a for loop for for each here uh the
+
+833
+00:45:49,200 --> 00:45:53,280
+timeouts they are going to be uh lined
+
+834
+00:45:51,680 --> 00:45:54,880
+up right we don't want to queue with
+
+835
+00:45:53,280 --> 00:45:58,640
+those timeouts we want them all running
+
+836
+00:45:54,880 --> 00:46:02,800
+at the same time uh so to
+
+837
+00:45:58,640 --> 00:46:04,560
+all right it's going to
+
+838
+00:46:02,800 --> 00:46:07,680
+result
+
+839
+00:46:04,560 --> 00:46:11,119
+it's going to take an array of promises
+
+840
+00:46:07,680 --> 00:46:17,040
+right so I can just uh use the ids domap
+
+841
+00:46:11,119 --> 00:46:18,800
+here and return a promise here so Yeah.
+
+842
+00:46:17,040 --> 00:46:22,480
+Let me
+
+843
+00:46:18,800 --> 00:46:26,560
+I think this would be the best.
+
+844
+00:46:22,480 --> 00:46:29,680
+No, no, wait a minute. Not this.
+
+845
+00:46:26,560 --> 00:46:32,640
+I'm going to take the ID
+
+846
+00:46:29,680 --> 00:46:37,359
+and I'm going to return
+
+847
+00:46:32,640 --> 00:46:40,240
+a promise here. And I think function
+
+848
+00:46:37,359 --> 00:46:41,920
+uh and here I can await
+
+849
+00:46:40,240 --> 00:46:44,400
+the
+
+850
+00:46:41,920 --> 00:46:46,640
+patch by ID. For instance, fetch list.
+
+851
+00:46:44,400 --> 00:46:50,720
+No, patch by ID.
+
+852
+00:46:46,640 --> 00:46:55,040
+for each ID and con
+
+853
+00:46:50,720 --> 00:46:59,599
+item equals a weight and then I can just
+
+854
+00:46:55,040 --> 00:47:03,599
+return uh both the item and the no sorry
+
+855
+00:46:59,599 --> 00:47:06,240
+the name of the item
+
+856
+00:47:03,599 --> 00:47:10,480
+and the ID.
+
+857
+00:47:06,240 --> 00:47:13,680
+So if I'm not wrong this is okay I need
+
+858
+00:47:10,480 --> 00:47:17,599
+to also put in a weight here.
+
+859
+00:47:13,680 --> 00:47:19,599
+So now I have the name. Oh yeah, item
+
+860
+00:47:17,599 --> 00:47:22,560
+name here.
+
+861
+00:47:19,599 --> 00:47:25,520
+The result that I want and I just return
+
+862
+00:47:22,560 --> 00:47:27,599
+the result here. So on my handle click,
+
+863
+00:47:25,520 --> 00:47:30,599
+I just need to call that function that I
+
+864
+00:47:27,599 --> 00:47:30,599
+created
+
+865
+00:47:32,079 --> 00:47:37,920
+and then I set the data here
+
+866
+00:47:36,000 --> 00:47:40,560
+to
+
+867
+00:47:37,920 --> 00:47:43,560
+that. And let's see what's going wrong
+
+868
+00:47:40,560 --> 00:47:43,560
+here.
+
+869
+00:47:44,640 --> 00:47:49,480
+I'm returning a promise here.
+
+870
+00:47:56,000 --> 00:48:01,119
+Uh okay, that was kind of the idea. I
+
+871
+00:47:58,640 --> 00:48:03,920
+just need to check why is this a promise
+
+872
+00:48:01,119 --> 00:48:06,960
+here. But yeah, uh that was kind of the
+
+873
+00:48:03,920 --> 00:48:09,520
+challenge. I just need to wrap up the
+
+874
+00:48:06,960 --> 00:48:12,160
+all the promises in a promise. here so
+
+875
+00:48:09,520 --> 00:48:15,839
+we can have the best from the timeout of
+
+876
+00:48:12,160 --> 00:48:18,160
+the API itself and also to declare uh
+
+877
+00:48:15,839 --> 00:48:22,079
+this uh kind of function outside of the
+
+878
+00:48:18,160 --> 00:48:24,160
+hander method. Uh so yeah that
+
+879
+00:48:22,079 --> 00:48:27,440
+that concludes uh the interview today.
+
+880
+00:48:24,160 --> 00:48:31,160
+Do you have any questions for me?
+
+881
+00:48:27,440 --> 00:48:31,160
+Let let me see this
+
+882
+00:48:31,680 --> 00:48:35,079
+just a moment
+
+883
+00:48:36,960 --> 00:48:42,280
+about No, I I don't have questions at
+
+884
+00:48:39,119 --> 00:48:42,280
+the moment.
+
+885
+00:48:42,640 --> 00:48:46,319
+Okay, then. All right. So, thank you a
+
+886
+00:48:44,640 --> 00:48:48,319
+lot for your time, Fabio, and I wish you
+
+887
+00:48:46,319 --> 00:48:48,960
+the best of luck on your future
+
+888
+00:48:48,319 --> 00:48:50,559
+interviews.
+
+889
+00:48:48,960 --> 00:48:52,480
+Thanks. It was a pleasure to talk to
+
+890
+00:48:50,559 --> 00:48:54,720
+you, Arur. Thanks for for the
+
+891
+00:48:52,480 --> 00:48:59,119
+opportunity.
+
+892
+00:48:54,720 --> 00:48:59,119
+Thank you. Bye. Bye. Bye-bye.
+
