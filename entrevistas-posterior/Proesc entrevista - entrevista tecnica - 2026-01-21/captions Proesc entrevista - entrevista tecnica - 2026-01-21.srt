@@ -1,0 +1,1652 @@
+1
+00:00:00,160 --> 00:00:04,000
+foi aprendendo muito com isso, só que
+
+2
+00:00:02,399 --> 00:00:07,040
+com o tempo, óbvio, a nível de cala,
+
+3
+00:00:04,000 --> 00:00:08,880
+isso não tinha como eh a gente manter
+
+4
+00:00:07,040 --> 00:00:10,440
+esse fluxo, né? Então a gente foi se
+
+5
+00:00:08,880 --> 00:00:12,559
+especializando. A gente foi criando
+
+6
+00:00:10,440 --> 00:00:17,560
+alguns outros times, times de o time
+
+7
+00:00:12,559 --> 00:00:18,359
+comercial, suporte, delivery, CS, dados,
+
+8
+00:00:17,560 --> 00:00:19,880
+enfim,
+
+9
+00:00:18,359 --> 00:00:21,720
+né? Então
+
+10
+00:00:19,880 --> 00:00:25,119
+hoje hoje hoje o nosso time, acho que a
+
+11
+00:00:21,720 --> 00:00:27,560
+gente tá com mais de 150 pessoas já da
+
+12
+00:00:25,119 --> 00:00:29,160
+da última vez que eu fui ver isso. Isso
+
+13
+00:00:27,560 --> 00:00:31,759
+a nível geral, tá? E não só da parte
+
+14
+00:00:29,160 --> 00:00:35,320
+técnica. a nível de empresa, quanto
+
+15
+00:00:31,759 --> 00:00:37,719
+quanto um todo, eh a gente atende dois
+
+16
+00:00:35,320 --> 00:00:40,320
+grandes segmentos hoje, Fábio, área
+
+17
+00:00:37,719 --> 00:00:43,160
+pública e área particular, né? Área
+
+18
+00:00:40,320 --> 00:00:46,440
+pública a gente atende eh governos e
+
+19
+00:00:43,160 --> 00:00:48,800
+municípios, né? A gente tá em grandes
+
+20
+00:00:46,440 --> 00:00:52,800
+municípios hoje e governos também ali
+
+21
+00:00:48,800 --> 00:00:54,960
+estaduais. Eh, e ali a gente tinha, a
+
+22
+00:00:52,800 --> 00:00:57,480
+gente tem tinha duas grandes verticais,
+
+23
+00:00:54,960 --> 00:00:59,079
+né, de time técnico, me refiro, um para
+
+24
+00:00:57,480 --> 00:01:02,079
+área particular e um paraa área pública,
+
+25
+00:00:59,079 --> 00:01:05,439
+até porque as pessoas são diferentes, o
+
+26
+00:01:02,079 --> 00:01:07,360
+produto é o mesmo, mas as personas são
+
+27
+00:01:05,439 --> 00:01:09,479
+são diferentes, né? Então não tinha como
+
+28
+00:01:07,360 --> 00:01:12,799
+misturar muito. Antigamente a gente
+
+29
+00:01:09,479 --> 00:01:16,080
+tinha um único timão, só que cara era
+
+30
+00:01:12,799 --> 00:01:17,960
+era era eh era uma loucura. mesmo dev
+
+31
+00:01:16,080 --> 00:01:21,079
+que atendia particular, atendia público.
+
+32
+00:01:17,960 --> 00:01:22,880
+Então isso isso dava algumas confusões
+
+33
+00:01:21,079 --> 00:01:24,920
+mentais mesmo ali. De manhã eu vejo
+
+34
+00:01:22,880 --> 00:01:27,400
+financeiro, de tarde eu vejo um
+
+35
+00:01:24,920 --> 00:01:30,320
+pedagógico de um de um ponto de critério
+
+36
+00:01:27,400 --> 00:01:33,360
+avaliativo, tipo, nossa, era o extremo,
+
+37
+00:01:30,320 --> 00:01:35,560
+né? Então é, então isso mais confundia
+
+38
+00:01:33,360 --> 00:01:38,000
+do que ajudava. Claro, por muito tempo
+
+39
+00:01:35,560 --> 00:01:40,040
+isso funcionou, mas conforme a gente foi
+
+40
+00:01:38,000 --> 00:01:41,280
+aumentando o número de clientes, cara,
+
+41
+00:01:40,040 --> 00:01:43,040
+isso foi ficando um pouquinho
+
+42
+00:01:41,280 --> 00:01:45,560
+insustentável. foi quando a gente criou
+
+43
+00:01:43,040 --> 00:01:48,159
+as duas grandes áreas, a área particular
+
+44
+00:01:45,560 --> 00:01:50,159
+e a área pública. Então eu tenha times
+
+45
+00:01:48,159 --> 00:01:52,280
+específicos para essas áreas. Isso
+
+46
+00:01:50,159 --> 00:01:54,560
+também eh tipo ajudou a gente até um
+
+47
+00:01:52,280 --> 00:01:57,119
+certo ponto, mas também depois começou a
+
+48
+00:01:54,560 --> 00:01:59,880
+dar algumas dores de cabeça pra gente.
+
+49
+00:01:57,119 --> 00:02:02,560
+Exemplo, a eh na área pública e
+
+50
+00:01:59,880 --> 00:02:04,560
+particular o módulo pedagógico é o
+
+51
+00:02:02,560 --> 00:02:06,360
+mesmo. A parte ali de nota, lançamento
+
+52
+00:02:04,560 --> 00:02:09,039
+de frequência e tal é o mesmo. Mas mas
+
+53
+00:02:06,360 --> 00:02:11,599
+como eu tinha duas equipes separadas, às
+
+54
+00:02:09,039 --> 00:02:15,120
+vezes essa essas equipes separadas elas
+
+55
+00:02:11,599 --> 00:02:16,560
+mexiam a mesma coisa. Ela ela fazia uma
+
+56
+00:02:15,120 --> 00:02:19,640
+melhoria que era só paraa área
+
+57
+00:02:16,560 --> 00:02:21,599
+particular, mas liberava paraa base toda
+
+58
+00:02:19,640 --> 00:02:24,760
+ou mexia de lá para cá, enfim, né? É,
+
+59
+00:02:21,599 --> 00:02:26,360
+tipo, a gente usa Git e tudo, mas dava
+
+60
+00:02:24,760 --> 00:02:28,400
+ali algumas confusões. Então,
+
+61
+00:02:26,360 --> 00:02:31,480
+recentemente, acho que já vai fazer um
+
+62
+00:02:28,400 --> 00:02:34,920
+mês agora, a gente quebrou mais, a gente
+
+63
+00:02:31,480 --> 00:02:38,239
+quebrou em squads por módulos, exemplo,
+
+64
+00:02:34,920 --> 00:02:41,480
+um módulo de secretaria,
+
+65
+00:02:38,239 --> 00:02:43,120
+pedagógico, financeiro, mobile, que é
+
+66
+00:02:41,480 --> 00:02:45,840
+essa oportunidade que a gente veio
+
+67
+00:02:43,120 --> 00:02:49,120
+conversar com você hoje. Expansão em
+
+68
+00:02:45,840 --> 00:02:51,760
+produto de dados, ao se squad é recente,
+
+69
+00:02:49,120 --> 00:02:53,680
+né? Então a gente ainda tá sentindo os
+
+70
+00:02:51,760 --> 00:02:56,440
+impactos, tanto positivo quanto
+
+71
+00:02:53,680 --> 00:02:58,319
+negativo, né? Cada mudança ali a gente
+
+72
+00:02:56,440 --> 00:03:00,920
+vai tendo alguns pontos também a gente
+
+73
+00:02:58,319 --> 00:03:04,640
+vai precisar ir ajustando conforme esse
+
+74
+00:03:00,920 --> 00:03:06,080
+processo for eh evoluindo.
+
+75
+00:03:04,640 --> 00:03:08,200
+Eh, deixa eu ver se tinha mais algum
+
+76
+00:03:06,080 --> 00:03:10,239
+ponto. Acho que o macro é isso. Hoje a
+
+77
+00:03:08,200 --> 00:03:12,040
+gente veio bater esse papo que conhecer
+
+78
+00:03:10,239 --> 00:03:14,080
+um pouquinho e vice-versa, tá? Caso você
+
+79
+00:03:12,040 --> 00:03:16,280
+tenha alguma dúvida, pode questionar a
+
+80
+00:03:14,080 --> 00:03:18,560
+gente que a gente vai a gente vai tentar
+
+81
+00:03:16,280 --> 00:03:20,159
+ser o mais transparente possível com
+
+82
+00:03:18,560 --> 00:03:23,280
+você, tá? Mas aí eu queria te escutar um
+
+83
+00:03:20,159 --> 00:03:25,640
+pouquinho a nível de experiência, como é
+
+84
+00:03:23,280 --> 00:03:29,000
+que tá hoje o teu dia a dia, como é que
+
+85
+00:03:25,640 --> 00:03:31,120
+tu vê eh os próximos anos a nível
+
+86
+00:03:29,000 --> 00:03:32,640
+profissional, aonde que que tipo você
+
+87
+00:03:31,120 --> 00:03:35,720
+quer evoluir, aonde que você quer
+
+88
+00:03:32,640 --> 00:03:38,040
+investir, tá? E só ver também se o
+
+89
+00:03:35,720 --> 00:03:39,439
+Murilo quer repassar um ponto aqui
+
+90
+00:03:38,040 --> 00:03:41,920
+também, tá? Que ali a gente pode iniciar
+
+91
+00:03:39,439 --> 00:03:44,799
+aqui com você, tá? Tá bom.
+
+92
+00:03:41,920 --> 00:03:49,239
+Opa, opa, Fábio, tudo bom? Sou o Murilo,
+
+93
+00:03:44,799 --> 00:03:50,519
+eh, sou desolvedor mobo aqui na PRESC e
+
+94
+00:03:49,239 --> 00:03:51,879
+só escutar mesmo o que que ele tem a
+
+95
+00:03:50,519 --> 00:03:52,879
+dizer e depois eu vou entro com as
+
+96
+00:03:51,879 --> 00:03:54,560
+perguntinhas aí.
+
+97
+00:03:52,879 --> 00:03:56,799
+Perfeito.
+
+98
+00:03:54,560 --> 00:03:59,760
+Pode ir lá, Fábio. Então, fofoca um
+
+99
+00:03:56,799 --> 00:04:01,120
+pouco aí da a tua história, a tua
+
+100
+00:03:59,760 --> 00:04:02,400
+jornada.
+
+101
+00:04:01,120 --> 00:04:04,079
+Conta um pouquinho pra gente.
+
+102
+00:04:02,400 --> 00:04:06,439
+Vou dar uma resumida aqui, então, para
+
+103
+00:04:04,079 --> 00:04:09,079
+não ficar muito massante. Eu comecei em
+
+104
+00:04:06,439 --> 00:04:12,640
+2010 como desenvolvedor full stack,
+
+105
+00:04:09,079 --> 00:04:14,439
+trabalhei com Java, PHP e JavaScript.
+
+106
+00:04:12,640 --> 00:04:16,680
+Inicialmente, dois anos depois eu mudei
+
+107
+00:04:14,439 --> 00:04:19,320
+de empresa, continuei trabalhando com
+
+108
+00:04:16,680 --> 00:04:22,520
+PHP, aí eu comecei a trabalhar com PHP e
+
+109
+00:04:19,320 --> 00:04:25,800
+Laravel também, JavaScript, JPL também.
+
+110
+00:04:22,520 --> 00:04:27,560
+Em 2018 eu comecei a trabalhar com React
+
+111
+00:04:25,800 --> 00:04:30,000
+Native, eh, com mobile, né,
+
+112
+00:04:27,560 --> 00:04:33,039
+profissionalmente. Aí trabalhei até
+
+113
+00:04:30,000 --> 00:04:34,680
+2020. 2020 eu mudei de empresa de novo,
+
+114
+00:04:33,039 --> 00:04:37,080
+que é tô trabalhando na Stefanin, que é
+
+115
+00:04:34,680 --> 00:04:38,600
+a empresa que eu trabalho hoje. Aí eu
+
+116
+00:04:37,080 --> 00:04:41,680
+trabalho, eu comecei trabalhando na
+
+117
+00:04:38,600 --> 00:04:43,680
+empresa como desenvolvedor iOS nativo.
+
+118
+00:04:41,680 --> 00:04:44,880
+Aí logo no, logo um mês depois mais ou
+
+119
+00:04:43,680 --> 00:04:46,280
+menos também eu já comecei a ajudar o
+
+120
+00:04:44,880 --> 00:04:48,360
+pessoal com a parte do Android também
+
+121
+00:04:46,280 --> 00:04:50,120
+que eu também conhecia e fiquei mais ou
+
+122
+00:04:48,360 --> 00:04:52,960
+menos uns dois anos trabalhando só com o
+
+123
+00:04:50,120 --> 00:04:55,199
+nativo. Aí depois disso a gente voltou a
+
+124
+00:04:52,960 --> 00:04:56,440
+trabal voltou não, né? Eu voltei, né? Na
+
+125
+00:04:55,199 --> 00:04:57,759
+verdade que a empresa não tinha mexido
+
+126
+00:04:56,440 --> 00:05:00,039
+isso ainda com trabalhar com React
+
+127
+00:04:57,759 --> 00:05:03,600
+Native, que eles começaram a migrar os
+
+128
+00:05:00,039 --> 00:05:05,080
+aplicativos nativos para React Native,
+
+129
+00:05:03,600 --> 00:05:07,080
+para aí ter uma base de código só,
+
+130
+00:05:05,080 --> 00:05:08,680
+porque o aplicativo, por exemplo, um que
+
+131
+00:05:07,080 --> 00:05:10,639
+é o principal aqui que chama resenha de
+
+132
+00:05:08,680 --> 00:05:13,639
+EDAV, que é um aplicativo voltado pros
+
+133
+00:05:10,639 --> 00:05:16,759
+veterinários, eh, coletar informações de
+
+134
+00:05:13,639 --> 00:05:18,479
+cavalos em campo, ele tinha algumas
+
+135
+00:05:16,759 --> 00:05:21,360
+diferenças do aplicativo do Android pro
+
+136
+00:05:18,479 --> 00:05:23,400
+iOS, porque o iOS eu fiz e o Android foi
+
+137
+00:05:21,360 --> 00:05:25,199
+feito por outra pessoa e o Android
+
+138
+00:05:23,400 --> 00:05:27,080
+estava dando muitos problemas.
+
+139
+00:05:25,199 --> 00:05:30,319
+E o tava mais estável assim. Aí o que
+
+140
+00:05:27,080 --> 00:05:32,520
+que foi unificar isso, base, pegar a
+
+141
+00:05:30,319 --> 00:05:36,199
+versão do iOS que tá mais estável em
+
+142
+00:05:32,520 --> 00:05:37,800
+cima dela, refazer para React native e
+
+143
+00:05:36,199 --> 00:05:40,199
+deixar a versão estável pros dois
+
+144
+00:05:37,800 --> 00:05:41,800
+sistemas. Assim, aí tem muitos alguns
+
+145
+00:05:40,199 --> 00:05:43,840
+aplicativos que a gente tá migrando e
+
+146
+00:05:41,800 --> 00:05:45,600
+alguns já estão nascendo como React
+
+147
+00:05:43,840 --> 00:05:47,240
+Native. E assim, eu tô trabalhando na
+
+148
+00:05:45,600 --> 00:05:50,400
+empresa até hoje dessa forma, né? também
+
+149
+00:05:47,240 --> 00:05:51,919
+fácil. Tento usar alguns padrões de
+
+150
+00:05:50,400 --> 00:05:55,360
+padrões de arquitetura aqui também, como
+
+151
+00:05:51,919 --> 00:05:57,800
+MVVM, MVP, que eu eu usei no aplicativo
+
+152
+00:05:55,360 --> 00:05:59,319
+iOS. Deixa eu ver o que mais. Questão de
+
+153
+00:05:57,800 --> 00:06:00,840
+testes unitários também, quando a gente
+
+154
+00:05:59,319 --> 00:06:02,479
+não tem uma deadline muito apertada
+
+155
+00:06:00,840 --> 00:06:04,759
+também, eu tento fazer sempre teste de
+
+156
+00:06:02,479 --> 00:06:07,960
+unit integração.
+
+157
+00:06:04,759 --> 00:06:13,039
+E é isso.
+
+158
+00:06:07,960 --> 00:06:14,800
+Top. Bom, então, eh, enquanto a esses
+
+159
+00:06:13,039 --> 00:06:16,680
+aplicativos que você produz aí, que você
+
+160
+00:06:14,800 --> 00:06:18,800
+participa aí, você já participou de
+
+161
+00:06:16,680 --> 00:06:22,759
+algum aplicativo que ele tem white label
+
+162
+00:06:18,800 --> 00:06:23,520
+ali que tem multitet, eh, algo do tipo
+
+163
+00:06:22,759 --> 00:06:25,400
+assim?
+
+164
+00:06:23,520 --> 00:06:27,800
+Sim, eu já fiz um aplicativo late label
+
+165
+00:06:25,400 --> 00:06:29,960
+que já não, ele não foi feito, na
+
+166
+00:06:27,800 --> 00:06:32,199
+verdade, nem era a versão do React
+
+167
+00:06:29,960 --> 00:06:34,680
+Native, era uma versão pro iOS em iOS
+
+168
+00:06:32,199 --> 00:06:37,599
+não, Android. Era a versão do Android
+
+169
+00:06:34,680 --> 00:06:39,280
+que eu fiz, mas é, já trabalhei com
+
+170
+00:06:37,599 --> 00:06:43,160
+white label já.
+
+171
+00:06:39,280 --> 00:06:47,360
+Show. E esses aplicativos do com React,
+
+172
+00:06:43,160 --> 00:06:50,120
+você geralmente utiliza o React CLI ou o
+
+173
+00:06:47,360 --> 00:06:53,080
+próprio Expo ali? O Cli, eu tentei usar,
+
+174
+00:06:50,120 --> 00:06:56,199
+usei o uma vez assim, funcionou e tal,
+
+175
+00:06:53,080 --> 00:06:57,800
+mas eu acabo preferindo usar o se
+
+176
+00:06:56,199 --> 00:06:59,319
+questão de fazer o build direto ali, que
+
+177
+00:06:57,800 --> 00:07:01,599
+eu lembro que uma vez eu muito tempo
+
+178
+00:06:59,319 --> 00:07:03,000
+atrás eu cheguei a usar o Expo e quando
+
+179
+00:07:01,599 --> 00:07:06,440
+tava desenvolvendo funcionava bem, mas
+
+180
+00:07:03,000 --> 00:07:08,879
+na hora de gerar o buildas
+
+181
+00:07:06,440 --> 00:07:10,479
+aí um pouco de aversão pro Expo por
+
+182
+00:07:08,879 --> 00:07:11,919
+causa disso. Aí eu prefiro mais usar o
+
+183
+00:07:10,479 --> 00:07:13,560
+CI mesmo.
+
+184
+00:07:11,919 --> 00:07:14,560
+Entendi. Antigamente tinha muito desses
+
+185
+00:07:13,560 --> 00:07:18,479
+problemas mesmo. Acho que hoje em dia
+
+186
+00:07:14,560 --> 00:07:20,039
+ele já matou a maioria deles assim. É,
+
+187
+00:07:18,479 --> 00:07:20,720
+eu não uso, chegou a
+
+188
+00:07:20,039 --> 00:07:22,160
+Oi,
+
+189
+00:07:20,720 --> 00:07:24,800
+já tem um tempo já que eu não uso o
+
+190
+00:07:22,160 --> 00:07:26,960
+Expo, então já não sei falar sobre isso.
+
+191
+00:07:24,800 --> 00:07:29,360
+Show, show. Experiência com com as lojas
+
+192
+00:07:26,960 --> 00:07:31,919
+da Google, eh, pro Store você
+
+193
+00:07:29,360 --> 00:07:33,639
+Sim, trabalho, eu publico os aplicativos
+
+194
+00:07:31,919 --> 00:07:36,560
+aqui na empresa.
+
+195
+00:07:33,639 --> 00:07:38,919
+Show. Eh,
+
+196
+00:07:36,560 --> 00:07:41,720
+você falou que sobre padrões eh padrões
+
+197
+00:07:38,919 --> 00:07:45,759
+de projeto de arquitetura, eh, você
+
+198
+00:07:41,720 --> 00:07:47,479
+consegue utilizar o a o MBVM ali no no
+
+199
+00:07:45,759 --> 00:07:49,199
+próprio React Native ou você utiliza
+
+200
+00:07:47,479 --> 00:07:51,199
+geralmente outro?
+
+201
+00:07:49,199 --> 00:07:53,120
+Até que um no eu não tento seguir muito
+
+202
+00:07:51,199 --> 00:07:54,520
+MVVM no React Native, não. Eu faço isso
+
+203
+00:07:53,120 --> 00:07:54,919
+mais no Android.
+
+204
+00:07:54,520 --> 00:07:59,199
+Sim, sim.
+
+205
+00:07:54,919 --> 00:08:01,000
+No caso do eu uso MVP. No caso, no React
+
+206
+00:07:59,199 --> 00:08:03,560
+Nate, eu tento separar mais por features
+
+207
+00:08:01,000 --> 00:08:05,039
+usando o gerenciamento de estado.
+
+208
+00:08:03,560 --> 00:08:07,400
+Geralmente eu usava antigamente com
+
+209
+00:08:05,039 --> 00:08:09,159
+redux, hoje eu tô usando mais os stand.
+
+210
+00:08:07,400 --> 00:08:10,879
+Aí eu tenho separado features que fica
+
+211
+00:08:09,159 --> 00:08:13,599
+um pouco mais organizado. Em vez de
+
+212
+00:08:10,879 --> 00:08:16,159
+separar pro slido, você acaba virando
+
+213
+00:08:13,599 --> 00:08:18,280
+uma pasta com milhão de arquivos. Aí
+
+214
+00:08:16,159 --> 00:08:21,720
+fica muito bagunçado.
+
+215
+00:08:18,280 --> 00:08:26,120
+Perfeito. Eh,
+
+216
+00:08:21,720 --> 00:08:27,759
+bom, eh, quanto a a questão de de
+
+217
+00:08:26,120 --> 00:08:28,599
+notificações, você já chegou a mexer
+
+218
+00:08:27,759 --> 00:08:30,400
+também?
+
+219
+00:08:28,599 --> 00:08:32,399
+Já na empresa anterior cheguei a mexer
+
+220
+00:08:30,400 --> 00:08:34,560
+com notificações. Já na época até usava
+
+221
+00:08:32,399 --> 00:08:36,640
+o One Signal e até tem uns projetos
+
+222
+00:08:34,560 --> 00:08:38,120
+pessoais também que eu uso notificação,
+
+223
+00:08:36,640 --> 00:08:39,680
+mas aí eu já usei, comecei a usar o
+
+224
+00:08:38,120 --> 00:08:44,760
+Firebase.
+
+225
+00:08:39,680 --> 00:08:47,000
+Hum, show. Da hora também. Eh,
+
+226
+00:08:44,760 --> 00:08:50,200
+cara, eu acho que daqui não é mais essas
+
+227
+00:08:47,000 --> 00:08:52,440
+questões mesmo. Tá bem, tá bem claro.
+
+228
+00:08:50,200 --> 00:08:54,640
+É, eu tenho algumas aqui, Fábio. Se
+
+229
+00:08:52,440 --> 00:08:58,000
+nessa tua estrutura, como é que era um
+
+230
+00:08:54,640 --> 00:09:02,000
+pouquinho esses squads, tinha Tech?
+
+231
+00:08:58,000 --> 00:09:05,279
+tinha PM, tinha alguém de K, tinha o ex,
+
+232
+00:09:02,000 --> 00:09:06,720
+como era composto um pouquinho eh tipo
+
+233
+00:09:05,279 --> 00:09:08,399
+esses times ali conforme a sua
+
+234
+00:09:06,720 --> 00:09:09,320
+experiência que que tipo você veio
+
+235
+00:09:08,399 --> 00:09:11,959
+tendo.
+
+236
+00:09:09,320 --> 00:09:13,839
+Se a gente tinha um PM, um PO
+
+237
+00:09:11,959 --> 00:09:15,920
+antigamente, quando eu entrei na empresa
+
+238
+00:09:13,839 --> 00:09:18,120
+tinha, mas por volta de uns dois anos
+
+239
+00:09:15,920 --> 00:09:20,320
+para cá agora mudou. A gente não tem
+
+240
+00:09:18,120 --> 00:09:22,680
+mais o PM, o PO e tem só um gerente, só
+
+241
+00:09:20,320 --> 00:09:24,880
+tem um QA na empresa. Assim, a equipe
+
+242
+00:09:22,680 --> 00:09:26,680
+agora fixa é eu e mais dois
+
+243
+00:09:24,880 --> 00:09:28,360
+desenvolvedores.
+
+244
+00:09:26,680 --> 00:09:30,279
+Nós estamos trabalhando frix no projeto.
+
+245
+00:09:28,360 --> 00:09:32,519
+Tem um QA que atende a gente e um back
+
+246
+00:09:30,279 --> 00:09:34,160
+end, mas eles não são fixos da nossa
+
+247
+00:09:32,519 --> 00:09:34,880
+equipe. A gente aciona eles quando a
+
+248
+00:09:34,160 --> 00:09:37,040
+gente precisa.
+
+249
+00:09:34,880 --> 00:09:40,480
+Ah, entendi. É tipo um terceirizado ali,
+
+250
+00:09:37,040 --> 00:09:43,040
+né, Fábio, acredito, né? É isso. A gente
+
+251
+00:09:40,480 --> 00:09:45,920
+aciona eles quando é necessário.
+
+252
+00:09:43,040 --> 00:09:49,320
+Aíos mesmos na empresa é o gerente, né,
+
+253
+00:09:45,920 --> 00:09:51,040
+que faz o papel do PMPU e nós três no
+
+254
+00:09:49,320 --> 00:09:55,079
+desenvolvimento mobile e mais dois que a
+
+255
+00:09:51,040 --> 00:09:58,079
+gente contata espontaneamente.
+
+256
+00:09:55,079 --> 00:10:00,640
+Entendi. Tá. Eh, tu falou um pouquinho
+
+257
+00:09:58,079 --> 00:10:03,440
+ali dessa parte de teste automatizado,
+
+258
+00:10:00,640 --> 00:10:06,640
+assim, o que que tu usa? É um é um teste
+
+259
+00:10:03,440 --> 00:10:07,959
+unitário no backend, é um Cypress ali? E
+
+260
+00:10:06,640 --> 00:10:09,120
+o que, como é que é um pouquinho nessa
+
+261
+00:10:07,959 --> 00:10:09,440
+tua estrutura de teste automatizado
+
+262
+00:10:09,120 --> 00:10:11,040
+hoje?
+
+263
+00:10:09,440 --> 00:10:14,640
+Realmente teste automatizado eu sempre
+
+264
+00:10:11,040 --> 00:10:16,279
+uso GEST mesmo, já é bem padrão. Questão
+
+265
+00:10:14,640 --> 00:10:18,920
+de teste de integração, costumo usar o
+
+266
+00:10:16,279 --> 00:10:20,600
+React Native Librar de Testing, tanto
+
+267
+00:10:18,920 --> 00:10:22,320
+também para fazer os test end to end
+
+268
+00:10:20,600 --> 00:10:24,320
+também, mas ess test end to end eu parei
+
+269
+00:10:22,320 --> 00:10:27,480
+de fazer porque consome tempo demais e
+
+270
+00:10:24,320 --> 00:10:27,480
+uma mudança
+
+271
+00:10:28,040 --> 00:10:34,600
+sim. Aí sim, boa.
+
+272
+00:10:31,560 --> 00:10:36,760
+É, hoje essa essa oportunidade aqui que
+
+273
+00:10:34,600 --> 00:10:39,839
+a gente tem, Fábio, é para um
+
+274
+00:10:36,760 --> 00:10:43,040
+desenvolvedor fustec, né? Então a gente
+
+275
+00:10:39,839 --> 00:10:45,560
+não tá com vaga hoje só para back ou só
+
+276
+00:10:43,040 --> 00:10:47,200
+paraa fronte, né? Hoje a gente hoje
+
+277
+00:10:45,560 --> 00:10:50,120
+grande parte do nosso time ele é
+
+278
+00:10:47,200 --> 00:10:53,480
+especialista em como fustecch, né? Então
+
+279
+00:10:50,120 --> 00:10:55,639
+hoje ali no nosso backend ali do nosso o
+
+280
+00:10:53,480 --> 00:10:58,320
+nosso sistema legado, a gente usa o
+
+281
+00:10:55,639 --> 00:11:00,399
+framework do Laravel, né? Eh, o,
+
+282
+00:10:58,320 --> 00:11:00,959
+eu usei ele bastante tempo na empresa
+
+283
+00:11:00,399 --> 00:11:03,480
+anterior.
+
+284
+00:11:00,959 --> 00:11:05,079
+Usou, tipo, qual, qual, qual era a
+
+285
+00:11:03,480 --> 00:11:07,680
+versão assim que tu usava na época?
+
+286
+00:11:05,079 --> 00:11:08,360
+Na época a versão seis, se eu não me
+
+287
+00:11:07,680 --> 00:11:11,440
+engano.
+
+288
+00:11:08,360 --> 00:11:13,160
+Boa, não boa. É ali no meio termo, né,
+
+289
+00:11:11,440 --> 00:11:13,880
+que a gente já tá na 12 hoje, né, o
+
+290
+00:11:13,160 --> 00:11:15,959
+Lara, então
+
+291
+00:11:13,880 --> 00:11:19,079
+é, tá bem antigo.
+
+292
+00:11:15,959 --> 00:11:21,120
+É, mas não vou falar que é bem antigo,
+
+293
+00:11:19,079 --> 00:11:24,120
+porque tipo o nosso legal, eu tô na
+
+294
+00:11:21,120 --> 00:11:24,959
+quatro, então não vou te julgar.
+
+295
+00:11:24,120 --> 00:11:26,440
+Entendi.
+
+296
+00:11:24,959 --> 00:11:28,800
+A gente tá fazendo agora recente uma
+
+297
+00:11:26,440 --> 00:11:30,680
+migração, já acho que tá indo para oito,
+
+298
+00:11:28,800 --> 00:11:33,360
+lá no meu
+
+299
+00:11:30,680 --> 00:11:35,880
+Mas, mas é isso mesmo. Eh, deixa eu ver
+
+300
+00:11:33,360 --> 00:11:38,880
+se eu tinha mais algum ponto. Métodos
+
+301
+00:11:35,880 --> 00:11:38,880
+áp,
+
+302
+00:11:39,519 --> 00:11:44,639
+tipo, trabalho no dia a dia, sprint,
+
+303
+00:11:42,200 --> 00:11:45,880
+review, como é que é um pouquinho?
+
+304
+00:11:44,639 --> 00:11:47,680
+É igual mencionei, a questão
+
+305
+00:11:45,880 --> 00:11:49,920
+anteriormente na equipe começou a gente
+
+306
+00:11:47,680 --> 00:11:51,360
+usava metodologia scrun, mas agora de
+
+307
+00:11:49,920 --> 00:11:53,800
+uns dois anos atrás a gente passou a
+
+308
+00:11:51,360 --> 00:11:55,320
+usar o camb. É.
+
+309
+00:11:53,800 --> 00:11:56,360
+mudou. A gente passou a usar camban
+
+310
+00:11:55,320 --> 00:12:00,480
+agora.
+
+311
+00:11:56,360 --> 00:12:02,320
+Uhum. Aí, aí vocês usam sprint ali como
+
+312
+00:12:00,480 --> 00:12:05,000
+que é um pouquinho essa cerimônia sprint
+
+313
+00:12:02,320 --> 00:12:07,160
+daily acabou. Agora a gente tem só uma
+
+314
+00:12:05,000 --> 00:12:09,240
+uma reunião semanal só para poder fazer
+
+315
+00:12:07,160 --> 00:12:11,920
+os ajustes mesmo que a equipe de
+
+316
+00:12:09,240 --> 00:12:13,399
+Entendi, entendi, entendi, entendi. Não,
+
+317
+00:12:11,920 --> 00:12:17,240
+beleza.
+
+318
+00:12:13,399 --> 00:12:19,680
+Eh, Fábio, como os pontos do Murilo ele
+
+319
+00:12:17,240 --> 00:12:23,519
+já tirou, os dos meus eram mais esses?
+
+320
+00:12:19,680 --> 00:12:25,360
+Rica aberto aqui, caso você tenha alguma
+
+321
+00:12:23,519 --> 00:12:26,639
+dúvida, uma pergunta, pode nos
+
+322
+00:12:25,360 --> 00:12:28,320
+questionar à vontade, tá? Que a gente
+
+323
+00:12:26,639 --> 00:12:29,800
+vai tentar ser o máximo transparente
+
+324
+00:12:28,320 --> 00:12:31,800
+possível aqui com você, tá?
+
+325
+00:12:29,800 --> 00:12:33,399
+Uhum. Tá. sobre a questão do sistema
+
+326
+00:12:31,800 --> 00:12:35,240
+agora, tanto da parte do, mas
+
+327
+00:12:33,399 --> 00:12:37,040
+primeiramente da parte do back end, o
+
+328
+00:12:35,240 --> 00:12:38,880
+que que tá sendo feito agora na parte do
+
+329
+00:12:37,040 --> 00:12:40,839
+back end, que caso eu fosse contratado
+
+330
+00:12:38,880 --> 00:12:43,680
+eu precisaria fazer.
+
+331
+00:12:40,839 --> 00:12:47,079
+Tu quer falar um pouco, Morilo?
+
+332
+00:12:43,680 --> 00:12:49,240
+Bom, eh, na parte do backend do mobol
+
+333
+00:12:47,079 --> 00:12:50,720
+ali, eh, hoje em dia, às vezes a gente
+
+334
+00:12:49,240 --> 00:12:53,040
+precisa fazer algumas alterações,
+
+335
+00:12:50,720 --> 00:12:55,279
+algumas algumas integrações com do
+
+336
+00:12:53,040 --> 00:12:57,600
+aplicativo, né? O aplicativo à precisa
+
+337
+00:12:55,279 --> 00:13:00,720
+de alguma de alguma rota. Então, como a
+
+338
+00:12:57,600 --> 00:13:03,199
+gente tá por squad hoje, eh, a gente
+
+339
+00:13:00,720 --> 00:13:07,639
+acaba precisando fazer essas essas rotas
+
+340
+00:13:03,199 --> 00:13:09,240
+ali ou então alguma integração e é mais
+
+341
+00:13:07,639 --> 00:13:10,920
+a questão de manutenção mesmo. E quando
+
+342
+00:13:09,240 --> 00:13:13,199
+for implementar, a gente agora tá
+
+343
+00:13:10,920 --> 00:13:16,040
+tentando seguir um um um padrão mais
+
+344
+00:13:13,199 --> 00:13:18,240
+adequado agora, né, de eh de controler,
+
+345
+00:13:16,040 --> 00:13:20,639
+service, eh, controller, service,
+
+346
+00:13:18,240 --> 00:13:22,000
+repositor. Então, eh a gente tá tentando
+
+347
+00:13:20,639 --> 00:13:24,920
+deixar essa casa mais limpa ali pros
+
+348
+00:13:22,000 --> 00:13:26,560
+aplicativos. Então, geralmente é é mais
+
+349
+00:13:24,920 --> 00:13:28,760
+essas manutenção e implementação de
+
+350
+00:13:26,560 --> 00:13:31,680
+novas funcionalidades mesmo.
+
+351
+00:13:28,760 --> 00:13:33,600
+Entendi. E na parte do mobile, o que que
+
+352
+00:13:31,680 --> 00:13:35,959
+tá sendo feito no momento agora que eu
+
+353
+00:13:33,600 --> 00:13:38,760
+precisaria interagir?
+
+354
+00:13:35,959 --> 00:13:40,440
+Bom, na parte do mobile agora, a gente
+
+355
+00:13:38,760 --> 00:13:42,959
+tá tá até uma frente agora que a gente
+
+356
+00:13:40,440 --> 00:13:44,639
+tá focando no em alguns testes, né? A
+
+357
+00:13:42,959 --> 00:13:48,079
+gente tá até estruturando esses testes
+
+358
+00:13:44,639 --> 00:13:49,480
+de que a gente não tava
+
+359
+00:13:48,079 --> 00:13:50,399
+fazendo tantos testes, né? quando a
+
+360
+00:13:49,480 --> 00:13:52,639
+gente implementava as novas
+
+361
+00:13:50,399 --> 00:13:54,560
+funcionalidades, algumas manutenções.
+
+362
+00:13:52,639 --> 00:13:56,639
+Então, a gente tá pegando a frente de
+
+363
+00:13:54,560 --> 00:13:59,920
+implementar alguns de implementar testes
+
+364
+00:13:56,639 --> 00:14:01,759
+unitários eh de integração e oit envio
+
+365
+00:13:59,920 --> 00:14:04,199
+ali, porque
+
+366
+00:14:01,759 --> 00:14:06,560
+a gente quer aproveitar e essa questão
+
+367
+00:14:04,199 --> 00:14:08,000
+de doit envando, principalmente quando a
+
+368
+00:14:06,560 --> 00:14:11,000
+gente for gerar um build, né? A gente
+
+369
+00:14:08,000 --> 00:14:13,959
+trabalha com Expo, então a o nosso build
+
+370
+00:14:11,000 --> 00:14:17,240
+é feito pela plataforma de build que é a
+
+371
+00:14:13,959 --> 00:14:19,360
+EAS da própria Expo, né? E lá ele já tem
+
+372
+00:14:17,240 --> 00:14:22,600
+uma integração com maestro, que é uma
+
+373
+00:14:19,360 --> 00:14:26,480
+ferramenta de testes automatizados, né?
+
+374
+00:14:22,600 --> 00:14:28,639
+Então, eh, a intenção é a gente, eh,
+
+375
+00:14:26,480 --> 00:14:30,680
+fazer com que esses testes cubra todo o
+
+376
+00:14:28,639 --> 00:14:32,720
+aplicativo ali, né? E para quando a
+
+377
+00:14:30,680 --> 00:14:33,959
+gente for gerar uma versão, ele já fazer
+
+378
+00:14:32,720 --> 00:14:35,160
+todos esses testes ali de fuma,
+
+379
+00:14:33,959 --> 00:14:37,720
+principalmente os testes de fumaça
+
+380
+00:14:35,160 --> 00:14:40,600
+inicialmente, né, para para dar um um
+
+381
+00:14:37,720 --> 00:14:42,199
+uma verificada ali se tá tudo OK. E caso
+
+382
+00:14:40,600 --> 00:14:45,320
+tiver tudo OK, ele gera versão, né?
+
+383
+00:14:42,199 --> 00:14:46,839
+Então hoje hoje a gente tá focando nessa
+
+384
+00:14:45,320 --> 00:14:49,560
+parte de teste,
+
+385
+00:14:46,839 --> 00:14:51,079
+fazer tipo um pipeline de CD.
+
+386
+00:14:49,560 --> 00:14:52,839
+Isso, justamente.
+
+387
+00:14:51,079 --> 00:14:55,199
+Entendi. Entendi. Não tem mais
+
+388
+00:14:52,839 --> 00:14:57,600
+perguntas, né? Só isso mesmo.
+
+389
+00:14:55,199 --> 00:15:00,079
+Boa. Aí até para ser bem transparente
+
+390
+00:14:57,600 --> 00:15:01,440
+contigo, Fábio, eh no dia de hoje a
+
+391
+00:15:00,079 --> 00:15:03,279
+gente estava entrevistando outras
+
+392
+00:15:01,440 --> 00:15:05,720
+pessoas, tá? Essa aqui é é a última
+
+393
+00:15:03,279 --> 00:15:07,680
+etapa, tá? Então agora eu vou me reunir
+
+394
+00:15:05,720 --> 00:15:10,279
+depois com Murilo pra gente estar
+
+395
+00:15:07,680 --> 00:15:12,800
+fazendo uma análise ali do dia do o dia
+
+396
+00:15:10,279 --> 00:15:15,839
+de hoje e provavelmente até essa
+
+397
+00:15:12,800 --> 00:15:18,120
+sexta-feira agora a Marina ali do time
+
+398
+00:15:15,839 --> 00:15:20,279
+de gestão de pessoas ela deve entrar ela
+
+399
+00:15:18,120 --> 00:15:23,360
+deve entrar em contato com você para dar
+
+400
+00:15:20,279 --> 00:15:24,440
+um feedback final ou positivo ou
+
+401
+00:15:23,360 --> 00:15:25,040
+negativo, tá?
+
+402
+00:15:24,440 --> 00:15:27,160
+Entendi.
+
+403
+00:15:25,040 --> 00:15:29,160
+Mas agradeço aqui esse tempinho que você
+
+404
+00:15:27,160 --> 00:15:32,839
+disponibilizou para est batendo esse
+
+405
+00:15:29,160 --> 00:15:35,240
+papo aqui com a gente. E aí eh, até essa
+
+406
+00:15:32,839 --> 00:15:36,600
+semana, né? Até o final dessa semana, a
+
+407
+00:15:35,240 --> 00:15:37,959
+Marina deve entrar em contato com você
+
+408
+00:15:36,600 --> 00:15:39,920
+também. Tá
+
+409
+00:15:37,959 --> 00:15:42,079
+beleza? Tranquilo.
+
+410
+00:15:39,920 --> 00:15:46,279
+Boa, Fábio. Muito obrigado, meu amigo.
+
+411
+00:15:42,079 --> 00:15:48,519
+Boa tarde, bom trabalho para ele.
+
+412
+00:15:46,279 --> 00:15:51,519
+Oportunidade aí. Até mais.
+
+413
+00:15:48,519 --> 00:15:51,519
+C
+

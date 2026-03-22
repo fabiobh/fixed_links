@@ -1,0 +1,53 @@
+Com base na transcrição da sua entrevista técnica na Proesc em 21 de janeiro de 2026, aqui está uma análise do seu desempenho e sugestões de pontos para evolução:
+Pontos Fortes (Onde você se saiu bem)
+
+    Experiência e Versatilidade Técnica: Você demonstrou uma trajetória sólida desde 2010, cobrindo tanto o desenvolvimento Web (Java, PHP, Laravel) quanto o Mobile (Android e iOS nativos, React Native).
+
+    Capacidade de Unificação e Liderança Técnica: Foi muito positivo mencionar como você liderou a migração de aplicativos nativos para React Native na Stefanini para garantir estabilidade e uma base de código única, resolvendo problemas crônicos da versão Android.
+
+    Domínio de Arquitetura e Ferramentas: Você mostrou maturidade ao discutir padrões como MVVM e MVP, além de justificar a escolha de ferramentas modernas de gerenciamento de estado como Zustand em vez de Redux para evitar complexidade desnecessária.
+
+    Sinergia com a Vaga: A vaga é para Full Stack , e você rapidamente conectou sua experiência anterior em Laravel com a stack utilizada pela Proesc.
+
+    Conhecimento de Processos: Você demonstrou estar familiarizado com metodologias ágeis (Scrum e Kanban) e a realidade de trabalhar em squads.
+
+Pontos de Melhoria (Onde você pode evoluir)
+
+    Aprofundamento em Testes Automatizados: Embora você use Jest e React Native Testing Library, admitiu que parou de fazer testes End-to-End (E2E) por consumirem muito tempo. Como o Murilo (o entrevistador técnico) mencionou que o foco atual deles é justamente estruturar testes E2E com Maestro e integração com EAS/Expo, essa é uma área onde você pode demonstrar mais entusiasmo ou disposição para aprender as novas ferramentas de automação que eles valorizam.
+
+    Atualização de Versões (Laravel): Você mencionou ter usado a versão 6 do Laravel, enquanto a empresa comentou que o mercado já está na 12. Seria interessante reforçar que, embora tenha trabalhado com versões anteriores, você acompanha as mudanças estruturais do framework.
+
+    Uso do Expo: Você mencionou ter uma certa "aversão" ao Expo baseada em experiências antigas com o processo de build. Como a Proesc utiliza o Expo e a plataforma EAS como pilares do desenvolvimento deles , tente suavizar essa postura em conversas futuras, focando em como as versões atuais (como o Murilo pontuou) já resolveram esses problemas passados.
+
+---
+
+Com base na transcrição da sua entrevista técnica na Proesc, identifiquei alguns pontos específicos onde você pode ajustar seu discurso para se alinhar melhor às expectativas de empresas com perfis semelhantes:
+1. Reavaliar a Postura sobre o Expo
+
+Você mencionou abertamente ter uma certa "aversão" ao Expo devido a problemas passados com o processo de build.
+
+    O conflito: O Murilo (entrevistador) deixou claro que a Proesc utiliza o Expo e a plataforma EAS como pilares da operação deles.
+
+    Sugestão: Em vez de focar na experiência negativa antiga, você pode mencionar que não utiliza a ferramenta há algum tempo e que tem curiosidade em ver como as melhorias recentes (como o EAS) resolveram os gargalos que você enfrentou anteriormente. Isso demonstra flexibilidade em vez de resistência a uma ferramenta que eles já adotaram.
+
+2. Alinhamento sobre Testes End-to-End (E2E)
+
+Você comentou que parou de fazer testes End-to-End porque eles consomem muito tempo e quebram com facilidade diante de mudanças simples.
+
+    O conflito: A Proesc está justamente em uma fase de estruturação desses testes, buscando cobrir todo o aplicativo. Eles estão investindo no Maestro para automatizar esse processo no pipeline de CI/CD.
+
+    Sugestão: Mesmo que sua experiência anterior tenha sido frustrante, foque na importância da qualidade. Você poderia dizer: "Embora os testes E2E tradicionais possam ser custosos, vejo muito valor em ferramentas modernas como o Maestro para garantir a estabilidade do fluxo principal (smoke tests)".
+
+3. Atualização sobre Versões de Framework (Laravel)
+
+Ao ser questionado sobre o backend, você citou ter usado a versão 6 do Laravel.
+
+    O contexto: O entrevistador pontuou que o Laravel já está na versão 12, classificando a versão 6 como "bem antiga".
+
+    Sugestão: Sempre que mencionar uma versão mais antiga, tente complementar com o que você sabe sobre as versões atuais ou sua disposição para se atualizar. Como você já trabalha com padrões modernos no Mobile (Zustand, MVVM), pode reforçar que sua base lógica é sólida o suficiente para transitar rapidamente entre as versões do framework.
+
+4. Demonstrar Proatividade sobre o Pipeline
+
+A Proesc está focada em criar um pipeline de CD (Entrega Contínua).
+
+    Sugestão: Você poderia ter explorado um pouco mais como funciona o processo de deploy deles hoje. Demonstrar interesse técnico em como o código sai da máquina do desenvolvedor e chega na loja via EAS reforçaria seu perfil como um desenvolvedor Full Stack que se preocupa com o ciclo completo do produto.
