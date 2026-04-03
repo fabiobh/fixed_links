@@ -1,0 +1,35 @@
+Olá, Fábio! De modo geral, você foi muito bem na entrevista. O Thiago demonstrou interesse genuíno nas suas experiências e encerrou o papo afirmando: "da minha parte aqui eu tô bem satisfeito". Você se comunicou de forma clara e trouxe exemplos reais do seu dia a dia.
+
+Aqui está uma análise detalhada dos seus pontos fortes e das áreas que você pode ajustar para as próximas etapas:
+✅ Pontos Positivos
+
+    Resolução de Problemas Complexos: Você se destacou ao explicar o desafio do aplicativo offline-first para veterinários. O relato sobre ter aprendido a manipular imagens pixel a pixel para resolver o problema do fundo transparente impressionou o entrevistador. Ele elogiou a funcionalidade como algo "bem legal" e que "foge do comum".
+
+    Foco em Performance: Mencionar que você otimizou o sistema de login, reduzindo o tempo de espera de 2 minutos para apenas 6 segundos em dispositivos mais antigos, demonstrou uma forte capacidade técnica e foco no usuário.
+
+    Proatividade e Modernização: Você mostrou atitude ao identificar que o time usava o obsoleto AsyncTask e liderar a migração para o Retrofit. Outro excelente ponto de liderança técnica foi a iniciativa de criar um pipeline de CI/CD no Firebase usando sua própria conta pessoal para facilitar a distribuição do app.
+
+    Sinceridade: Você não tentou enfeitar respostas. Admitiu francamente que parou de usar testes end-to-end por serem muito demorados e foi direto ao dizer que utiliza apenas o Hilt, sem experiência com o Koin.
+
+🚧 Pontos de Atenção (Para Melhorar)
+
+    Visão Arquitetural (Início de Projetos): Quando o Thiago perguntou como você estruturaria um projeto grande do zero, sua resposta acabou focando em desenhar telas no Figma e pensar na arquitetura do backend e do banco de dados. Para uma vaga de engenharia Mobile, o esperado era que você focasse nas decisões do aplicativo: qual arquitetura usar (MVVM/MVI), como modularizar o projeto, quais ferramentas de injeção de dependência configurar e como estruturar a camada de rede.
+
+    Postura em Relação a Bibliotecas: Você mencionou que evita o uso de bibliotecas "ao máximo" para não ficar refém caso parem de ser desenvolvidas. Embora o seu exemplo sobre a quebra de compatibilidade com o alinhamento de página de 16 KB seja super válido e mostre experiência real, a frase "evito ao máximo" soa um pouco extrema. O ecossistema Android depende fortemente de bibliotecas padrão. Seria melhor pontuar que você é "bastante criterioso e avalia a comunidade e a manutenção da biblioteca antes de adicioná-la ao projeto".
+
+    Cultura de Code Review: Ao comentar sobre a ausência de regras para aprovação de código, você disse que o time não faz Code Review e apenas passa as demandas direto para o QA. Para empresas do porte da OLX, essa é uma prática inegociável. Para contornar isso no futuro, você pode dizer que não fazem hoje devido à estrutura da empresa, mas que você entende o valor da prática e tem muito interesse em atuar em times que a utilizam.
+
+    Apego ao XML: Você relatou que, diante de manutenções complexas em legados, às vezes prefere manter o código em XML ao invés de migrar para o Compose. O entrevistador destacou que a OLX trabalha apenas com Jetpack Compose.
+
+O próximo passo é crucial, já que o Thiago te deu um excelente direcionamento sobre como será o teste com o cliente, exigindo conhecimentos afiados em linhas e colunas no Compose.
+
+---
+Aqui estão os pontos adicionais que você deve lapidar:
+
+    Falta de Foco em Métricas (Analytics): Quando o Thiago perguntou sobre monitoramento em produção, você disse que implementou o Analytics, mas "acabou não dando muita atenção" e "deixando de lado". Em empresas grandes e focadas em produto como a OLX, a tomada de decisão baseada em dados é fundamental. Em vez de dizer que ignorou a ferramenta, você pode dizer que implementou a base de eventos, mas que atualmente o time de negócios/produto é quem consome ativamente esses dados, enquanto o seu foco técnico diário fica na estabilidade através do Crashlytics.
+
+    Justificativa para Quebra de Padrões Arquiteturais: Ao explicar se usa Clean Architecture junto com o MVI nos seus projetos pessoais, você comentou que "às vezes dá uma preguiça" e acaba cortando um "caminhozinho". A sua sinceridade é ótima e cria conexão, mas usar a palavra "preguiça" pode acender um alerta no avaliador sobre falta de rigor técnico. É melhor adotar um tom pragmático: diga que em projetos menores e pessoais, você às vezes opta por uma abordagem menos engessada para ganhar velocidade de validação, mas que entende o valor estrutural do Clean em times grandes.
+
+    Centralização nas Decisões de Arquitetura: Você mencionou que é o desenvolvedor mobile mais sênior da equipe. No entanto, ao falar sobre a criação da arquitetura para novos aplicativos, você disse que as conversas acontecem apenas entre você e o desenvolvedor backend, e que os outros dois desenvolvedores mobile "não participam". Isso pode passar a impressão de que você não envolve o seu time nas decisões ou que não exerce o papel de mentoria esperado de um sênior.
+
+    Lidar com a Estagnação do Time: Ao falar sobre como acessam as views no XML, você confirmou que acessam "direto pelo ID" porque o pessoal "não tá muito acostumada" com a forma que o Thiago sugeriu (como o View Binding). Como você é a liderança técnica ali, a responsabilidade de "acostumar" o time com boas práticas também é sua. Mostrar que você tentou treinar a equipe para usar ferramentas mais modernas soa muito melhor do que aceitar que as coisas fiquem como estão porque o time não está acostumado.
