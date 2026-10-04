@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drivio - Manutenção Preventiva e Gestão Automotiva Inteligente</title>
+  <meta name="description" content="O Drivio ajuda você a controlar revisões, despesas, troca de óleo e manutenção do seu carro com recomendações preditivas via Inteligência Artificial.">
+  <meta name="keywords" content="manutencao automotiva, controle de despesas carro, troca de oleo, revisao preventiva, app carro, drivio, app-ads.txt">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(23, 31, 51, 0.7);
+      --card-border: rgba(99, 102, 241, 0.2);
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --accent: #38bdf8;
+      --accent-purple: #a855f7;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --max-width: 1200px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(56, 189, 248, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 50% 90%, rgba(168, 85, 247, 0.1) 0%, transparent 50%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Navbar */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(9, 13, 22, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 18px 0;
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.4rem;
+      letter-spacing: -0.5px;
+    }
+
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: #fff;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      cursor: pointer;
+      font-size: 0.95rem;
+      border: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--accent-purple));
+      color: #fff;
+      box-shadow: 0 4px 20px rgba(99, 102, 241, 0.35);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 25px rgba(99, 102, 241, 0.5);
+    }
+
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.35);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #d8b4fe;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.15;
+      margin-bottom: 24px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #fff 30%, var(--accent) 70%, var(--accent-purple) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 40px;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+
+    /* Hero Mockup Preview */
+    .mockup-container {
+      position: relative;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .app-preview-card {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 28px;
+      padding: 30px;
+      box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7), 0 0 50px -10px rgba(99, 102, 241, 0.3);
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 30px;
+      align-items: center;
+      text-align: left;
+    }
+
+    .preview-phone {
+      background: #1e293b;
+      border-radius: 20px;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .phone-car-card {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      border-radius: 16px;
+      padding: 18px;
+      color: white;
+      margin-bottom: 14px;
+    }
+
+    .phone-ai-card {
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.3);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    /* Features Grid */
+    .features {
+      padding: 90px 0;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-header h2 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 14px;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+    }
+
+    .feature-card {
+      background: var(--card-bg);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 32px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(99, 102, 241, 0.5);
+      box-shadow: 0 20px 40px -15px rgba(99, 102, 241, 0.2);
+    }
+
+    .feature-icon {
+      width: 56px;
+      height: 56px;
+      background: rgba(99, 102, 241, 0.15);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+      margin-bottom: 22px;
+      font-size: 24px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .feature-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* AI Spotlight */
+    .ai-spotlight {
+      padding: 70px 0;
+      background: linear-gradient(180deg, transparent 0%, rgba(99, 102, 241, 0.08) 50%, transparent 100%);
+    }
+
+    .spotlight-card {
+      background: linear-gradient(135deg, rgba(30, 27, 75, 0.8), rgba(15, 23, 42, 0.9));
+      border: 1px solid rgba(168, 85, 247, 0.35);
+      border-radius: 28px;
+      padding: 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      box-shadow: 0 20px 50px -10px rgba(168, 85, 247, 0.25);
+    }
+
+    .spotlight-text h3 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .spotlight-text p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 24px;
+    }
+
+    .feature-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .feature-bullets li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+    }
+
+    .bullet-check {
+      color: var(--success);
+      font-weight: bold;
+    }
+
+    /* CTA Section */
+    .download-section {
+      padding: 90px 0;
+      text-align: center;
+    }
+
+    .download-card {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(56, 189, 248, 0.15));
+      border: 1px solid rgba(99, 102, 241, 0.4);
+      border-radius: 32px;
+      padding: 64px 32px;
+      max-width: 900px;
+      margin: 0 auto;
+      backdrop-filter: blur(12px);
+    }
+
+    .download-card h2 {
+      font-size: 2.6rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .download-card p {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      max-width: 580px;
+      margin: 0 auto 36px;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 48px 0 32px;
+      background: #060911;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    .admob-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      background: rgba(34, 197, 94, 0.15);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      border-radius: 6px;
+      color: #4ade80;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.4rem; }
+      .app-preview-card { grid-template-columns: 1fr; }
+      .spotlight-card { grid-template-columns: 1fr; padding: 30px; }
+      .nav-links { display: none; }
+      .footer-grid { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11 2 11.5 2 12v4c0 .6.4 1 1 1h2"/>
+            <circle cx="7" cy="17" r="2"/>
+            <path d="M9 17h6"/>
+            <circle cx="17" cy="17" r="2"/>
+          </svg>
+        </div>
+        Drivio
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#features">Recursos</a></li>
+        <li><a href="#ai">Inteligência Artificial</a></li>
+        <li><a href="#how-it-works">Como Funciona</a></li>
+        <li><a href="app-ads.txt" class="admob-badge">app-ads.txt verificado</a></li>
+      </ul>
+
+      <a href="#download" class="btn btn-primary">Baixar Aplicativo</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+        </svg>
+        Novo: Recomendações Preditivas com IA
+      </div>
+      
+      <h1>
+        Gestão Inteligente & Manutenção Preventiva <br>
+        <span class="gradient-text">para o Seu Veículo</span>
+      </h1>
+      
+      <p>
+        Controle trocas de óleo, pastilhas, rodízio de pneus, despesas e histórico completo. Evite prejuízos mecânicos com o diagnóstico inteligente do Drivio.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.792 12 3.61 22.186c-.198-.18-.323-.438-.323-.733V2.547c0-.295.125-.553.322-.733zM15.207 13.414l2.563 2.563-12.92 7.37 10.357-9.933zm0-2.828L4.85 0.653l12.92 7.37-2.563 2.563zm1.414 1.414l3.774 2.153c.806.46.806 1.206 0 1.666l-3.774 2.153-2.348-2.348 2.348-2.348z"/>
+          </svg>
+          Google Play Store
+        </a>
+        <a href="#download" class="btn btn-outline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 1.01-2.87-1 .04-2.1.67-2.73 1.42-.56.64-1.04 1.7-1.01 2.76 1.13.09 2.17-.58 2.73-1.31z"/>
+          </svg>
+          Apple App Store
+        </a>
+      </div>
+
+      <!-- App Preview Graphic -->
+      <div class="mockup-container">
+        <div class="app-preview-card">
+          <div>
+            <div style="color: var(--accent); font-weight: 700; margin-bottom: 8px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Painel Interativo</div>
+            <h3 style="font-size: 1.8rem; margin-bottom: 12px;">Seus veículos sempre em dia</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+              O Drivio acompanha o hodômetro, prevê a quilometragem diária média e envia alertas antes do vencimento de qualquer revisão técnica.
+            </p>
+            <div style="display: flex; gap: 20px;">
+              <div>
+                <div style="font-size: 1.5rem; font-weight: 800; color: #fff;">100%</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Off-line & Seguro</div>
+              </div>
+              <div style="border-left: 1px solid rgba(255,255,255,0.1); padding-left: 20px;">
+                <div style="font-size: 1.5rem; font-weight: 800; color: var(--accent);">PDF & CSV</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Relatórios Prontos</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="preview-phone">
+            <div class="phone-car-card">
+              <div style="font-size: 0.8rem; opacity: 0.85;">Meu Veículo Principal</div>
+              <div style="font-size: 1.25rem; font-weight: 700; margin-bottom: 4px;">Honda Civic (2020)</div>
+              <div style="font-size: 0.9rem; opacity: 0.9;">74.580 km registrados</div>
+            </div>
+
+            <div class="phone-ai-card">
+              <div style="display: flex; align-items: center; gap: 6px; color: #d8b4fe; font-weight: 700; font-size: 0.85rem; margin-bottom: 6px;">
+                ✨ Sugestão Drivio AI
+              </div>
+              <div style="font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; color: #fff;">
+                Troca do Fluido de Freio DOT 4
+              </div>
+              <div style="font-size: 0.8rem; color: #cbd5e1;">
+                Recomendada aos 77.500 km ou em até 45 dias para preservar a eficiência dos freios.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Tudo o que seu carro precisa em um só lugar</h2>
+        <p>Desenvolvido pensando no motorista que preza pela segurança da família e pela valorização do veículo na hora da revenda.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>Consultor de Manutenção IA</h3>
+          <p>Receba diagnósticos e recomendações preditivas personalizadas para a marca, modelo e quilometragem exata do seu automóvel.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⏱️</div>
+          <h3>Lembretes por Data e Km</h3>
+          <p>Cadastre alertas para troca de óleo, rodízio de pneus, pastilhas, correia dentada e inspeção veicular. Nunca mais passe do prazo.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Gestão Completa de Despesas</h3>
+          <p>Monitore cada centavo gasto com combustível, peças de reposição, mão de obra e manutenções periódicas com total transparência.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📄</div>
+          <h3>Exportação para PDF & CSV</h3>
+          <p>Gere relatórios completos de manutenção em PDF com visual profissional para comprovar o cuidado do carro ao comprador.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Notificações Nativas</h3>
+          <p>Alertas no momento exato, sem precisar manter o aplicativo aberto. Funciona perfeitamente em iOS e Android.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Privacidade & Armazenamento Local</h3>
+          <p>Seus dados permanecem armazenados com segurança no seu aparelho via Hive. Faça backup e restaure quando quiser.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Spotlight Section -->
+  <section class="ai-spotlight" id="ai">
+    <div class="container">
+      <div class="spotlight-card">
+        <div class="spotlight-text">
+          <div class="badge">Inteligência Artificial Integrada</div>
+          <h3>Manutenção preventiva que antecipa falhas</h3>
+          <p>
+            O motor inteligente do Drivio analisa o histórico de manutenções registradas e os padrões de uso para sugerir revisões antes que peças críticas quebrem na estrada.
+          </p>
+          <ul class="feature-bullets">
+            <li><span class="bullet-check">✓</span> Sugestões preventivas sob demanda para o seu modelo</li>
+            <li><span class="bullet-check">✓</span> Estimativa de custo médio de peças e serviço</li>
+            <li><span class="bullet-check">✓</span> Criação de lembrete com 1 toque ao aceitar a sugestão</li>
+          </ul>
+        </div>
+        <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 24px;">
+          <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 16px;">
+            <div style="width: 12px; height: 12px; border-radius: 50%; background: #ef4444;"></div>
+            <div style="width: 12px; height: 12px; border-radius: 50%; background: #f59e0b;"></div>
+            <div style="width: 12px; height: 12px; border-radius: 50%; background: #22c55e;"></div>
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: 8px;">Drivio AI Advisor</span>
+          </div>
+          <div style="font-family: monospace; font-size: 0.9rem; color: #a5b4fc; line-height: 1.7;">
+            &gt; Analisando: Cadillac Civic (2020)<br>
+            &gt; Odômetro: 74.580 km<br>
+            &gt; Verificação de desgaste: Sistema de Arrefecimento<br>
+            <span style="color: #4ade80;">&gt; Recomendação gerada: Revisão do Líquido de Arrefecimento e Radiador</span><br>
+            &gt; Faixa estimada: R$ 150 - R$ 280
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="features" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>Como Funciona</h2>
+        <p>Comece a economizar e cuidar do seu automóvel em menos de 2 minutos.</p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="feature-card" style="text-align: center;">
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent); margin-bottom: 10px;">01</div>
+          <h3>Cadastre seus Veículos</h3>
+          <p>Informe a marca, modelo, ano, quilometragem inicial e cor do seu carro ou frota.</p>
+        </div>
+
+        <div class="feature-card" style="text-align: center;">
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--primary); margin-bottom: 10px;">02</div>
+          <h3>Receba Alertas & IA</h3>
+          <p>Acompanhe lembretes automáticos e solicite conselhos preventivos da inteligência artificial.</p>
+        </div>
+
+        <div class="feature-card" style="text-align: center;">
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-purple); margin-bottom: 10px;">03</div>
+          <h3>Dirija com Tranquilidade</h3>
+          <p>Carro seguro, sem surpresas no mecânico e com histórico documentado para maior valor de revenda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA Section -->
+  <section class="download-section" id="download">
+    <div class="container">
+      <div class="download-card">
+        <h2>Baixe o Drivio Gratuitamente</h2>
+        <p>Disponível para dispositivos Android e iOS. Controle até 2 veículos gratuitamente ou expanda sua garagem com anúncios recompensados.</p>
+        
+        <div class="hero-actions" style="margin-bottom: 0;">
+          <a href="#" class="btn btn-primary" onclick="alert('O app estará disponível para download na Google Play Store em breve!'); return false;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3.609 1.814L13.792 12 3.61 22.186c-.198-.18-.323-.438-.323-.733V2.547c0-.295.125-.553.322-.733zM15.207 13.414l2.563 2.563-12.92 7.37 10.357-9.933zm0-2.828L4.85 0.653l12.92 7.37-2.563 2.563zm1.414 1.414l3.774 2.153c.806.46.806 1.206 0 1.666l-3.774 2.153-2.348-2.348 2.348-2.348z"/>
+            </svg>
+            Google Play
+          </a>
+          <a href="#" class="btn btn-outline" onclick="alert('O app estará disponível para download na Apple App Store em breve!'); return false;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 1.01-2.87-1 .04-2.1.67-2.73 1.42-.56.64-1.04 1.7-1.01 2.76 1.13.09 2.17-.58 2.73-1.31z"/>
+            </svg>
+            App Store
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <a href="#" class="logo">
+          <div class="logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11 2 11.5 2 12v4c0 .6.4 1 1 1h2"/>
+              <circle cx="7" cy="17" r="2"/>
+              <path d="M9 17h6"/>
+              <circle cx="17" cy="17" r="2"/>
+            </svg>
+          </div>
+          Drivio
+        </a>
+
+        <ul class="footer-links">
+          <li><a href="#features">Recursos</a></li>
+          <li><a href="#ai">IA Advisor</a></li>
+          <li><a href="app-ads.txt" target="_blank" class="admob-badge">Ver app-ads.txt</a></li>
+          <li><a href="mailto:suporte@drivio.app">Suporte</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Drivio - Manutenção Preventiva Automotiva. Todos os direitos reservados.</p>
+        <p style="margin-top: 6px; font-size: 0.8rem; color: #64748b;">
+          Google AdMob Publisher ID: pub-3336069408130594 • Arquivo de verificação: 
+          <a href="app-ads.txt" style="color: var(--accent); text-decoration: underline;">app-ads.txt</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
